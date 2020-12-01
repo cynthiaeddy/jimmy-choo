@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Navbar from '../navbar/Navbar'
 
 import imageData from '../carouselMexico/Images'
@@ -6,8 +6,6 @@ import ForwardArrow from '../carouselMexico/ForwardArrow'
 import BackArrow from '../carouselMexico/BackArrow'
 import Slide from '../carouselMexico/Slide'
 import '../../stylesheets/AboutWF.css'
-
-
 
 class AboutMexico extends React.Component {
   constructor(props) {
@@ -46,11 +44,10 @@ class AboutMexico extends React.Component {
   }
 
 
-  render (){
-    console.log()
+  render() {
     return (
       <div className='container'>
-        {/* <Navbar/> */}
+        <Navbar/>
     <div className='wf-content'>
       <div className='arrows back'>
       <BackArrow
@@ -69,12 +66,8 @@ class AboutMexico extends React.Component {
       />
       </div>
         </div>
-        </div>
-  );
-};
+      </div>
+    )
+  }
 }
-
-export default AboutMexico;
-
-
-
+export default AboutMexico

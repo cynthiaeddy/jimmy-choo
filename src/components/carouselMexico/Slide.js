@@ -14,7 +14,7 @@ render() {
       {
         this.state.landing.map((s, index) =>
           <div className={
-            index === this.props.activeIndex ? 'active' : 'slide'}
+            index === this.props.activeIndex ? 'active' : 'sliding'}
             key={index}>
             <div className={index === 0 ? 'mainSlide arrows back gone'  : 'slider-item arrows back show'}></div>
             {s.img}

@@ -5,6 +5,8 @@ import { Route, Switch } from 'react-router-dom'
 
 import Home from './components/home/Home'
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
+import AboutMexico from './components/aboutWF/AboutMexico'
+
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -12,6 +14,7 @@ const App = () => (
   <div className="app">
 
 <Route exact path="/" component={Home} />
+<Route path="/world-food" component={AboutMexico} />
 
 <Route path="/navbar" component={NavBarToggle} />
 
