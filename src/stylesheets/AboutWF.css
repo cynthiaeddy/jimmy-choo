@@ -1,0 +1,71 @@
+/* font-family: 'UnifrakturMaguntia', cursive; */
+
+.wf-content {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	height: 90%;
+	width: 100%;
+	margin: 0 auto;
+	width: 75%;
+}
+
+.active {
+	display: block;
+}
+.slide {
+	display: none;
+	text-align: center;
+}
+
+.spread {
+	width: 100%;
+	border: 15px solid rgba(0, 0, 0, .2);
+}
+h2 {
+	margin-bottom: 50px;
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+
+.arrowSpace {
+	margin: 0 10px;
+}
+.slider-items {
+	width: 79%;
+}
+.arrows {
+	align-self: center;
+	margin-bottom: 50px;
+	display: inline-flex;
+}
+.arrows.back {
+	width: 95px;
+}
+.arrows.front {
+	width: 120px;
+}
+.arrow:hover {
+	color: grey;
+}
+
+.arrow {
+	cursor: pointer;
+}
+span {
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	vertical-align: -10%;
+}
+.arrows.back.gone,
+.arrows.front.gone {
+	visibility: hidden;
+}
+.arrows.back.show,
+.arrows.front.show {
+	visibility: visible;
+}

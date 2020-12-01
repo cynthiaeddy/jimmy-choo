@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom'
+import NavbarHome from '../navbarHome/NavbarHome'
+
 
 import mexico from '../../assets/mexico.jpg'
 import paris from '../../assets/paris.jpg'
@@ -24,14 +26,18 @@ import openerWaiter1 from '../../assets/openerWaiter1.jpg'
 
 
 
-import './Home.css'
+import '../../stylesheets/Home.css'
 
 
 const Home = () => (
   <div className='home-container'>
+    <NavbarHome />
 
 
-  <div className='home outer-grid'>
+    <div className='home outer-grid'>
+    <div className='grid-1 header'>
+            <h1>World Food</h1>
+          </div>
 
     <div className='grid-1 header left'>
 
@@ -88,7 +94,10 @@ const Home = () => (
 
 
 
-</div>
+      </div>
+      <div>
+            <h2 className='grid-5 footer'>Photography by James Roper</h2>
+          </div>
     </div>
     </div>
   );

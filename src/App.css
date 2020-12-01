@@ -8,13 +8,6 @@
 	box-sizing: border-box;
 }
 
-.container {
-	height: 100px;
-	width: 100%;
-	margin-bottom: 50px;
-	display: flex;
-	z-index: 1;
-}
 /* .secondary-wrapper {
   height: 100%;
   width: 90%;

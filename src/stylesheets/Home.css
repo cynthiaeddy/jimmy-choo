@@ -168,6 +168,12 @@ span.intro {
 	font-family: franklin-gothic-atf, sans-serif;
 	padding: 0;
 }
-h2.grid-5.footer {
+
+h2 {
+	margin-bottom: 50px;
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 2px;
 	font-size: 15px;
 }
