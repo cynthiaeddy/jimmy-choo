@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
+import NavbarMexico from '../navbarMexico/NavbarMexico'
+
 
 import imageData from '../carouselMexico/Images'
 import ForwardArrow from '../carouselMexico/ForwardArrow'
@@ -47,7 +49,7 @@ class AboutMexico extends React.Component {
   render() {
     return (
       <div className='container'>
-        <Navbar/>
+        <NavbarMexico/>
     <div className='wf-content'>
       <div className='arrows back'>
       <BackArrow

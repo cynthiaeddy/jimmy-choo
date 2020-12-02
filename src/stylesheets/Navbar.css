@@ -1,5 +1,6 @@
 #navbarHome,
-#navbar {
+#navbar,
+#navbarMexico {
 	position: fixed;
 	display: flex;
 	width: 100vw;
@@ -10,10 +11,29 @@
 	padding: 0 10vw;
 	margin-top: 50px;
 }
-#navbar {
+#navbar,
+#navbarMexico {
 	padding: 0 15vw;
 	margin: 0;
 }
+.buy {
+	display: flex;
+	width: 40wv;
+	width: 60%;
+	justify-content: space-around;
+	width: 50%;
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 2px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 50px;
+}
+span {
+	font-style: normal;
+}
+
 h3,
 h6 {
 	font-size: 25px;
