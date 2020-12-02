@@ -96,7 +96,7 @@ const Home = () => (
 
       </div>
       <div>
-            <h2 className='grid-5 footer'>Photography by James Roper</h2>
+            <h2 className='grid-5 footer'><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
           </div>
     </div>
     </div>

@@ -124,33 +124,30 @@ h1 {
 	width: 95%;
 }
 .right img {
-	width: 95%;
+	width: 96.5%;
 }
 .right {
 	margin-left: 5px;
 }
 
-div.homeDek.copy {
-	display: flex;
-	/* position: relative; */
-	text-align: left;
-	align-items: stretch;
-	margin: 0;
-}
-/* .nested {
-	position: absolute;
-
-	margin-top: -30px;
-	margin-left: 10px;
-} */
-
 .nested {
-	display: grid;
+	text-align: left;
 }
+
+.copy {
+	grid-area: copy;
+	margin-left: 10px;
+	height: 100%;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+}
+
 h4 {
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-size: 22px;
+	margin-top: 0;
 }
 span.intro {
 	font-weight: 600;
@@ -162,15 +159,13 @@ span.intro {
 	font-family: franklin-gothic-atf, sans-serif;
 }
 .signUpBtn {
-	position: absolute;
-	width: 94%;
 	background: black;
 	color: white;
 	font-size: 15px;
-	bottom: 0;
 	font-weight: 500;
 	font-family: franklin-gothic-atf, sans-serif;
-	padding: 0;
+	padding: 7px;
+	width: 100%;
 }
 
 h2 {
