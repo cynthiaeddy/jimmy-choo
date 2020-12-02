@@ -81,7 +81,7 @@ const Home = () => (
     <img src={openerBlue1} className='image-tl' alt=''></img>
             <img src={openerWaiter1} className='image-tr' alt=''></img>
             <div className='homeDek copy'>
-              <div className='help'>
+              <div className='nested'>
                 <h4><span className='intro'>Introducing World Food,</span> an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h4>
 
               </div>

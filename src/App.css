@@ -20,6 +20,13 @@
 
 } */
 
+body {
+	margin: 0;
+	padding: 0;
+	overscroll-behavior: none;
+	overflow: hidden;
+}
+
 .container {
 	display: flex;
 	justify-content: center;

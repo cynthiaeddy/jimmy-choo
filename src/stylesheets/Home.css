@@ -132,16 +132,20 @@ h1 {
 
 div.homeDek.copy {
 	display: flex;
-	position: relative;
+	/* position: relative; */
 	text-align: left;
 	align-items: stretch;
 	margin: 0;
 }
-.help {
+/* .nested {
 	position: absolute;
 
 	margin-top: -30px;
 	margin-left: 10px;
+} */
+
+.nested {
+	display: grid;
 }
 h4 {
 	font-family: 'EB Garamond', serif;
