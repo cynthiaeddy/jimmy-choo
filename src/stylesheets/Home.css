@@ -5,7 +5,7 @@
 	margin: 0;
 	overflow: hidden;
 	margin-bottom: auto;
-	margin-top: 80px;
+	margin-top: 70px;
 	width: 100vw;
 	height: 100vh;
 }
@@ -81,13 +81,13 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: -2px;
 	color: black;
-	font-size: 80px;
+	font-size: 64px;
 	right: 14.5vw;
 	margin: 0;
 	text-align: right;
 }
 h2 {
-	font-size: 20px;
+	font-size: 16px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-style: italic;
@@ -95,12 +95,12 @@ h2 {
 	margin-top: 5px;
 }
 h3 {
-	font-size: 35px;
+	font-size: 28px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-style: italic;
 	letter-spacing: 3px;
 	line-height: 4;
 	text-align: right;
-	margin-bottom: -60px;
+	margin-bottom: -50px;
 }

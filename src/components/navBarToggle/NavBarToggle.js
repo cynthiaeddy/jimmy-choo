@@ -7,7 +7,7 @@ import '../../stylesheets/Navbar.css'
 const NavBarToggle = () => {
   return (
 
-      <h3>
+      <h4>
             <ul className='toggleNavBar'>
 						<li>
 							<Link to="/" className="alt-home">
@@ -31,7 +31,7 @@ const NavBarToggle = () => {
 							</Link>
           </li>
               </ul>
-					</h3>
+					</h4>
 
   );
 };
