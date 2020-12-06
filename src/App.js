@@ -7,7 +7,6 @@ import Home from './components/home/Home'
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
-import Blog from './components/blog/Blog'
 import SignUp from './components/signUp/SignUp'
 
 
@@ -21,8 +20,8 @@ const App = () => (
   <Route exact path="/" component={Home} />
   <Route path="/world-food" component={AboutMexico} />
   <Route path="/about-james" component={AboutJim} />
-  <Route path="/blog" component={Blog} />
-  <Route path="/sign-up" component={SignUp} />
+
+  <Route path="/newsletter" component={SignUp} />
   <Route path="/navbar" component={NavBarToggle} />
 
   </div>

@@ -15,6 +15,11 @@
 #navbarMexico {
 	padding: 0 15vw;
 	margin: 0;
+	padding: 0 21vw 0 20vw;
+}
+#navbarHome {
+	margin-top: 0;
+	padding: 0 18vw;
 }
 .buy {
 	display: flex;
@@ -30,11 +35,13 @@
 	margin-bottom: 10px;
 	margin-top: 50px;
 }
-span {
-	font-style: normal;
-}
 
-h3,
+span {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: normal;
+	letter-spacing: 0px;
+	font-weight: 500;
+}
 h6 {
 	font-size: 25px;
 	font-family: 'EB Garamond', serif;
@@ -43,11 +50,8 @@ h6 {
 	letter-spacing: 5px;
 	line-height: 4;
 }
+
 h6 {
-	font-size: 35px;
-	/* margin-bottom: 15px; */
-}
-h3 {
 	padding-top: 35px;
 }
 a {

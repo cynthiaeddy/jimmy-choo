@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import NavbarHome from '../navbarHome/NavbarHome'
 
 
@@ -18,7 +18,6 @@ import openergal1 from '../../assets/openergal1.jpg'
 
 import openerMan1 from '../../assets/openerMan1.jpg'
 import openerOysters1 from '../../assets/openerOysters1.jpg'
-import openerRed1 from '../../assets/openerRed1.jpg'
 import openerWoman1 from '../../assets/openerWoman1.jpg'
 import openerWaiter1 from '../../assets/openerWaiter1.jpg'
 
@@ -31,28 +30,39 @@ import '../../stylesheets/Home.css'
 
 const Home = () => (
   <div className='home-container'>
-    <NavbarHome />
+    <NavbarHome/>
 
 
     <div className='home outer-grid'>
-    <div className='grid-1 header'>
+      <div className='grid-1 header'>
+        <h3>James Oselands's</h3>
             <h1>World Food</h1>
           </div>
 
-    <div className='grid-1 header left'>
-
-    <img src={openergal1} className='gal' alt=''></img>
-            <img src={openerFlan1} className='flan' alt=''></img>
-            <img src={openerCorn1} className='corn' alt=''></img>
-            <img src={openerWoman1} className='woman' alt=''></img>
-            <img src={openerMan1} className='man' alt=''></img>
-            <img src={openerDessert1} className='dessert' alt=''></img>
-
-
-
+      <div className='grid-2 left'>
+      <div className='boxes one'>
+      <img src={openergal1} className='gal' alt=''></img>
       </div>
+      <div className='boxes two'>
+      <img src={openerFlan1} className='flan' alt=''></img>
+      </div>
+      <div className='boxes three'>
+      <img src={openerCorn1} className='corn' alt=''></img>
+      </div>
+      <div className='boxes four'>
+      <img src={openerWoman1} className='woman' alt=''></img>
+      </div>
+      <div className='boxes five'>
+      <img src={openerMan1} className='man' alt=''></img>
+      </div>
+      <div className='boxes six'>
+      <img src={openerDessert1} className='dessert' alt=''></img>
+      </div>
+    </div>
 
-    <div className='carousel-wrapper main'>
+      <div className='carousel-wrapper main boxes'>
+
+
 
      <Carousel
        showThumbs={false}
@@ -67,28 +77,40 @@ const Home = () => (
        showArrows={false}
        >
 
-<div>
-              <Link to="/world-food" className="world-food"><img src={mexico} className='mexico' alt=''></img></Link></div>
-            <div>
-              <img src={paris} className='mexico' alt=''></img>
+ <div>
+<img src={mexico} className='mexico' alt=''></img></div>
+ <div>
+              <img src={paris} className='paris' alt=''></img>
               </div>
-    </Carousel>
+        </Carousel>
+        </div>
 
 
-    </div>
-    <div className='grid-3 right'>
+      <div className='grid-3 right'>
+      <div className='boxes seven'>
+        box seven
+      </div>
+      <div className='boxes eight'>
+        box eight
+      </div>
 
-    <img src={openerBlue1} className='image-tl' alt=''></img>
-            <img src={openerWaiter1} className='image-tr' alt=''></img>
-            <div className='homeDek copy'>
-              <div className='nested'>
-                <h4><span className='intro'>Introducing World Food,</span> an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h4>
+      <div className='copy boxes'>
+        copy
+        <div className='nested'>
+          <div className='nested-copy'>
+            this is nested copy
+          </div>
+        </div>
+      </div>
 
-              </div>
-              <button className='signUpBtn'><h7>SIGN UP NOW!</h7></button>
-            </div>
-            <img src={openerOysters1} className='image-m' alt=''></img>
-            <img src={openerFighter1} className='image-b' alt=''></img>
+      <div className='boxes nine'>
+        box nine
+      </div>
+      <div className='boxes ten'>
+        box ten
+      </div>
+
+
 
 
 

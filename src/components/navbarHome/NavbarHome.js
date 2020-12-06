@@ -10,12 +10,7 @@ const NavbarHome = () => {
   return (
 
 		<nav id="navbarHome">
-			<Link to="/navbar"><h3>Menu</h3></Link>
-			<h6>James Oseland's</h6>
-
-
-
-
+			<Link to="/navbar"><h6>Menu</h6></Link>
 		</nav>
   );
 };
