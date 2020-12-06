@@ -51,18 +51,18 @@ class AboutMexico extends React.Component {
       <div className='container'>
         <NavbarMexico/>
     <div className='wf-content'>
-      <div className='arrows back'>
+      <div className='l-arrow '>
       <BackArrow
         goToPrevSlide={() => this.goToPrevSlide()}
         />
         </div>
-    <div className='slider-items'>
+    <div className='slider-items main'>
       <Slide
          activeIndex={this.state.activeIndex}
          goToNextSlide={() => this.goToNextSlide()}
       />
       </div>
-      <div className='arrows front'>
+      <div className='r-arrow'>
       <ForwardArrow
         goToNextSlide={() => this.goToNextSlide()}
       />

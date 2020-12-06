@@ -6,7 +6,7 @@ const AboutJim = () => {
   return (
     <div className='container'>
     <Navbar/>
-      about jim
+      <p>about jim</p>
 
     </div>
       );

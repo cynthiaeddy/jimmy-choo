@@ -6,7 +6,7 @@ const SignUp = () => {
   return (
     <div className='container'>
     <Navbar/>
-      sign up
+     <p>newsletter</p>
 
     </div>
 

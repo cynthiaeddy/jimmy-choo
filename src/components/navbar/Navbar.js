@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
 
 		<nav id="navbar">
-				<Link to="/navbar"><h3>Menu</h3></Link>
-			<Link to='/about-james'><h3>James Oseland</h3></Link>
+				<Link to="/navbar"><h6>Menu</h6></Link>
+				<h6>James Oseland's <span class='nav-world'>WORLD FOOD</span></h6>
 
 
 
