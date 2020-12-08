@@ -1,7 +1,9 @@
 .App {
 	text-align: center;
 }
-
+/* body {
+	font-family: MundoSansPro-Medium;
+} */
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
