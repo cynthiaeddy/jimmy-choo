@@ -10,7 +10,9 @@
 	height: 100vh;
 }
 .home {
-	width: 65vw;
+	/* width: 65vw; */
+	width: 65%;
+	max-width: 65%;
 	height: 50vh;
 	display: grid;
 	grid-template-columns: .95fr 1.1fr .95fr;
@@ -58,23 +60,26 @@ img {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-areas: "tl tr" "copy mr" "copy br";
+	gap: 0px 0px;
+	grid-template-areas: "left copy" "middle copy" "bottom copy";
 	grid-gap: 20px;
 }
-.tl {
-	grid-area: tl;
+
+.left {
+	grid-area: left;
 }
-.tr {
-	grid-area: tr;
+.middle {
+	grid-area: middle;
+}
+.bottom {
+	grid-area: bottom;
 }
 .copy {
+	display: flex;
 	grid-area: copy;
-}
-.mr {
-	grid-area: mr;
-}
-.br {
-	grid-area: br;
+	flex-direction: column;
+	justify-content: space-between;
+	/* overflow: auto; */
 }
 h1 {
 	font-weight: 400;
@@ -103,4 +108,24 @@ h3 {
 	line-height: 4;
 	text-align: right;
 	margin-bottom: -50px;
+}
+h5 {
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 1.2;
+	font-style: normal;
+	letter-spacing: 0;
+	margin: 0;
+	text-align: right;
+}
+.signUpBtn {
+	width: 100%;
+	background: black;
+	color: white;
+	font-size: 15px;
+	bottom: 0;
+	font-weight: 500;
+	font-family: franklin-gothic-atf, sans-serif;
+	padding: 0;
 }

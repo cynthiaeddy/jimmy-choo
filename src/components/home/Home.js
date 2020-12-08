@@ -87,28 +87,29 @@ const Home = () => (
 
 
       <div className='grid-3 right'>
-      <div className='boxes seven'>
-        box seven
+      <div className='boxes seven '>
+      <img src={openergal1} className='gal' alt=''></img>
       </div>
       <div className='boxes eight'>
-        box eight
+      <img src={openergal1} className='gal' alt=''></img>
       </div>
 
-      <div className='copy boxes'>
-        copy
-        <div className='nested'>
-          <div className='nested-copy'>
-            this is nested copy
+        <div className='copy boxes'>
+          <div className='intro'>
+           <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
           </div>
-        </div>
-      </div>
+          <div >
+          <button className='signUpBtn'><h7>SIGN UP NOW!</h7></button>
+            </div>
+</div>
+
+
 
       <div className='boxes nine'>
-        box nine
+      <img src={openergal1} className='gal' alt=''></img>
+
       </div>
-      <div className='boxes ten'>
-        box ten
-      </div>
+
 
 
 
