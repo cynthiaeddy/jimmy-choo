@@ -1,4 +1,4 @@
-.jim-container {
+/* .jim-container {
 	display: grid;
 	grid-template-columns: .5fr 1.5fr;
 	grid-template-rows: 1.7fr 0.3fr;
@@ -10,16 +10,6 @@
 	grid-gap: 20px;
 }
 
-p {
-	width: 90%;
-	margin: 0;
-	font-family: 'EB Garamond', serif;
-	font-weight: 500;
-	font-size: 22px;
-	line-height: 1.5;
-	padding: 20px 0 20px 20px;
-	text-align: left;
-}
 .image {
 	grid-area: image;
 }
@@ -33,10 +23,36 @@ p {
 .book {
 	width: 18%;
 }
-.box {
-	border: 1px solid palegreen;
+ .box {
+border: 1px solid palegreen;
 }
 img.jim-img {
 	height: 100%;
 	width: inherit;
+} */
+
+.jim-container {
+	display: flex;
+	max-width: 60%;
+	margin-top: 150px;
+}
+.jim-left {
+	width: 50%;
+}
+.jim-right {
+	width: 60%;
+}
+.box {
+	border: 1px solid palegreen;
+}
+
+p {
+	width: 90%;
+	margin: 0;
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 1.5;
+	padding: 20px 0 20px 20px;
+	text-align: left;
 }

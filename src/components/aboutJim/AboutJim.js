@@ -19,11 +19,11 @@ const AboutJim = () => {
       <Navbar />
       <div className='jim-container'>
 
-        <div className='image left box'>
+        <div className='image jim-left box'>
           <img src={jimfullsm} className='jim-img'alt='jim photo'></img>
         </div>
 
-        <div className=' box copy right'>
+        <div className=' box jim-copy jim-right'>
 
 
           <div className='copys'>
