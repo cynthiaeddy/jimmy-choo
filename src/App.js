@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom'
-
+import GlobalFonts from './fonts/fonts';
 
 import Home from './components/home/Home'
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
@@ -16,6 +16,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const App = () => (
   <div className="app">
+        <GlobalFonts />
 
   <Route exact path="/" component={Home} />
   <Route path="/world-food" component={AboutMexico} />

@@ -82,8 +82,7 @@ img {
 	/* overflow: auto; */
 }
 h1 {
-	/* font-family: MundoSansPro-Medium; */
-	font-weight: 400;
+	font-family: MundoSansPro-Medium;
 	text-transform: uppercase;
 	letter-spacing: -2px;
 	color: black;
