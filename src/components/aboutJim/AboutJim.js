@@ -35,6 +35,21 @@ const AboutJim = () => {
               <div className='book'>
               <a href="#"><img src={mexico }></img></a>
             </div>
+            <div className='book'>
+              <a href="#"><img src={mexico }></img></a>
+            </div>
+            <div className='book'>
+              <a href="#"><img src={mexico }></img></a>
+            </div>
+            <div className='book'>
+              <a href="#"><img src={mexico }></img></a>
+            </div>
+            <div className='book'>
+              <a href="#"><img src={mexico }></img></a>
+            </div>
+            <div className='book'>
+              <a href="#"><img src={mexico }></img></a>
+            </div>
           </div>
         </div>
         </div>

@@ -57,16 +57,20 @@ img.jim-img {
 }
 
 p {
-	width: 90%;
+	/* width: 90%; */
 	margin: 0;
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-size: 18px;
-	line-height: 1.5;
+	line-height: 1.6;
 	text-align: left;
+	height: 38.5vh;
+	overflow: auto;
 }
 .books {
 	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
 	/* flex-direction: row; */
 }
 .book {
