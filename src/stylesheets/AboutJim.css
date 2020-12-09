@@ -34,13 +34,23 @@ img.jim-img {
 .jim-container {
 	display: flex;
 	max-width: 60%;
-	margin-top: 150px;
+	margin-top: 120px;
+	/* max-height: 70%; */
 }
-.jim-left {
+
+/* .jim-left {
 	width: 50%;
-}
+} */
 .jim-right {
-	width: 60%;
+	width: 70%;
+	margin-top: 70px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+}
+img.jim-img {
+	width: inherit;
+	margin: 0 -80px;
 }
 .box {
 	border: 1px solid palegreen;
@@ -51,8 +61,14 @@ p {
 	margin: 0;
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 1.5;
-	padding: 20px 0 20px 20px;
 	text-align: left;
+}
+.books {
+	display: flex;
+	/* flex-direction: row; */
+}
+.book {
+	width: 15%;
 }
