@@ -21,6 +21,8 @@
 	gap: 0px 20px;
 	grid-template-areas: "header header header" "left main right" "footer footer footer";
 	max-width: 1080px;
+	max-width: 1400px;
+
 	/* align-items: center; */
 }
 .header {
