@@ -82,9 +82,9 @@ div.copys span {
 	text-transform: uppercase;
 }
 
-.book:hover {
+/* .book:hover {
 	opacity: 60%;
-}
+} */
 
 .social {
 	display: flex;
