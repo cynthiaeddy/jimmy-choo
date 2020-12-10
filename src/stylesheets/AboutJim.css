@@ -85,3 +85,19 @@ div.copys span {
 a:hover {
 	opacity: 60%;
 }
+
+.social {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fas,
+.fab {
+	font-size: 20px;
+	margin: 10px;
+}
+i.fas:hover,
+i.fab:hover {
+	font-size: 22px;
+	margin: 10px 9px;
+}
