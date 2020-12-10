@@ -7,7 +7,7 @@ import Home from './components/home/Home'
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
-import SignUp from './components/signUp/SignUp'
+import Newsletter from './components/newsletter/Newsletter'
 
 
 
@@ -22,7 +22,7 @@ const App = () => (
   <Route path="/world-food" component={AboutMexico} />
   <Route path="/about-james" component={AboutJim} />
 
-  <Route path="/newsletter" component={SignUp} />
+  <Route path="/newsletter" component={Newsletter} />
   <Route path="/navbar" component={NavBarToggle} />
 
   </div>
