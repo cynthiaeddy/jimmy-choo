@@ -2,11 +2,11 @@ import React from 'react'
 import '../../stylesheets/AboutWF.css'
 
 
-import cactusSpread from '../../assets/cactusSpread.jpg'
-import biggerFamily from '../../assets/biggerFamily.jpg'
-import biggerFlautas from '../../assets/biggerFlautas.jpg'
-import biggerMasa from '../../assets/biggerMasa.jpg'
-import biggerMexicoOpenerC from '../../assets/biggerMexicoOpenerC.jpg'
+import cactusSpread from '../../assets/images/cactusSpread.jpg'
+import biggerFamily from '../../assets/images/biggerFamily.jpg'
+import biggerFlautas from '../../assets/images/biggerFlautas.jpg'
+import biggerMasa from '../../assets/images/biggerMasa.jpg'
+import biggerMexicoOpenerC from '../../assets/images/biggerMexicoOpenerC.jpg'
 
 
 

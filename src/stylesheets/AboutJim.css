@@ -42,6 +42,7 @@ img.jim-img {
 	width: 50%;
 } */
 .jim-right {
+	max-width: 70%;
 	width: 70%;
 	margin-top: 70px;
 	margin-bottom: 80px;
@@ -58,13 +59,13 @@ img.jim-img {
 
 p {
 	/* width: 90%; */
-	margin: 0;
+	margin: 0 5px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 1.6;
 	text-align: left;
-	height: 38.5vh;
+	height: 41.5vh;
 	overflow: auto;
 }
 .books {
@@ -74,5 +75,9 @@ p {
 	/* flex-direction: row; */
 }
 .book {
-	width: 15%;
+	margin: 0 5px;
+	/* width: 15%; */
+}
+div.copys span {
+	text-transform: uppercase;
 }

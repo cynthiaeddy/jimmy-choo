@@ -4,22 +4,22 @@ import { Carousel } from 'react-responsive-carousel';
 import NavbarHome from '../navbarHome/NavbarHome'
 
 
-import mexico from '../../assets/mexico.jpg'
-import paris from '../../assets/paris.jpg'
+import mexico from '../../assets/images/mexico.jpg'
+import paris from '../../assets/images/paris.jpg'
 
 
 
-import openerBlue1 from '../../assets/openerBlue1.jpg'
-import openerCorn1 from '../../assets/openerCorn1.jpg'
-import openerDessert1 from '../../assets/openerDessert1.jpg'
-import openerFighter1 from '../../assets/openerFighter1.jpg'
-import openerFlan1 from '../../assets/openerFlan1.jpg'
-import openergal1 from '../../assets/openergal1.jpg'
+import openerBlue1 from '../../assets/images/openerBlue1.jpg'
+import openerCorn1 from '../../assets/images/openerCorn1.jpg'
+import openerDessert1 from '../../assets/images/openerDessert1.jpg'
+import openerFighter1 from '../../assets/images/openerFighter1.jpg'
+import openerFlan1 from '../../assets/images/openerFlan1.jpg'
+import openergal1 from '../../assets/images/openergal1.jpg'
 
-import openerMan1 from '../../assets/openerMan1.jpg'
-import openerOysters1 from '../../assets/openerOysters1.jpg'
-import openerWoman1 from '../../assets/openerWoman1.jpg'
-import openerWaiter1 from '../../assets/openerWaiter1.jpg'
+import openerMan1 from '../../assets/images/openerMan1.jpg'
+import openerOysters1 from '../../assets/images/openerOysters1.jpg'
+import openerWoman1 from '../../assets/images/openerWoman1.jpg'
+import openerWaiter1 from '../../assets/images/openerWaiter1.jpg'
 
 
 
