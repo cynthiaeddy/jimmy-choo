@@ -78,13 +78,17 @@ p {
 	margin: 0 5px;
 	/* width: 15%; */
 }
-div.copys span {
+/* div.copys span {
+	text-transform: uppercase;
+} */
+
+.copys span {
 	text-transform: uppercase;
 }
 
-/* .book:hover {
+.book:hover {
 	opacity: 60%;
-} */
+}
 
 .social {
 	display: flex;
