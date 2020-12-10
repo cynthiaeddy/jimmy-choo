@@ -53,9 +53,9 @@ img.jim-img {
 	width: inherit;
 	margin: 0 -80px;
 }
-.box {
+/* .box {
 	border: 1px solid palegreen;
-}
+} */
 
 p {
 	/* width: 90%; */
@@ -80,4 +80,8 @@ p {
 }
 div.copys span {
 	text-transform: uppercase;
+}
+
+a:hover {
+	opacity: 60%;
 }
