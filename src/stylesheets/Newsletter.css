@@ -59,6 +59,7 @@ input:hover {
 	width: 15%;
 	margin-left: auto;
 	margin-right: 10%;
+	border: none;
 }
 .submit:hover {
 	background: grey;

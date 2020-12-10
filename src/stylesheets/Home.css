@@ -1,11 +1,11 @@
 .home-container {
 	display: flex;
 	justify-content: center;
-	text-align: center;
+	/* text-align: center; */
 	margin: 0;
 	overflow: hidden;
-	margin-bottom: auto;
-	/* margin-top: 70px; */
+	/* margin-bottom: auto;
+	margin-top: 70px; */
 	width: 100vw;
 	height: 100vh;
 	align-items: center;
@@ -21,7 +21,7 @@
 	gap: 0px 20px;
 	grid-template-areas: "header header header" "left main right" "footer footer footer";
 	max-width: 1080px;
-	max-width: 1400px;
+	max-width: 1260px;
 
 	/* align-items: center; */
 }
@@ -133,4 +133,5 @@ h5 {
 	font-weight: 500;
 	font-family: franklin-gothic-atf, sans-serif;
 	padding: 0;
+	border: none;
 }
