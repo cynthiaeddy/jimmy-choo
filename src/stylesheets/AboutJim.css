@@ -33,7 +33,7 @@ img.jim-img {
 
 .jim-container {
 	display: flex;
-	max-width: 60%;
+	max-width: 1080px;
 	margin-top: 120px;
 	/* max-height: 70%; */
 }

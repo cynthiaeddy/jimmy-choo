@@ -8,6 +8,7 @@
 	gap: 0px 20px;
 	align-items: center;
 	width: 65vw;
+	max-width: 1080px;
 
 	grid-template-areas: "l-arrow main r-arrow";
 }

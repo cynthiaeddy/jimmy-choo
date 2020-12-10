@@ -12,13 +12,14 @@
 .home {
 	/* width: 65vw; */
 	width: 65%;
-	max-width: 65%;
+	/* max-width: 65%; */
 	height: 50vh;
 	display: grid;
 	grid-template-columns: .95fr 1.1fr .95fr;
 	grid-template-rows: 0.3fr 2.5fr 0.2fr;
 	gap: 0px 20px;
 	grid-template-areas: "header header header" "left main right" "footer footer footer";
+	max-width: 1080px;
 }
 .header {
 	grid-area: header;
