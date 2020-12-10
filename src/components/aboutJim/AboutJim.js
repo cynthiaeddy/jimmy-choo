@@ -33,23 +33,41 @@ const AboutJim = () => {
 
           <div className='box books'>
 
-              <div className='book'>
-              <a href="#"><img src={mexico }></img></a>
+            <div className='book'>
+              <a href="#"><img src={mexico}></img></a>
+              <div class="middle">
+                <div class="text">buy</div>
+              </div>
             </div>
             <div className='book'>
-              <a href="#"><img src={comfort }></img></a>
+              <a href="#"><img src={comfort}></img></a>
+              <div class="middle">
+                <div class="text">buy</div>
+              </div>
             </div>
             <div className='book'>
-              <a href="#"><img src={cradle }></img></a>
+              <a href="#"><img src={cradle}></img></a>
+              <div class="middle">
+                <div class="text">buy</div>
+              </div>
             </div>
             <div className='book'>
-              <a href="#"><img src={fork }></img></a>
+              <a href="#"><img src={fork}></img></a>
+              <div class="middle">
+                <div class="text">buy</div>
+              </div>
             </div>
             <div className='book'>
-              <a href="#"><img src={saveur }></img></a>
+              <a href="#"><img src={saveur}></img></a>
+              <div class="middle">
+                <div class="text">buy</div>
+              </div>
             </div>
             <div className='book'>
-              <a href="#"><img src={jim }></img></a>
+              <a href="#"><img src={jim}></img></a>
+              <div class="middle">
+                <div class="text">buy</div>
+              </div>
             </div>
           </div>
 

@@ -42,12 +42,7 @@ img.spread.mexico-opener {
 	display: none;
 	text-align: center;
 }
-.arrowSpace {
-	margin: 0 10px;
-}
-/* .slider-items {
-	width: 79%;
-} */
+
 .arrows {
 	align-self: center;
 	margin-bottom: 50px;
@@ -65,9 +60,16 @@ img.spread.mexico-opener {
 h2 span {
 	margin: 5px;
 }
-div.wf-content.arrowSpace.backArrow:first-child {
+/* div.wf-content.arrowSpace.backArrow:first-child {
 	display: none;
 }
 div.wf-content.l-arrow:first-child {
 	display: none;
+} */
+.r-arrow {
+	text-align: left;
+	margin: 0;
+}
+.l-arrow {
+	text-align: right;
 }
