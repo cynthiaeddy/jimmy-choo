@@ -87,10 +87,10 @@ const Home = () => (
 
 
       <div className='grid-3 right'>
-      <div className='boxes seven '>
+      <div className='boxes seven l'>
       <img src={openergal1} className='gal' alt=''></img>
       </div>
-      <div className='boxes eight'>
+      <div className='boxes eight mid'>
       <img src={openergal1} className='gal' alt=''></img>
       </div>
 
@@ -105,7 +105,7 @@ const Home = () => (
 
 
 
-      <div className='boxes nine'>
+      <div className='boxes nine bottom'>
       <img src={openergal1} className='gal' alt=''></img>
 
       </div>
