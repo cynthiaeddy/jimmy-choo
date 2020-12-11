@@ -62,18 +62,7 @@ p {
 	font-size: 20px;
 	margin: 10px;
 }
-i.fas:hover,
-i.fab:hover {
-	/* font-size: 22px; */
-	/* margin: 10px 9px; */
-}
 
-@media (min-width: 1700px) {
-	img.jim-img {
-		max-width: 65%;
-		/* margin: 0 -80px; */
-	}
-}
 .book {
 	position: relative;
 }
@@ -105,4 +94,9 @@ i.fab:hover {
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-top: 12px;
+}
+@media (min-width: 1700px) {
+	img.jim-img {
+		max-width: 65%;
+	}
 }
