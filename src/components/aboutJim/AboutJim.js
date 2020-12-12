@@ -4,7 +4,7 @@ import mexico from '../../assets/images/mexico.png'
 import comfort from '../../assets/images/comfort.png'
 import cradle from '../../assets/images/cradle.png'
 import fork from '../../assets/images/fork.png'
-import paris from '../../assets/images/paris.jpg'
+import paris from '../../assets/images/paris.png'
 import jimfullsm from '../../assets/images/jimfullsm.png'
 import jim from '../../assets/images/jim.png'
 import '../../stylesheets/AboutJim.css'
@@ -41,7 +41,7 @@ const AboutJim = () => {
             </div>
 
             <div className='book'>
-              <a href="#"><img src={paris}></img>
+              <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579834/ref=sr_1_2?dchild=1&keywords=world+food+paris&qid=1607724226&s=books&sr=1-2"><img src={paris}></img>
               <div class="middle">
                 <div class="text">buy</div>
               </div></a>
