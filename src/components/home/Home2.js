@@ -20,12 +20,10 @@ import man from '../../assets/images/home/man.jpg'
 import openerOysters1 from '../../assets/images/openerOysters1.jpg'
 import womanPink from '../../assets/images/home/womanPink.jpg'
 import openerWaiter1 from '../../assets/images/openerWaiter1.jpg'
-import aquagal from '../../assets/images/aquagal.jpg'
+import woman4 from '../../assets/images/woman4.jpg'
 import man2 from '../../assets/images/man2.jpg'
 import greyfood from '../../assets/images/home/greyfood.jpg'
 import orange1 from '../../assets/images/orange1.jpg'
-import white from '../../assets/images/white.jpg'
-
 
 
 
@@ -38,7 +36,7 @@ import white from '../../assets/images/white.jpg'
 import '../../stylesheets/Home.css'
 
 
-const Home2 = () => (
+const Home = () => (
   <div className='home-container'>
     <NavbarHome/>
 
@@ -54,7 +52,7 @@ const Home2 = () => (
       <img src={gal} className='gal' alt=''></img>
       </div>
       <div className='boxes two'>
-      <img src={white} className='flan' alt=''></img>
+      <img src={flan1} className='flan' alt=''></img>
       </div>
       <div className='boxes three'>
       <img src={corn} className='corn' alt=''></img>
@@ -96,27 +94,37 @@ const Home2 = () => (
         </div>
 
 
-      <div className='grid-3 right'>
-      <div className='boxes seven l'>
-      <img src={man2} className='gal' alt=''></img>
+      <div className='grid-3 right homeTwo'>
+      <div className='boxes seven topl'>
+      <img src={openerWaiter1} className='gal' alt=''></img>
       </div>
-      <div className='boxes eight mid'>
+      <div className='boxes eight topr'>
       <img src={orange1} className='gal' alt=''></img>
-      </div>
+        </div>
+        {/* <div className='boxes eight '>
+      <img src={orange1} className='gal' alt=''></img>
+        </div>
+        <div className='boxes eight '>
+      <img src={orange1} className='gal' alt=''></img>
+        </div> */}
 
-        <div className='copy boxes'>
+
+<div className='copymid boxes'>
           <div className='intro'>
            <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
           </div>
-          <div >
           <button className='signUpBtn'><h7>SIGN UP NOW!</h7></button>
-            </div>
+
 </div>
 
 
+      <div className='boxes nine botl'>
+      <img src={woman4} className='gal' alt=''></img>
 
-      <div className='boxes nine bottom'>
-      <img src={aquagal} className='gal' alt=''></img>
+        </div>
+
+        <div className='boxes nine botr'>
+      <img src={woman4} className='gal' alt=''></img>
 
       </div>
 
@@ -134,4 +142,4 @@ const Home2 = () => (
     </div>
     </div>
   );
-  export default Home2
+  export default Home

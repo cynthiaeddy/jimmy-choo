@@ -22,14 +22,14 @@ import womanPink from '../../assets/images/home/womanPink.jpg'
 import openerWaiter1 from '../../assets/images/openerWaiter1.jpg'
 import woman3 from '../../assets/images/woman3.jpg'
 import man2 from '../../assets/images/man2.jpg'
-import redfood from '../../assets/images/redfood.jpg'
+import orange1 from '../../assets/images/orange1.jpg'
 
 
 
 
 
 
-import '../../stylesheets/Home.css'
+import '../../stylesheets/Home3.css'
 
 
 const Home3 = () => (
@@ -90,20 +90,20 @@ const Home3 = () => (
         </div>
 
 
-      <div className='grid-3 right'>
+      <div className='grid-3 right homeThree'>
       <div className='boxes seven l'>
       <img src={woman3} className='gal' alt=''></img>
       </div>
       <div className='boxes eight mid'>
-      <img src={redfood} className='gal' alt=''></img>
+      <img src={orange1} className='gal' alt=''></img>
       </div>
 
         <div className='copy boxes'>
-          <div className='intro'>
+          <div className='intro '>
            <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
           </div>
           <div >
-          <button className='signUpBtn'><h7>SIGN UP NOW!</h7></button>
+          <button className='signUpBtn homeThree'><h7>SIGN UP NOW!</h7></button>
             </div>
 </div>
 

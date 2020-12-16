@@ -1,0 +1,32 @@
+.right.homeThree {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-template-areas: "l copy" "mid copy" "bottom copy";
+	grid-gap: 20px;
+}
+
+.l {
+	grid-area: l;
+}
+.mid {
+	grid-area: mid;
+}
+.bottom {
+	grid-area: bottom;
+}
+.copy {
+	display: flex;
+	grid-area: copy;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.signUpBtn.homeThree {
+	width: 100%;
+}
+
+.homeThree h5 {
+	font-size: 1.4rem;
+	line-height: 1.3;
+}

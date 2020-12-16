@@ -54,23 +54,43 @@ img {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	gap: 0px 0px;
-	grid-template-areas: "l copy" "mid copy" "bottom copy";
 	grid-gap: 20px;
+	grid-template-areas: "topl topr" "copymid copymid" "botl botr";
+}
+.topl {
+	grid-area: topl;
+}
+.topr {
+	grid-area: topr;
+}
+.botl {
+	grid-area: botl;
+}
+.botr {
+	grid-area: botr;
+}
+.copymid {
+	grid-area: copymid;
 }
 
-.l {
-	grid-area: l;
+.right.homeOne {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	grid-template-areas: "copymid copymid" "topl topr" "botl botr";
 }
-.mid {
-	grid-area: mid;
+
+.right.homeTwo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	grid-template-areas: "topl topr" "botl botr" "copymid copymid";
 }
-.bottom {
-	grid-area: bottom;
-}
-.copy {
+.copymid {
 	display: flex;
-	grid-area: copy;
+	/* grid-area: copy; */
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -105,15 +125,15 @@ h3 {
 h5 {
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
-	font-size: 1.4rem;
-	line-height: 1.2;
+	font-size: 1.3rem;
+	line-height: 1.3;
 	font-style: normal;
 	letter-spacing: 0;
 	margin: 0;
 	text-align: right;
 }
 .signUpBtn {
-	width: 100%;
+	width: 47%;
 	background: black;
 	color: white;
 	font-size: 14px;
@@ -123,10 +143,34 @@ h5 {
 	padding: 0;
 	border: none;
 	height: 20px;
+	align-self: flex-end;
 }
 /* .boxes {
 	position: relative;
 	background-color: gray;
 	width: 100%;
 	padding-bottom: 15%;
+} */
+/* @media (min-width: 640px){
+
+
+
+	}
+
+	@media (min-width: 768px){
+
+
+	}
+
+	@media (min-width: 1024px){
+
+
+	}
+
+	@media (min-width: 1200px){
+
+
+
+	} */
+/* @media (max-width: 1366px) {
 } */

@@ -10,6 +10,8 @@ import AboutJim from './components/aboutJim/AboutJim'
 import Home1 from './components/home/Home1'
 import Home2 from './components/home/Home2'
 import Home3 from './components/home/Home3'
+import Home4 from './components/home/Home4'
+
 
 
 
@@ -39,7 +41,9 @@ class App extends React.Component {
       <Route path="/home1" component={Home1} />
 
       <Route path="/home2" component={Home2} />
-      <Route path="/home3" component={Home3} />
+        <Route path="/home3" component={Home3} />
+        {/* <Route path="/home4" component={Home4} /> */}
+
 
 
     </div>
