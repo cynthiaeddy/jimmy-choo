@@ -12,8 +12,6 @@ import Home2 from './components/home/Home2'
 import Home3 from './components/home/Home3'
 
 
-
-
 import Newsletter from './components/newsletter/Newsletter'
 
 
@@ -21,31 +19,24 @@ import Newsletter from './components/newsletter/Newsletter'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-class App extends React.Component {
-
-
-  render() {
-    return (
-    <div className="app">
+const App = () => (
+  <div className="app">
         <GlobalFonts />
 
+  <Route exact path="/" component={Home} />
+  <Route path="/world-food" component={AboutMexico} />
+  <Route path="/about-james" component={AboutJim} />
 
-      <Route exact path="/" component={Home} />
-      <Route path="/world-food" component={AboutMexico} />
-      <Route path="/about-james" component={AboutJim} />
+  <Route path="/newsletter" component={Newsletter} />
+    <Route path="/navbar" component={NavBarToggle} />
+    <Route path="/home1" component={Home1} />
 
-      <Route path="/newsletter" component={Newsletter} />
-      <Route path="/navbar" component={NavBarToggle} />
-      <Route path="/home1" component={Home1} />
-
-      <Route path="/home2" component={Home2} />
-      <Route path="/home3" component={Home3} />
+    <Route path="/home2" component={Home2} />
+    <Route path="/home3" component={Home3} />
 
 
-    </div>
-    )
+  </div>
 
-  }
+);
 
-}
 export default App;

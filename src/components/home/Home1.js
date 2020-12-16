@@ -22,7 +22,7 @@ import womanPink from '../../assets/images/home/womanPink.jpg'
 import openerWaiter1 from '../../assets/images/openerWaiter1.jpg'
 import woman3 from '../../assets/images/woman3.jpg'
 import man2 from '../../assets/images/man2.jpg'
-import redfood from '../../assets/images/redfood.jpg'
+import orange1 from '../../assets/images/orange1.jpg'
 
 
 
@@ -95,7 +95,7 @@ const Home1 = () => (
       <img src={woman3} className='gal' alt=''></img>
       </div>
       <div className='boxes eight mid'>
-      <img src={redfood} className='gal' alt=''></img>
+      <img src={orange1} className='gal' alt=''></img>
       </div>
 
         <div className='copy boxes'>
@@ -110,7 +110,7 @@ const Home1 = () => (
 
 
       <div className='boxes nine bottom'>
-      <img src={man2} className='gal' alt=''></img>
+      <img src={openerWaiter1} className='gal' alt=''></img>
 
       </div>
 
