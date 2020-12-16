@@ -29,25 +29,7 @@ class Newsletter extends React.Component {
     return (
       <div className='container'>
         <Navbar />
-        <Mailchimp
-        action='https://<YOUR-USER>.us16.list-manage.com/subscribe/post?u=XXXXXXXXXXXXX&amp;id=XXXXXX'
-        fields={[
-          {
 
-            label: 'name',
-            name: 'EMAIL',
-            placeholder: 'Email',
-            type: 'email',
-            required: true
-          },
-          {
-            name: 'FNAME',
-            placeholder: 'name',
-            type: 'text',
-            required: true
-          }
-        ]}
-        />
         <div className='newsletter-container'>
         <p>For exclusive content about James Oseland and his books, register for the official fan(really?) newsletter.</p>
           <form onSubmit={this.handleSubmit} className='form'>
