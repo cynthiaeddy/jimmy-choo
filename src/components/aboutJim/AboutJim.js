@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar'
-import mexico from '../../assets/images/mexico.png'
-import comfort from '../../assets/images/comfort.png'
-import cradle from '../../assets/images/cradle.png'
-import fork from '../../assets/images/fork.png'
-import paris from '../../assets/images/paris.png'
-import jimfullsm from '../../assets/images/jimfullsm.png'
-import jim from '../../assets/images/jim.png'
+import mexico from '../../assets/images/books/mexico.png'
+import comfort from '../../assets/images/books/comfort.png'
+import cradle from '../../assets/images/books/cradle.png'
+import fork from '../../assets/images/books/fork.png'
+import paris from '../../assets/images/books/paris.png'
+import jimfullsm from '../../assets/images/books/jimfullsm.png'
+import jim from '../../assets/images/books/jim.png'
 import '../../stylesheets/AboutJim.css'
 
 

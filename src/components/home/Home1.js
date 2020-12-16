@@ -20,13 +20,9 @@ import man from '../../assets/images/home/man.jpg'
 import openerOysters1 from '../../assets/images/openerOysters1.jpg'
 import womanPink from '../../assets/images/home/womanPink.jpg'
 import openerWaiter1 from '../../assets/images/openerWaiter1.jpg'
-import woman4 from '../../assets/images/woman4.jpg'
+import woman3 from '../../assets/images/woman3.jpg'
 import man2 from '../../assets/images/man2.jpg'
-import greyfood from '../../assets/images/home/greyfood.jpg'
-import orange1 from '../../assets/images/orange1.jpg'
-
-
-
+import redfood from '../../assets/images/redfood.jpg'
 
 
 
@@ -36,7 +32,7 @@ import orange1 from '../../assets/images/orange1.jpg'
 import '../../stylesheets/Home.css'
 
 
-const Home = () => (
+const Home1 = () => (
   <div className='home-container'>
     <NavbarHome/>
 
@@ -96,10 +92,10 @@ const Home = () => (
 
       <div className='grid-3 right'>
       <div className='boxes seven l'>
-      <img src={openerWaiter1} className='gal' alt=''></img>
+      <img src={woman3} className='gal' alt=''></img>
       </div>
       <div className='boxes eight mid'>
-      <img src={orange1} className='gal' alt=''></img>
+      <img src={redfood} className='gal' alt=''></img>
       </div>
 
         <div className='copy boxes'>
@@ -114,7 +110,7 @@ const Home = () => (
 
 
       <div className='boxes nine bottom'>
-      <img src={woman4} className='gal' alt=''></img>
+      <img src={man2} className='gal' alt=''></img>
 
       </div>
 
@@ -132,4 +128,4 @@ const Home = () => (
     </div>
     </div>
   );
-  export default Home
+  export default Home1

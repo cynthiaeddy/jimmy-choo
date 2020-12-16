@@ -29,6 +29,23 @@ const NavBarToggle = () => {
 							<Link to="/newsletter" className="newsletter">
 								Newsletter
 							</Link>
+				</li>
+
+				<li>
+							<Link to="/home1" className="home1">
+								Home1
+							</Link>
+				</li>
+
+				<li>
+							<Link to="/home2" className="home2">
+								Home2
+							</Link>
+				</li>
+				<li>
+							<Link to="/home3" className="home3">
+								Home3
+							</Link>
           </li>
               </ul>
 					</h4>
