@@ -5,9 +5,6 @@ import NavbarHome from '../navbarHome/NavbarHome'
 
 import mexicoCover from '../../assets/images/home/mexicoCover.jpg'
 import parisCover from '../../assets/images/home/parisCover.jpg'
-
-
-
 import corn from '../../assets/images/home/corn.jpg'
 import flancut3 from '../../assets/images/flancut3.jpg'
 import flan1 from '../../assets/images/home/flan1.jpg'
@@ -31,7 +28,7 @@ const Home7 = () => (
     <NavbarHome/>
 
 
-    <div className='home outer-grid'>
+    <div className='home outer-grid homeSeven'>
       <div className='grid-1 header'>
         <h3>James Oselands's</h3>
             <h1>World Food</h1>
@@ -96,8 +93,11 @@ const Home7 = () => (
 </div>
 
 
-      <div>
-            <h2 className='grid-5 foot'><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
+      <div className='footer'>
+          <h2><a href="https://jamesroper.photoshelter.com/index">
+            Photography by James Roper
+            </a>
+        </h2>
           </div>
     </div>
     </div>

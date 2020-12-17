@@ -20,7 +20,7 @@
 #navbarHome {
 	margin-top: 0;
 	padding: 0;
-	width: 65%;
+	width: 70%;
 }
 .buy {
 	display: flex;
@@ -124,7 +124,7 @@ li {
 .toggleNavBar a:hover {
 	color: black;
 }
-@media (max-width: 1440px) {
+/* @media (max-width: 1400px) {
 	#navbarHome {
 		padding: 0 15vw;
 	}
@@ -133,4 +133,4 @@ li {
 	#navbarHome {
 		padding: 0 3vw;
 	}
-}
+} */

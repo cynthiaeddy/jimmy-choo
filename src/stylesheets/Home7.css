@@ -1,10 +1,10 @@
-.home {
+.home.homeSeven {
 	display: grid;
 	grid-template-columns: .95fr .95fr 1.1fr 1.1fr .95fr .95fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	gap: 20px 20px;
 	grid-template-areas: "header header header header header header" "ltl ltr main main rtl copy"
-		"lml lmr main main rml copy" "lbl lbr main main rbl copy" "foot foot foot foot foot foot";
+		"lml lmr main main rml copy" "lbl lbr main main rbl copy" "footer footer footer footer footer footer";
 }
 .header {
 	grid-area: header;
@@ -12,17 +12,15 @@
 .header {
 	grid-area: header;
 }
-.foot {
+.footer {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
 	gap: 0px 0px;
 	/* grid-template-areas: ". . ." ". . ."; */
-	grid-area: foot;
+	grid-area: footer;
 }
-.foot {
-	grid-area: foot;
-}
+
 .ltl {
 	grid-area: ltl;
 }
@@ -56,6 +54,6 @@
 .main {
 	grid-area: main;
 }
-/* h2 {
-   margin-top:
- } */
+/* h3 {
+	margin-top: 70px;
+} */

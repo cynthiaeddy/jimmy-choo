@@ -67,10 +67,10 @@
 	justify-content: space-between;
 }
 .headera {
-	height: 85px;
+	height: 105px;
 }
 .footera {
-	margin-top: -20px;
+	/* margin-top: -20px; */
 }
 .signUpBtn.homeEight {
 	width: 100%;
@@ -132,8 +132,54 @@ h5 {
 	height: 20px;
 	align-self: flex-end;
 }
-@media (max-width: 1200px) {
-	.home {
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.home,
+	#navbarHome {
 		width: 85%;
 	}
+	h5 {
+		font-size: 1.1rem;
+	}
+	#navbarHome {
+		padding: 0;
+	}
 }
+@media (min-width: 1400px) {
+	.home,
+	#navbarHome {
+		width: 70%;
+	}
+	h5 {
+		font-size: 1.25rem;
+	}
+	#navbarHome {
+		padding: 0;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+	.home,
+	#navbarHome {
+		width: 85%;
+	}
+	h5 {
+		font-size: 1.1rem;
+	}
+}
+/* @media (min-width: 768px) and (max-width: 1023px) {
+	.home,
+	#navbarHome {
+		width: 90%;
+	}
+	h5 {
+		font-size: 1.1rem;
+	}
+	.main-container {
+		grid-template-columns: .75fr .75fr 1.5fr 1.5fr .75fr .75fr;
+	}
+} */
+/* @media (max-width: 1200px) {
+	.home {
+		width: 92%;
+	}
+} */

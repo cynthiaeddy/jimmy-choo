@@ -13,21 +13,10 @@ const NavBarToggle = () => {
 							<Link to="/" className="alt-home">
 								Home
 							</Link>
-              </li>
-
-
-				<li>
-							<Link to="/home7" className="home7">
-								Home7
-							</Link>
 				</li>
 
 
-				<li>
-							<Link to="/home8" className="home8">
-								Home8
-							</Link>
-				</li>
+
 				<li>
 							<Link to="/world-food" className="world-food">
 								World Food Mexico City
