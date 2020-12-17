@@ -1,0 +1,13 @@
+.mobile-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.mobile-container {
+		display: grid;
+		grid-template-columns: 200px 1fr 200px;
+		grid-template-rows: auto 1fr auto;
+	}
+}

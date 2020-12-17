@@ -123,3 +123,13 @@ li {
 .toggleNavBar a:hover {
 	color: black;
 }
+@media (max-width: 1440px) {
+	#navbarHome {
+		padding: 0 15vw;
+	}
+}
+@media (max-width: 1440px) {
+	#navbarHome {
+		padding: 0 3vw;
+	}
+}

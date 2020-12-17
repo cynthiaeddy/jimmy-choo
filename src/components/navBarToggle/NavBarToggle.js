@@ -14,7 +14,25 @@ const NavBarToggle = () => {
 								Home
 							</Link>
               </li>
-						<li>
+
+
+				<li>
+							<Link to="/home1" className="home1">
+								Home1
+							</Link>
+				</li>
+
+				<li>
+							<Link to="/home4" className="home4">
+								Home4
+							</Link>
+				</li>
+				<li>
+							<Link to="/home3" className="home3">
+								Home3
+							</Link>
+				</li>
+				<li>
 							<Link to="/world-food" className="world-food">
 								World Food Mexico City
 							</Link>
@@ -28,23 +46,6 @@ const NavBarToggle = () => {
 					<li>
 							<Link to="/newsletter" className="newsletter">
 								Newsletter
-							</Link>
-				</li>
-
-				<li>
-							<Link to="/home1" className="home1">
-								Home1
-							</Link>
-				</li>
-
-				<li>
-							<Link to="/home2" className="home2">
-								Home2
-							</Link>
-				</li>
-				<li>
-							<Link to="/home3" className="home3">
-								Home3
 							</Link>
 				</li>
 				{/* <li>

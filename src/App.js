@@ -40,7 +40,7 @@ class App extends React.Component {
       <Route path="/navbar" component={NavBarToggle} />
       <Route path="/home1" component={Home1} />
 
-      <Route path="/home2" component={Home2} />
+      <Route path="/home4" component={Home4} />
         <Route path="/home3" component={Home3} />
         {/* <Route path="/home4" component={Home4} /> */}
 

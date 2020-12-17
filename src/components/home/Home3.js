@@ -19,10 +19,10 @@ import gal from '../../assets/images/home/gal.jpg'
 import man from '../../assets/images/home/man.jpg'
 import openerOysters1 from '../../assets/images/openerOysters1.jpg'
 import womanPink from '../../assets/images/home/womanPink.jpg'
-import openerWaiter1 from '../../assets/images/openerWaiter1.jpg'
+import waiter from '../../assets/images/waiter.jpg'
 import woman3 from '../../assets/images/woman3.jpg'
 import man2 from '../../assets/images/man2.jpg'
-import orange1 from '../../assets/images/orange1.jpg'
+import orange2 from '../../assets/images/orange2.jpg'
 
 
 
@@ -38,7 +38,7 @@ const Home3 = () => (
 
 
     <div className='home outer-grid'>
-      <div className='grid-1 header'>
+      <div className='grid-1 header ipadhead'>
         <h3>James Oselands's</h3>
             <h1>World Food</h1>
           </div>
@@ -95,22 +95,20 @@ const Home3 = () => (
       <img src={woman3} className='gal' alt=''></img>
       </div>
       <div className='boxes eight mid'>
-      <img src={orange1} className='gal' alt=''></img>
+      <img src={orange2} className='gal' alt=''></img>
       </div>
 
         <div className='copy boxes'>
           <div className='intro '>
            <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
           </div>
-          <div >
           <button className='signUpBtn homeThree'><h7>SIGN UP NOW!</h7></button>
-            </div>
 </div>
 
 
 
       <div className='boxes nine bottom'>
-      <img src={openerWaiter1} className='gal' alt=''></img>
+      <img src={waiter} className='gal' alt=''></img>
 
       </div>
 
