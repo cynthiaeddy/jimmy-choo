@@ -8,25 +8,14 @@ import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
 import Home7 from './components/home/Home7'
-
-
 import Home8 from './components/home/Home8'
-
-
-
-
-
-
-
 import Newsletter from './components/newsletter/Newsletter'
-
-
 
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-class App extends React.Component {
 
+class App extends React.Component {
 
   render() {
     return (
@@ -42,11 +31,6 @@ class App extends React.Component {
       <Route path="/navbar" component={NavBarToggle} />
         <Route path="/home7" component={Home7} />
         <Route path="/home8" component={Home8} />
-
-
-
-
-
     </div>
     )
 
