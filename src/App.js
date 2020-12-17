@@ -7,12 +7,11 @@ import Home from './components/home/Home'
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
-import Home1 from './components/home/Home1'
-import Home2 from './components/home/Home2'
-import Home3 from './components/home/Home3'
-import Home4 from './components/home/Home4'
-import Home5 from './components/home/Home5'
+import Home7 from './components/home/Home7'
+
 import Home6 from './components/home/Home6'
+import Home8 from './components/home/Home8'
+
 
 
 
@@ -41,11 +40,11 @@ class App extends React.Component {
 
       <Route path="/newsletter" component={Newsletter} />
       <Route path="/navbar" component={NavBarToggle} />
-      <Route path="/home1" component={Home1} />
+        <Route path="/home7" component={Home7} />
+        <Route path="/home8" component={Home8} />
 
-      <Route path="/home4" component={Home4} />
-        <Route path="/home3" component={Home3} />
-        <Route path="/home5" component={Home5} />
+
+
 
         <Route path="/home6" component={Home6}/>
 

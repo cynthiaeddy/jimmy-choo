@@ -1,0 +1,61 @@
+.homeEight {
+	display: flex;
+	flex-direction: column;
+}
+.main-container {
+	display: grid;
+	grid-template-columns: .95fr .95fr 1.1fr 1.1fr .95fr .95fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 20px 20px;
+	grid-template-areas: "ltla ltra maina maina rtla copya" "lmla lmra maina maina rmla copya"
+		"lbla lbra maina maina rbla copya";
+}
+
+.ltla {
+	grid-area: ltla;
+}
+.ltra {
+	grid-area: ltra;
+}
+.lmla {
+	grid-area: lmla;
+}
+.lmra {
+	grid-area: lmra;
+}
+.lbla {
+	grid-area: lbla;
+}
+.lbra {
+	grid-area: lbra;
+}
+.rtla {
+	grid-area: rtla;
+}
+.rmla {
+	grid-area: rmla;
+}
+.rbla {
+	grid-area: rbla;
+}
+.copya {
+	grid-area: copya;
+}
+.maina {
+	grid-area: maina;
+}
+/* h2 {
+   margin-top:
+ } */
+.copya {
+	display: flex;
+	/* grid-area: copy; */
+	flex-direction: column;
+	justify-content: space-between;
+}
+.headera {
+	height: 85px;
+}
+.footera {
+	margin-top: -20px;
+}

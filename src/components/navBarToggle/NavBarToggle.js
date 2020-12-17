@@ -17,29 +17,20 @@ const NavBarToggle = () => {
 
 
 				<li>
-							<Link to="/home1" className="home1">
-								Home1
+							<Link to="/home7" className="home7">
+								Home7
 							</Link>
 				</li>
 
-				<li>
-							<Link to="/home4" className="home4">
-								Home4
-							</Link>
-				</li>
-				<li>
-							<Link to="/home3" className="home3">
-								Home3
-							</Link>
-				</li>
-				<li>
-							<Link to="/home5" className="home5">
-								Home5
-							</Link>
-				</li>
+
 				<li>
 							<Link to="/home6" className="home6">
 								Home6
+							</Link>
+				</li>
+				<li>
+							<Link to="/home8" className="home8">
+								Home8
 							</Link>
 				</li>
 				<li>

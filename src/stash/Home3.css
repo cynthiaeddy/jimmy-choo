@@ -1,0 +1,89 @@
+.right.homeThree {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-template-areas: "l copy" "mid copy" "bottom copy";
+	grid-gap: 20px;
+}
+
+.l {
+	grid-area: l;
+}
+.mid {
+	grid-area: mid;
+}
+.bottom {
+	grid-area: bottom;
+}
+.copy {
+	display: flex;
+	grid-area: copy;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.signUpBtn.homeThree {
+	width: 100%;
+}
+
+.homeThree h5 {
+	font-size: 1.4rem;
+	line-height: 1.3;
+}
+
+@media (max-width: 1440px) {
+	.home {
+		width: 70%;
+	}
+	h5 {
+		font-size: 1.25rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.home {
+		width: 92%;
+	}
+
+	h5 {
+		font-size: 1.2rem;
+	}
+}
+/* @media (max-width: 1024px) {
+	.home {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1.5fr 1.2fr 1.2fr 1.2fr 0.3fr;
+		gap: 20px 20px;
+		grid-template-areas: "ipadhead ipadhead ipadhead ipadhead" "ipadtl ipadmiddle ipadmiddle ipadtr"
+			"ipadml ipadmiddle ipadmiddle ipadmr" "ipadbl ipadmiddle ipadmiddle ipadbr"
+			"ipadfooter ipadfooter ipadfooter ipadfooter";
+	}
+	.ipadhead {
+		grid-area: ipadhead;
+	}
+	.ipadtl {
+		grid-area: ipadtl;
+	}
+	.ipadml {
+		grid-area: ipadml;
+	}
+	.ipadbl {
+		grid-area: ipadbl;
+	}
+	.ipadfooter {
+		grid-area: ipadfooter;
+	}
+	.ipadtr {
+		grid-area: ipadtr;
+	}
+	.ipadmr {
+		grid-area: ipadmr;
+	}
+	.ipadbr {
+		grid-area: ipadbr;
+	}
+	.ipadmiddle {
+		grid-area: ipadmiddle;
+	}
+} */
