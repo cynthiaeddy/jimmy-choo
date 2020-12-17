@@ -1,3 +1,18 @@
+.home-container {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+}
+
+.home {
+	width: 65%;
+	display: grid;
+}
+
 .homeEight {
 	display: flex;
 	flex-direction: column;
@@ -44,9 +59,7 @@
 .maina {
 	grid-area: maina;
 }
-/* h2 {
-   margin-top:
- } */
+
 .copya {
 	display: flex;
 	/* grid-area: copy; */
@@ -62,4 +75,65 @@
 .signUpBtn.homeEight {
 	width: 100%;
 	align-items: center;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+h1 {
+	font-family: MundoSansPro-Medium;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	color: black;
+	font-size: 64px;
+	right: 14.5vw;
+	margin: 0;
+	text-align: right;
+}
+h2 {
+	font-size: 14px;
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 3px;
+	margin-top: 10px;
+}
+h3 {
+	font-size: 28px;
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 3px;
+	text-align: right;
+	margin: 0;
+	margin-bottom: -20px;
+}
+h5 {
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.3;
+	font-style: normal;
+	letter-spacing: 0;
+	margin: 0;
+	text-align: right;
+}
+.signUpBtn {
+	width: 47%;
+	background: black;
+	color: white;
+	font-size: 14px;
+	bottom: 0;
+	font-weight: 500;
+	font-family: franklin-gothic-atf, sans-serif;
+	padding: 0;
+	border: none;
+	height: 20px;
+	align-self: flex-end;
+}
+@media (max-width: 1200px) {
+	.home {
+		width: 85%;
+	}
 }

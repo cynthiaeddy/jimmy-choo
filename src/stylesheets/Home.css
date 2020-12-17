@@ -1,4 +1,4 @@
-.home-container {
+/* .home-container {
 	display: flex;
 	justify-content: center;
 	margin: 0;
@@ -6,18 +6,13 @@
 	width: 100vw;
 	height: 100vh;
 	align-items: center;
-}
-.home {
+} */
+/* .home {
 	width: 65%;
 	display: grid;
-	grid-template-columns: .95fr 1.1fr .95fr;
-	grid-template-rows: 0.2fr 2.7fr 0.1fr;
-	gap: 0px 20px;
-	grid-template-areas: "header header header" "left main right" "footer footer footer";
-	max-width: 1260px;
-}
+} */
 
-.header {
+/* .header {
 	grid-area: header;
 }
 
@@ -37,20 +32,20 @@
 	grid-area: footer;
 	text-align: left;
 	margin: 0;
-}
-.left {
+} */
+/* .left {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 20px;
-}
-img {
+} */
+/* img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-}
+} */
 
-.right {
+/* .right {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -71,9 +66,9 @@ img {
 }
 .copymid {
 	grid-area: copymid;
-}
+} */
 
-.right.homeOne {
+/* .right.homeOne {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -87,14 +82,14 @@ img {
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 20px;
 	grid-template-areas: "topl topr" "botl botr" "copymid copymid";
-}
-.copymid {
-	display: flex;
-	/* grid-area: copy; */
-	flex-direction: column;
+} */
+/* .copymid {
+	display: flex; */
+/* grid-area: copy; */
+/* flex-direction: column;
 	justify-content: space-between;
-}
-h1 {
+} */
+/* h1 {
 	font-family: MundoSansPro-Medium;
 	text-transform: uppercase;
 	letter-spacing: -2px;
@@ -103,16 +98,16 @@ h1 {
 	right: 14.5vw;
 	margin: 0;
 	text-align: right;
-}
-h2 {
+} */
+/* h2 {
 	font-size: 14px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-style: italic;
 	letter-spacing: 3px;
 	margin-top: 10px;
-}
-h3 {
+} */
+/* h3 {
 	font-size: 28px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
@@ -121,8 +116,8 @@ h3 {
 	text-align: right;
 	margin: 0;
 	margin-bottom: -20px;
-}
-h5 {
+} */
+/* h5 {
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-size: 1.2rem;
@@ -131,8 +126,8 @@ h5 {
 	letter-spacing: 0;
 	margin: 0;
 	text-align: right;
-}
-.signUpBtn {
+} */
+/* .signUpBtn {
 	width: 47%;
 	background: black;
 	color: white;
@@ -144,7 +139,7 @@ h5 {
 	border: none;
 	height: 20px;
 	align-self: flex-end;
-}
+} */
 /* .boxes {
 	position: relative;
 	background-color: gray;
@@ -175,7 +170,7 @@ h5 {
 /* @media (max-width: 1366px) {
 } */
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
 	.home {
 		width: 85%;
 	}
@@ -183,4 +178,4 @@ h5 {
 	h5 {
 		font-size: 1.2rem;
 	}
-}
+} */
