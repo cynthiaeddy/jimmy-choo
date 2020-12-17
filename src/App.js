@@ -11,6 +11,9 @@ import Home1 from './components/home/Home1'
 import Home2 from './components/home/Home2'
 import Home3 from './components/home/Home3'
 import Home4 from './components/home/Home4'
+import Home5 from './components/home/Home5'
+import Home6 from './components/home/Home6'
+
 
 
 
@@ -42,6 +45,10 @@ class App extends React.Component {
 
       <Route path="/home4" component={Home4} />
         <Route path="/home3" component={Home3} />
+        <Route path="/home5" component={Home5} />
+
+        <Route path="/home6" component={Home6}/>
+
         {/* <Route path="/home4" component={Home4} /> */}
 
 

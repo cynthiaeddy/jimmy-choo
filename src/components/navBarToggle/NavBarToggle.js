@@ -33,6 +33,16 @@ const NavBarToggle = () => {
 							</Link>
 				</li>
 				<li>
+							<Link to="/home5" className="home5">
+								Home5
+							</Link>
+				</li>
+				<li>
+							<Link to="/home6" className="home6">
+								Home6
+							</Link>
+				</li>
+				<li>
 							<Link to="/world-food" className="world-food">
 								World Food Mexico City
 							</Link>
