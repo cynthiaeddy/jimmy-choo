@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
-// import { Link } from 'react-router-dom'
 import NavbarHome from '../navbarHome/NavbarHome'
 
 
@@ -9,18 +8,13 @@ import parisCover from '../../assets/images/home/parisCover.jpg'
 
 
 
-import openerBlue1 from '../../assets/images/openerBlue1.jpg'
 import corn from '../../assets/images/home/corn.jpg'
-import openerDessert1 from '../../assets/images/home/openerDessert1.jpg'
-import openerFighter1 from '../../assets/images/openerFighter1.jpg'
+import flancut3 from '../../assets/images/flancut3.jpg'
 import flan1 from '../../assets/images/home/flan1.jpg'
 import gal from '../../assets/images/home/gal.jpg'
-
 import man from '../../assets/images/home/man.jpg'
-import openerOysters1 from '../../assets/images/openerOysters1.jpg'
 import womanPink from '../../assets/images/home/womanPink.jpg'
 import waiter from '../../assets/images/waiter.jpg'
-import woman3 from '../../assets/images/woman3.jpg'
 import galred from '../../assets/images/galred.jpg'
 import orange2 from '../../assets/images/orange2.jpg'
 
@@ -60,7 +54,7 @@ const Home6 = () => (
       <img src={man} className='man' alt=''></img>
       </div>
       <div className='boxes six'>
-      <img src={openerDessert1} className='dessert' alt=''></img>
+      <img src={flancut3} className='dessert' alt=''></img>
       </div>
     </div>
 
