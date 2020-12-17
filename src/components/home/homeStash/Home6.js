@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
-// import { Link } from 'react-router-dom'
-import NavbarHome from '../navbarHome/NavbarHome'
+import NavbarHome from '../../navbarHome/NavbarHome'
 
 
 import mexicoCover from '../../assets/images/home/mexicoCover.jpg'
@@ -9,34 +8,25 @@ import parisCover from '../../assets/images/home/parisCover.jpg'
 
 
 
-import openerBlue1 from '../../assets/images/openerBlue1.jpg'
 import corn from '../../assets/images/home/corn.jpg'
-import openerDessert1 from '../../assets/images/home/openerDessert1.jpg'
-import openerFighter1 from '../../assets/images/openerFighter1.jpg'
+import flancut3 from '../../assets/images/flancut3.jpg'
 import flan1 from '../../assets/images/home/flan1.jpg'
 import gal from '../../assets/images/home/gal.jpg'
-
 import man from '../../assets/images/home/man.jpg'
-import openerOysters1 from '../../assets/images/openerOysters1.jpg'
 import womanPink from '../../assets/images/home/womanPink.jpg'
-import openerWaiter1 from '../../assets/images/openerWaiter1.jpg'
-import woman4 from '../../assets/images/woman4.jpg'
-import man2 from '../../assets/images/man2.jpg'
-import greyfood from '../../assets/images/home/greyfood.jpg'
-import orange1 from '../../assets/images/orange1.jpg'
+import waiter from '../../assets/images/waiter.jpg'
+import galred from '../../assets/images/galred.jpg'
+import orange2 from '../../assets/images/orange2.jpg'
 
 
 
 
 
 
+import '../../stylesheets/Home3.css'
 
 
-
-import '../../stylesheets/Home.css'
-
-
-const Home = () => (
+const Home6 = () => (
   <div className='home-container'>
     <NavbarHome/>
 
@@ -64,7 +54,7 @@ const Home = () => (
       <img src={man} className='man' alt=''></img>
       </div>
       <div className='boxes six'>
-      <img src={openerDessert1} className='dessert' alt=''></img>
+      <img src={flancut3} className='dessert' alt=''></img>
       </div>
     </div>
 
@@ -94,39 +84,27 @@ const Home = () => (
         </div>
 
 
-      <div className='grid-3 right homeOne'>
-      <div className='boxes seven topl'>
-      <img src={openerWaiter1} className='gal' alt=''></img>
+      <div className='grid-3 right homeThree'>
+      <div className='boxes seven l'>
+      <img src={waiter} className='gal' alt=''></img>
       </div>
-      <div className='boxes eight topr'>
-      <img src={orange1} className='gal' alt=''></img>
-        </div>
-        {/* <div className='boxes eight '>
-      <img src={orange1} className='gal' alt=''></img>
-        </div>
-        <div className='boxes eight '>
-      <img src={orange1} className='gal' alt=''></img>
-        </div> */}
+      <div className='boxes eight mid'>
+      <img src={orange2} className='gal' alt=''></img>
+      </div>
 
-
-<div className='copymid boxes'>
-          <div className='intro'>
+        <div className='copy boxes'>
+          <div className='intro '>
            <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
           </div>
-          <button className='signUpBtn'><h7>SIGN UP NOW!</h7></button>
-
+          <div >
+          <button className='signUpBtn homeThree'><h7>SIGN UP NOW!</h7></button>
+            </div>
 </div>
 
 
 
-
-      <div className='boxes nine botl'>
-      <img src={woman4} className='gal' alt=''></img>
-
-        </div>
-
-        <div className='boxes nine botr'>
-      <img src={woman4} className='gal' alt=''></img>
+      <div className='boxes nine bottom'>
+      <img src={galred} className='gal' alt=''></img>
 
       </div>
 
@@ -144,4 +122,4 @@ const Home = () => (
     </div>
     </div>
   );
-  export default Home
+  export default Home6

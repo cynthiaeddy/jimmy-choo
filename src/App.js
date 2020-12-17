@@ -9,7 +9,7 @@ import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
 import Home7 from './components/home/Home7'
 
-import Home6 from './components/home/Home6'
+
 import Home8 from './components/home/Home8'
 
 
@@ -44,11 +44,6 @@ class App extends React.Component {
         <Route path="/home8" component={Home8} />
 
 
-
-
-        <Route path="/home6" component={Home6}/>
-
-        {/* <Route path="/home4" component={Home4} /> */}
 
 
 
