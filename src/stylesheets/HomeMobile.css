@@ -1,13 +1,63 @@
 .mobile-container {
 	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+	justify-content: center;
+	margin: 0;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+}
+.mobile {
+	width: 80%;
+	/* display: flex;
+	flex-direction: column; */
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-	.mobile-container {
-		display: grid;
-		grid-template-columns: 200px 1fr 200px;
-		grid-template-rows: auto 1fr auto;
-	}
+.main-mobile {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: .9fr 1.1fr 1.1fr .9fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	/* gap: 0 */
+	grid-gap: 20px;
+	grid-template-areas: "ipadtl carousel-mobile carousel-mobile ipadtr" "ipadml carousel-mobile carousel-mobile ipadmr"
+		"ipadbl carousel-mobile carousel-mobile ipadbr";
+}
+.ipadtl {
+	grid-area: ipadtl;
+}
+.ipadml {
+	grid-area: ipadml;
+}
+.ipadbl {
+	grid-area: ipadbl;
+}
+.ipadtr {
+	grid-area: ipadtr;
+}
+.ipadmr {
+	grid-area: ipadmr;
+}
+.ipadbr {
+	grid-area: ipadbr;
+}
+.carousel-mobile {
+	grid-area: carousel-mobile;
+}
+.ipadhead h5 {
+	width: 85%;
+	margin-left: 15%;
+}
+.mobile-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.signUpBtn.mobile {
+	width: 20%;
+	margin-top: 10px;
+	align-self: flex-end;
+}
+.mobile-footer h2 {
+	margin-top: 15px;
 }

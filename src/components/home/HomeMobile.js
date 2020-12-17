@@ -20,7 +20,7 @@ import man from '../../assets/images/home/man.jpg'
 import openerOysters1 from '../../assets/images/openerOysters1.jpg'
 import womanPink from '../../assets/images/home/womanPink.jpg'
 import waiter from '../../assets/images/waiter.jpg'
-import woman3 from '../../assets/images/woman3.jpg'
+import galred from '../../assets/images/galred.jpg'
 import man2 from '../../assets/images/man2.jpg'
 import orange2 from '../../assets/images/orange2.jpg'
 
@@ -37,24 +37,22 @@ const HomeMobile = () => (
     <NavbarHome/>
 
 
-    <div className='mobile'>
+    < div className='mobile'>
       <div className='ipadhead'>
         <h3>James Oselands's</h3>
         <h1>World Food</h1>
         <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
       </div>
-
-      <div className='mobile-left'>
+<section className='main-mobile'>
         <div className='ipadtl'>
           <img src={gal} className='gal' alt=''></img>
         </div>
         <div className='ipadml'>
-          <img src={flan1} className='flan' alt=''></img>
+          <img src={corn} className='flan' alt=''></img>
         </div>
         <div className='ipadbl'>
-          <img src={corn} className='corn' alt=''></img>
+          <img src={man} className='corn' alt=''></img>
         </div>
-      </div>
 
       <div className='carousel-mobile'>
 
@@ -78,21 +76,20 @@ const HomeMobile = () => (
         </div>
 
 
-      <div className='mobile-right'>
         <div className='ipadtr'>
-          <img src={woman3} className='gal' alt=''></img>
+          <img src={waiter} className='gal' alt=''></img>
         </div>
         <div className='ipadmr'>
           <img src={orange2} className='gal' alt=''></img>
         </div>
         <div className='ipadbr'>
-          <img src={orange2} className='gal' alt=''></img>
+          <img src={galred} className='gal' alt=''></img>
         </div>
-      </div>
+        </section>
 
-      <div>
-        <h2 className='mobile-footer'><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
-        <button className='signUpBtn-mobile'><h7>SIGN UP NOW!</h7></button>
+      <div className='mobile-footer'>
+        <h2 ><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
+        <button className='signUpBtn mobile'><h7>SIGN UP NOW!</h7></button>
       </div>
 
     </div>

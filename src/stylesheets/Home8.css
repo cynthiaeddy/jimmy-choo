@@ -8,15 +8,15 @@
 	align-items: center;
 }
 
-.home {
-	width: 65%;
-	display: grid;
-}
+/* .home {
+	/* width: 65%; */
+/* display: grid; */
+/* } */
 
-.homeEight {
+/* .homeEight {
 	display: flex;
 	flex-direction: column;
-}
+} */
 .main-container {
 	display: grid;
 	grid-template-columns: .95fr .95fr 1.1fr 1.1fr .95fr .95fr;
@@ -183,3 +183,12 @@ h5 {
 		width: 92%;
 	}
 } */
+@media (min-width: 540px) and (max-width: 899px) {
+	.home,
+	#navbarHome {
+		width: 80%;
+	}
+	/* h5 {
+		font-size: 1.1rem;
+	} */
+}

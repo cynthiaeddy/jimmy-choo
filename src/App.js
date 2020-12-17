@@ -9,6 +9,7 @@ import AboutJim from './components/aboutJim/AboutJim'
 import Home8 from './components/home/Home8'
 import Newsletter from './components/newsletter/Newsletter'
 import Home7 from './components/home/Home7'
+import HomeMobile from './components/home/HomeMobile'
 
 
 
@@ -25,6 +26,7 @@ class App extends React.Component {
 
         <Route exact path="/" component={Home8} />
         <Route exact path="/home7" component={Home7} />
+        <Route exact path="/homeMobile" component={HomeMobile} />
 
       <Route path="/world-food" component={AboutMexico} />
       <Route path="/about-james" component={AboutJim} />
