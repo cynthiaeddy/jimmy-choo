@@ -9,20 +9,18 @@ import parisCover from '../../assets/images/home/parisCover.jpg'
 
 
 
-import openerBlue1 from '../../assets/images/openerBlue1.jpg'
 import corn from '../../assets/images/home/corn.jpg'
-import openerDessert1 from '../../assets/images/home/openerDessert1.jpg'
-import openerFighter1 from '../../assets/images/openerFighter1.jpg'
+
 import flan1 from '../../assets/images/home/flan1.jpg'
 import gal from '../../assets/images/home/gal.jpg'
 
 import man from '../../assets/images/home/man.jpg'
-import openerOysters1 from '../../assets/images/openerOysters1.jpg'
+
 import womanPink from '../../assets/images/home/womanPink.jpg'
-import waiter from '../../assets/images/waiter.jpg'
-import galred from '../../assets/images/galred.jpg'
+import waiter from '../../assets/images/home/waiter.jpg'
+import galred from '../../assets/images/home/galred.jpg'
 import man2 from '../../assets/images/man2.jpg'
-import orange2 from '../../assets/images/orange2.jpg'
+import orange2 from '../../assets/images/home/orange2.jpg'
 
 
 

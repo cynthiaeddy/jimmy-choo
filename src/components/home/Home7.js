@@ -6,14 +6,14 @@ import NavbarHome from '../navbarHome/NavbarHome'
 import mexicoCover from '../../assets/images/home/mexicoCover.jpg'
 import parisCover from '../../assets/images/home/parisCover.jpg'
 import corn from '../../assets/images/home/corn.jpg'
-import flancut3 from '../../assets/images/flancut3.jpg'
+import flancut3 from '../../assets/images/home/flancut3.jpg'
 import flan1 from '../../assets/images/home/flan1.jpg'
 import gal from '../../assets/images/home/gal.jpg'
 import man from '../../assets/images/home/man.jpg'
 import womanPink from '../../assets/images/home/womanPink.jpg'
-import waiter from '../../assets/images/waiter.jpg'
-import galred from '../../assets/images/galred.jpg'
-import orange2 from '../../assets/images/orange2.jpg'
+import waiter from '../../assets/images/home/waiter.jpg'
+import galred from '../../assets/images/home/galred.jpg'
+import orange2 from '../../assets/images/home/orange2.jpg'
 
 
 
