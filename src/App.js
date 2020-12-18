@@ -16,17 +16,51 @@ import HomeMobile from './components/home/HomeMobile'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
+
+// class App extends Component {
+//   componentDidMount() {
+//     window.addEventListener("resize", this.handleWindowSizeChange);
+//   }
+
+//   componentWillUnmount() {
+//     window.removeEventListener("resize", this.handleWindowSizeChange);
+//   }
+
+//   handleWindowSizeChange = () => {
+//     this.props.setSize(window.innerWidth);
+//   };
+
+
+
 class App extends React.Component {
+  state = {
+		width: window.innerWidth
+	};
+
+	componentDidMount() {
+		window.addEventListener('resize', this.handleWindowSizeChange);
+	}
+
+	componentWillUnmount() {
+		window.removeEventListener('resize', this.handleWindowSizeChange);
+	}
+
+	handleWindowSizeChange = () => {
+		this.setState({ width: window.innerWidth });
+	};
 
   render() {
+    let isMobile;
+		let width = this.state.width;
+		width <= 899 ? (isMobile = true) : (isMobile = false);
     return (
     <div className="app">
         <GlobalFonts />
 
-
-        <Route exact path="/" component={Home8} />
+        {isMobile ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home8} />
+        }
+        {/* <Route exact path="/" component={Home8} /> */}
         <Route exact path="/home7" component={Home7} />
-        <Route exact path="/homeMobile" component={HomeMobile} />
 
       <Route path="/world-food" component={AboutMexico} />
       <Route path="/about-james" component={AboutJim} />

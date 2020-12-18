@@ -14,14 +14,6 @@ const NavBarToggle = () => {
 								Home
 							</Link>
 				</li>
-				<li>
-							<Link to="/homeMobile" className="alt-home">
-								Home Mobile
-							</Link>
-				</li>
-
-
-
 
 				<li>
 							<Link to="/world-food" className="world-food">
