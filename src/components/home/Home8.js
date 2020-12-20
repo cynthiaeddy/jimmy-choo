@@ -41,25 +41,25 @@ const Home8= () => (
       <section className='main-container'>
 
       <div className='boxes one ltla'>
-      <img src={gal} className='gal' alt=''></img>
+      <img src={gal} className='gal inner' alt=''></img>
       </div>
       <div className='boxes two ltra'>
-      <img src={flan1} className='flan' alt=''></img>
+      <img src={flan1} className='flan inner' alt=''></img>
       </div>
       <div className='boxes three lmla'>
-      <img src={corn} className='corn' alt=''></img>
+      <img src={corn} className='corn inner'  alt=''></img>
       </div>
       <div className='boxes four lmra'>
-      <img src={womanPink} className='womanPink' alt=''></img>
+      <img src={womanPink} className='womanPink inner' alt=''></img>
       </div>
       <div className='boxes five lbla'>
-      <img src={man} className='man' alt=''></img>
+      <img src={man} className='man inner' alt=''></img>
       </div>
       <div className='boxes six lbra'>
-      <img src={flancut3} className='dessert' alt=''></img>
+      <img src={flancut3} className='dessert inner' alt=''></img>
       </div>
 
-      <div className='carousel-wrapper maina boxes'>
+      <div className='carousel-wrapper maina '>
 
      <Carousel
        showThumbs={false}

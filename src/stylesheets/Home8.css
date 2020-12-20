@@ -8,15 +8,6 @@
 	align-items: center;
 }
 
-/* .home {
-	/* width: 65%; */
-/* display: grid; */
-/* } */
-
-/* .homeEight {
-	display: flex;
-	flex-direction: column;
-} */
 .main-container {
 	display: grid;
 	grid-template-columns: .95fr .95fr 1.1fr 1.1fr .95fr .95fr;
@@ -62,25 +53,31 @@
 
 .copya {
 	display: flex;
-	/* grid-area: copy; */
 	flex-direction: column;
 	justify-content: space-between;
 }
 .headera {
 	height: 105px;
 }
-.footera {
-	/* margin-top: -20px; */
-}
+
 .signUpBtn.homeEight {
 	width: 100%;
 	align-items: center;
 }
-img {
+
+.boxes img {
+	/* height: 180px;
+	width: 170px; */
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
+
+/* .maina {
+	/* height: 614px; */
+/* width: 410px; */
+/* }  */
+
 h1 {
 	font-family: MundoSansPro-Medium;
 	text-transform: uppercase;
@@ -132,10 +129,13 @@ h5 {
 	height: 20px;
 	align-self: flex-end;
 }
+span {
+	text-transform: uppercase;
+}
 @media (min-width: 1200px) and (max-width: 1399px) {
 	.home,
 	#navbarHome {
-		width: 85%;
+		width: 80vw;
 	}
 	h5 {
 		font-size: 1.1rem;
@@ -145,15 +145,11 @@ h5 {
 	}
 }
 @media (min-width: 1400px) {
-	.home,
-	#navbarHome {
+	.home {
 		width: 70%;
 	}
 	h5 {
 		font-size: 1.25rem;
-	}
-	#navbarHome {
-		padding: 0;
 	}
 }
 
@@ -166,29 +162,10 @@ h5 {
 		font-size: 1.1rem;
 	}
 }
-/* @media (min-width: 768px) and (max-width: 1023px) {
-	.home,
-	#navbarHome {
-		width: 90%;
-	}
-	h5 {
-		font-size: 1.1rem;
-	}
-	.main-container {
-		grid-template-columns: .75fr .75fr 1.5fr 1.5fr .75fr .75fr;
-	}
-} */
-/* @media (max-width: 1200px) {
-	.home {
-		width: 92%;
-	}
-} */
+
 @media (min-width: 540px) and (max-width: 899px) {
 	.home,
 	#navbarHome {
 		width: 80%;
 	}
-	/* h5 {
-		font-size: 1.1rem;
-	} */
 }

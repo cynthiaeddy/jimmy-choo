@@ -14,21 +14,7 @@ import HomeMobile from './components/home/HomeMobile'
 
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-
-
-// class App extends Component {
-//   componentDidMount() {
-//     window.addEventListener("resize", this.handleWindowSizeChange);
-//   }
-
-//   componentWillUnmount() {
-//     window.removeEventListener("resize", this.handleWindowSizeChange);
-//   }
-
-//   handleWindowSizeChange = () => {
-//     this.props.setSize(window.innerWidth);
-//   };
+import AboutMexicoMobile from './components/aboutWF/AboutMexicoMobile';
 
 
 
@@ -59,10 +45,11 @@ class App extends React.Component {
 
         {isMobile ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home8} />
         }
-        {/* <Route exact path="/" component={Home8} /> */}
-        <Route exact path="/home7" component={Home7} />
 
-      <Route path="/world-food" component={AboutMexico} />
+        <Route  path="/home7" component={Home7} />
+
+        <Route path="/world-food" component={AboutMexico} />
+        <Route path="/world-food-mobile" component={AboutMexicoMobile} />
       <Route path="/about-james" component={AboutJim} />
 
       <Route path="/newsletter" component={Newsletter} />
