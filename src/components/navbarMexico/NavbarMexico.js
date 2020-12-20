@@ -11,7 +11,7 @@ const NavbarMexico = () => {
 
 		<nav id="navbarMexico">
       <Link to="/navbar"><h6>Menu</h6></Link>
-      <div className='buy'>
+      <div className='buyNav'>
         <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850">Score the Book!</a>
         </div>
 

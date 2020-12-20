@@ -64,20 +64,11 @@
 	width: 100%;
 	align-items: center;
 }
-
-.boxes img {
-	/* height: 180px;
-	width: 170px; */
+img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
-
-/* .maina {
-	/* height: 614px; */
-/* width: 410px; */
-/* }  */
-
 h1 {
 	font-family: MundoSansPro-Medium;
 	text-transform: uppercase;
@@ -129,13 +120,10 @@ h5 {
 	height: 20px;
 	align-self: flex-end;
 }
-span {
-	text-transform: uppercase;
-}
 @media (min-width: 1200px) and (max-width: 1399px) {
 	.home,
 	#navbarHome {
-		width: 80vw;
+		width: 85%;
 	}
 	h5 {
 		font-size: 1.1rem;
@@ -145,11 +133,15 @@ span {
 	}
 }
 @media (min-width: 1400px) {
-	.home {
+	.home,
+	#navbarHome {
 		width: 70%;
 	}
 	h5 {
 		font-size: 1.25rem;
+	}
+	#navbarHome {
+		padding: 0;
 	}
 }
 

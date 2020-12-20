@@ -83,7 +83,22 @@ h2 span {
 	}
 }
 
-@media (min-width: 744px) and (max-width: 899px) {
+@media (min-width: 811px) and (max-width: 899px) {
+	#navbarMexico {
+		width: 90vw;
+		padding: 0;
+	}
+	.wf-content {
+		width: 95vw;
+		/* grid-template-columns: 0.2fr 2.6fr 0.2fr; */
+	}
+	#navbarMexico h6 {
+		font-size: 18px;
+		letter-spacing: 3px;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 810px) {
 	#navbarMexico {
 		width: 90vw;
 		padding: 0;

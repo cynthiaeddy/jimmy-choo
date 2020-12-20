@@ -36,9 +36,15 @@ class App extends React.Component {
 	};
 
   render() {
+
     let isMobile;
 		let width = this.state.width;
-		width <= 899 ? (isMobile = true) : (isMobile = false);
+    width <= 810 ? (isMobile = true) : (isMobile = false);
+
+    let isMobileMexico
+    width <= 810 ? (isMobileMexico = true) : (isMobileMexico = false);
+
+
     return (
     <div className="app">
         <GlobalFonts />
@@ -46,10 +52,12 @@ class App extends React.Component {
         {isMobile ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home8} />
         }
 
-        <Route  path="/home7" component={Home7} />
+        <Route path="/home7" component={Home7} />
 
-        <Route path="/world-food" component={AboutMexico} />
-        <Route path="/world-food-mobile" component={AboutMexicoMobile} />
+        {isMobileMexico ? <Route path="/world-food" component={AboutMexicoMobile} /> : <Route path="/world-food" component={AboutMexico} />
+        }
+
+
       <Route path="/about-james" component={AboutJim} />
 
       <Route path="/newsletter" component={Newsletter} />

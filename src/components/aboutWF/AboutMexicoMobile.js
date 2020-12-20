@@ -64,7 +64,7 @@ class AboutMexicoMobile extends React.Component {
   render() {
     let isMobile;
 		let width = this.state.width;
-		width <= 743 ? (isMobile = true) : (isMobile = false);
+		width <= 600 ? (isMobile = true) : (isMobile = false);
     return (
       <div className='container'>
          {isMobile ? <NavbarMexicoMobile/> : <NavbarMexico/>
