@@ -1,100 +1,42 @@
 import React from 'react'
 
 
-import imageData from '../carouselMexico/Images'
-
-import Slide from '../carouselMexico/Slide'
+import NavbarMexicoMobile from '../navbarMexico/NavbarMexicoMobile'
 import '../../stylesheets/AboutWFMobile.css'
 import '../../stylesheets/AboutWF.css'
-import '../../stylesheets/AboutWFMobile.css'
 
 
 
-import BackArrowMobile from '../carouselMexico/BackArrowMobile'
-import ForwardArrowMobile from '../carouselMexico/ForwardArrowMobile'
-import NavbarMexicoMobile from '../navbarMexico/NavbarMexicoMobile'
-import NavbarMexico from '../navbarMexico/NavbarMexico'
 
-class AboutMexicoMobile extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeIndex: 0,
-      length: imageData.length,
-      width: window.innerWidth
-    }
-  }
-
-      componentDidMount() {
-        window.addEventListener('resize', this.handleWindowSizeChange);
-      }
-
-      componentWillUnmount() {
-        window.removeEventListener('resize', this.handleWindowSizeChange);
-      }
-
-      handleWindowSizeChange = () => {
-        this.setState({ width: window.innerWidth });
-      }
-
-  goToPrevSlide() {
-    let index = this.state.activeIndex;
-    let length = this.state.length;
-      if(index < 1) {
-      index = length - 1;
-      }
-      else {
-        index--;
-      }
-      this.setState({
-      activeIndex: index
-    });
-  }
-
-  goToNextSlide() {
-    let index = this.state.activeIndex;
-    let length = this.state.length;
-      if(index === length - 1) {
-        index = 0
-      }
-      else {
-        index++;
-      }
-    this.setState({
-    activeIndex: index
-      });
-  }
+import cactus from '../../assets/images/mexico/cactus.jpg'
+import family from '../../assets/images/mexico/family.jpg'
+import flautas from '../../assets/images/mexico/flautas.jpg'
+import masa from '../../assets/images/mexico/masa.jpg'
+import recipe from '../../assets/images/recipe.jpg'
+import citysunset from '../../assets/images/mexico/citysunset.jpg'
+import parkspread from '../../assets/images/parkspread.jpg'
+import biggerMexicoOpener from '../../assets/images/mexico/biggerMexicoOpener.jpg'
 
 
-  render() {
-    let isMobile;
-		let width = this.state.width;
-		width <= 600 ? (isMobile = true) : (isMobile = false);
-    return (
-      <div className='container mexicoMobile'>
-         {isMobile ? <NavbarMexicoMobile/> : <NavbarMexico/>
-        }
 
-    <div className='wf-content'>
-      <div className='l-arrow '>
-      <BackArrowMobile
-        goToPrevSlide={() => this.goToPrevSlide()}
-        />
-        </div>
-    <div className='slider-items main'>
-      <Slide
-         activeIndex={this.state.activeIndex}
-         goToNextSlide={() => this.goToNextSlide()}
-      />
-      </div>
-      <div className='r-arrow'>
-      <ForwardArrowMobile
-        goToNextSlide={() => this.goToNextSlide()}
-      />
-      </div>
-        </div>
-      </div>
-    )
-  }
+
+const AboutMexicoMobile = () => {
+
+  return (
+    < div className='mobile-container mexico'>
+      <NavbarMexicoMobile/>
+    <div className='mobile mexicoAlt'>
+       <img src={biggerMexicoOpener} className='spread mexicoopener-mobile' alt='spread'/>
+  <img src={cactus} className='spread' alt='spread'/>
+ <img src={family} className='spread' alt='spread'/>
+  <img src={citysunset} className='spread' alt='spread'/>
+
+  <img src={flautas} className='spread' alt='spread'/>
+
+   <img src={masa} className='spread' alt='spread'/>
+   </div>
+    </div>
+  )
+
 }
 export default AboutMexicoMobile

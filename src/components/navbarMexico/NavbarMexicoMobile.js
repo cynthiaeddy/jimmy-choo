@@ -14,7 +14,7 @@ const NavbarMexicoMobile = () => {
     <nav id="navbarMexicoMobile" >
 
 {/* <div className='topnav'> */}
-      <Link to="/navbar"className='menu'><h6>Menu</h6></Link>
+      <Link to="/navbar" id='menu'><h6>Menu</h6></Link>
 {/* <div className='secondary-nav'> */}
         <h6>James Oseland's <br/><span class='nav-world'>WORLD FOOD</span></h6>
         {/* </div> */}

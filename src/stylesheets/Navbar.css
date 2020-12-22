@@ -30,8 +30,7 @@
 	margin-top: 0;
 	align-items: flex-end;
 	text-align: right;
-	/* padding: 0 7.5%; */
-	/* margin-top: 15px; */
+	padding: 0 7.5%;
 	height: 200px;
 	justify-content: initial;
 	background: white;
@@ -50,13 +49,10 @@
 }
 #navbarHomeMobile h1 {
 	font-size: 50px;
-	/* line-height: .55;
-	margin-bottom: 10px; */
 	align-self: flex-end;
 }
 #navbarHomeMobile h3 {
 	margin-bottom: -5px;
-	align-self: flex-end;
 }
 #navbarHomeMobile h6,
 #navbarMexicoMobile h6 {
@@ -65,14 +61,13 @@
 	margin-top: 20px;
 	margin-bottom: 25px;
 }
-#navbarMexicoMobile .menu h6 {
-	margin-right: 63vw;
-	padding-top: 15px;
-	/* margin-bottom: 0; */
+a#menu {
+	align-self: flex-start;
 }
-/* .secondary-nav {
-	height: 50px;
-} */
+#menu h6 {
+	padding-top: 15px;
+	align-self: flex-start;
+}
 
 .topnav {
 	width: 90%;
@@ -191,14 +186,4 @@ li {
 	.toggleNavBar a {
 		font-size: 18px;
 	}
-	/* #navbarMexico {
-		width: 100%;
-	} */
-
-	/* .container.mexico {
-		flex-direction: column;
-	}
-	.container.mexico #navbarMexico {
-		width: 100%;
-	} */
 }

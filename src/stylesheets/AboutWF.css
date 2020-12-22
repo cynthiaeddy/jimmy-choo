@@ -1,6 +1,9 @@
 .container {
 	margin-top: 0;
 }
+.mobile-container.mexico {
+	overflow-y: auto;
+}
 
 .wf-content {
 	display: grid;
@@ -91,7 +94,6 @@ h2 span {
 	}
 	.wf-content {
 		width: 95vw;
-		/* grid-template-columns: 0.2fr 2.6fr 0.2fr; */
 	}
 	#navbarMexico h6 {
 		font-size: 18px;
@@ -106,7 +108,7 @@ h2 span {
 	}
 	.wf-content {
 		width: 95vw;
-		grid-template-columns: 0.2fr 2.6fr 0.2fr;
+		grid-template-columns: 0.45fr 2.1fr 0.45fr;
 	}
 	#navbarMexico h6 {
 		font-size: 18px;
@@ -114,29 +116,17 @@ h2 span {
 	}
 }
 
-@media (max-width: 599px) {
-	.container.mexicoMobile .wf-content {
-		transform: rotate(90deg);
-		display: flex;
-		width: fit-content;
-		gap: 0;
-	}
-}
-/* .mobileToo.spread img {
-	width: 100%;
-} */
 .mexicoAlt {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
 }
-.mobile.mexicoAlt {
+.mobile.mexicoAlt img {
 	height: auto;
-	margin-top: 1100px;
 }
 .mobile.mexicoAlt img.spread {
 	margin: 5px 0;
 }
-.spread.mexicoopener-mobile {
-	/* border: none; */
+.mobile.mexicoAlt {
+	height: 60vh;
 }
