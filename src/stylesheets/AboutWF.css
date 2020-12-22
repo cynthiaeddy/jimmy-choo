@@ -113,3 +113,30 @@ h2 span {
 		letter-spacing: 3px;
 	}
 }
+
+@media (max-width: 599px) {
+	.container.mexicoMobile .wf-content {
+		transform: rotate(90deg);
+		display: flex;
+		width: fit-content;
+		gap: 0;
+	}
+}
+/* .mobileToo.spread img {
+	width: 100%;
+} */
+.mexicoAlt {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+}
+.mobile.mexicoAlt {
+	height: auto;
+	margin-top: 1100px;
+}
+.mobile.mexicoAlt img.spread {
+	margin: 5px 0;
+}
+.spread.mexicoopener-mobile {
+	/* border: none; */
+}

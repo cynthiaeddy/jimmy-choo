@@ -6,6 +6,9 @@ import imageData from '../carouselMexico/Images'
 import Slide from '../carouselMexico/Slide'
 import '../../stylesheets/AboutWFMobile.css'
 import '../../stylesheets/AboutWF.css'
+import '../../stylesheets/AboutWFMobile.css'
+
+
 
 import BackArrowMobile from '../carouselMexico/BackArrowMobile'
 import ForwardArrowMobile from '../carouselMexico/ForwardArrowMobile'
@@ -68,7 +71,7 @@ class AboutMexicoMobile extends React.Component {
 		let width = this.state.width;
 		width <= 600 ? (isMobile = true) : (isMobile = false);
     return (
-      <div className='container'>
+      <div className='container mexicoMobile'>
          {isMobile ? <NavbarMexicoMobile/> : <NavbarMexico/>
         }
 

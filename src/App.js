@@ -19,6 +19,7 @@ import HomeMobileToo from './components/home/HomeMobileToo'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AboutMexicoMobile from './components/aboutWF/AboutMexicoMobile';
+import AboutMexicoMobileToo from './components/aboutWF/AboutMexicoMobileToo';
 
 
 
@@ -62,7 +63,10 @@ class App extends React.Component {
         {isMobileMexico ? <Route path="/world-food" component={AboutMexicoMobile} /> : <Route path="/world-food" component={AboutMexico} />
         }
 
-<Route path="/navbar-mobile" component={HomeMobileToo} />
+        <Route path="/navbar-mobile" component={HomeMobileToo} />
+
+        <Route path="/mexico-mobile-too" component={AboutMexicoMobileToo} />
+
 
       <Route path="/about-james" component={AboutJim} />
 

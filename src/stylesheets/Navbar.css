@@ -25,8 +25,16 @@
 	width: 70%;
 }
 #navbarMexicoMobile {
-	padding: 0;
+	/* padding: 0; */
 	flex-direction: column;
+	margin-top: 0;
+	align-items: flex-end;
+	text-align: right;
+	/* padding: 0 7.5%; */
+	/* margin-top: 15px; */
+	height: 200px;
+	justify-content: initial;
+	background: white;
 }
 
 #navbarHomeMobile {
@@ -50,11 +58,21 @@
 	margin-bottom: -5px;
 	align-self: flex-end;
 }
-#navbarHomeMobile h6 {
+#navbarHomeMobile h6,
+#navbarMexicoMobile h6 {
 	padding-top: 0;
 	line-height: 1;
 	margin-top: 20px;
+	margin-bottom: 25px;
 }
+#navbarMexicoMobile .menu h6 {
+	margin-right: 63vw;
+	padding-top: 15px;
+	/* margin-bottom: 0; */
+}
+/* .secondary-nav {
+	height: 50px;
+} */
 
 .topnav {
 	width: 90%;
@@ -73,6 +91,11 @@
 	font-size: 15px;
 	margin-bottom: 10px;
 	margin-top: 40px;
+}
+.buyNav.mexico {
+	margin-top: 0;
+	justify-content: left;
+	align-self: flex-end;
 }
 
 span {
