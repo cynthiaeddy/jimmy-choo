@@ -65,9 +65,6 @@ class App extends React.Component {
         {isMobileMexico ? <Route path="/world-food" component={AboutMexicoMobile} /> : <Route path="/world-food" component={AboutMexico} />
         }
 
-        <Route path="/navbar-mobile" component={HomeMobileToo} />
-
-        <Route path="/mexico-mobile-too" component={AboutMexicoMobile} />
 
 
       <Route path="/about-james" component={AboutJim} />

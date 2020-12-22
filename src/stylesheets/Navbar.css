@@ -177,6 +177,7 @@ li {
 .toggleNavBar a {
 	margin: 20px 0;
 	color: white;
+	text-align: center;
 }
 .toggleNavBar a:hover {
 	color: black;
