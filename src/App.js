@@ -11,6 +11,10 @@ import Newsletter from './components/newsletter/Newsletter'
 import Home7 from './components/home/Home7'
 import HomeMobile from './components/home/HomeMobile'
 
+import HomeMobileToo from './components/home/HomeMobileToo'
+
+
+
 
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -45,6 +49,7 @@ class App extends React.Component {
     width <= 810 ? (isMobileMexico = true) : (isMobileMexico = false);
 
 
+
     return (
     <div className="app">
         <GlobalFonts />
@@ -57,6 +62,7 @@ class App extends React.Component {
         {isMobileMexico ? <Route path="/world-food" component={AboutMexicoMobile} /> : <Route path="/world-food" component={AboutMexico} />
         }
 
+<Route path="/navbar-mobile" component={HomeMobileToo} />
 
       <Route path="/about-james" component={AboutJim} />
 

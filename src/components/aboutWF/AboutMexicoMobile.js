@@ -5,6 +5,8 @@ import imageData from '../carouselMexico/Images'
 
 import Slide from '../carouselMexico/Slide'
 import '../../stylesheets/AboutWFMobile.css'
+import '../../stylesheets/AboutWF.css'
+
 import BackArrowMobile from '../carouselMexico/BackArrowMobile'
 import ForwardArrowMobile from '../carouselMexico/ForwardArrowMobile'
 import NavbarMexicoMobile from '../navbarMexico/NavbarMexicoMobile'

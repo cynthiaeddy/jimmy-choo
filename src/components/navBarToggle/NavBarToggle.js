@@ -20,12 +20,13 @@ const NavBarToggle = () => {
 								World Food Mexico City
 							</Link>
 				</li>
-
 				<li>
-							<Link to="/world-food-mobile" className="world-food">
-								World Food Mexico City Mobile
+							<Link to="/navbar-mobile" className="world-food">
+							navbar mobile
 							</Link>
-						</li>
+				</li>
+
+
 						<li>
 							<Link to="/about-james" className="about-james">
 								About James Oseland

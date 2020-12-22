@@ -98,6 +98,11 @@
 		height: 100%;
 		/* margin-top: 160px; */
 	}
+	.mobileToo {
+		margin-top: 330px;
+		width: 85%;
+		height: 100%;
+	}
 	.signUpBtn.mobile {
 		width: 50%;
 	}

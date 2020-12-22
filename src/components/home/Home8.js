@@ -69,7 +69,8 @@ const Home8= () => (
        transitionTime={1000}
        showIndicators={false}
        showStatus={false}
-       showArrows={false}
+      showArrows={false}
+      stopOnHover={false}
        >
 
  <div>

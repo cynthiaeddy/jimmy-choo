@@ -1,6 +1,7 @@
 .container {
 	margin-top: 0;
 }
+
 .wf-content {
 	display: grid;
 	grid-template-columns: 0.4fr 2.2fr 0.4fr;
