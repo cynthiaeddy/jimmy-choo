@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ToggleButton from '../navbar/ToggleButton'
 import '../../stylesheets/Navbar.css'
 
 
@@ -10,7 +9,7 @@ import '../../stylesheets/Navbar.css'
 const NavbarJimMobile = () => {
   return (
 
-    <nav id="navbarMexicoMobile" >
+    <nav id="navbarMexicoMobile" className='jimMobile' >
 
 {/* <div className='topnav'> */}
       <Link to="/navbar" id='menu'><h6>Menu</h6></Link>

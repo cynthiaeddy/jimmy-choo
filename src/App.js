@@ -11,10 +11,10 @@ import Newsletter from './components/newsletter/Newsletter'
 
 
 
+
 import Home7 from './components/home/Home7'
 import HomeMobile from './components/home/HomeMobile'
 
-import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 
 
 
@@ -53,6 +53,10 @@ class App extends React.Component {
     width <= 600 ? (isMobileMexico = true) : (isMobileMexico = false);
 
 
+    let isMobileJim
+    width <= 700 ? (isMobileJim = true) : (isMobileJim = false);
+
+
 
 
     return (
@@ -72,9 +76,9 @@ class App extends React.Component {
 
         <Route path="/about-james" component={AboutJim} />
 
-        <Route path="/about-james-mobile" component={AboutJimMobile} />
 
         <Route path="/newsletter" component={Newsletter} />
+
       <Route path="/navbar" component={NavBarToggle} />
     </div>
     )

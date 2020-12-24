@@ -13,6 +13,11 @@
 	padding: 0 10vw;
 	margin-top: 50px;
 }
+#navbarMexicoMobile.jimMobile {
+	height: 160px;
+	z-index: 5;
+}
+
 #navbar,
 #navbarMexico {
 	padding: 0 15vw;

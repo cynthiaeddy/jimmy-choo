@@ -108,6 +108,18 @@ input:hover {
 		height: 120px;
 	}
 }
-#newsletter-container form div.message-alert p {
-	color: black;
+
+@media (min-width: 200px) and (max-width: 699px) {
+	#newsletter-container {
+		width: 100vw;
+		margin-right: 15vw;
+		overflow-y: auto;
+		margin-top: 30vh;
+		justify-content: flex-start;
+	}
+	#newsletter-container p {
+		margin-left: 20%;
+		height: 120px;
+		font-size: 19px;
+	}
 }
