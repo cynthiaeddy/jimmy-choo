@@ -27,16 +27,8 @@ const NavBarToggle = () => {
 								About James Oseland
 							</Link>
 					</li>
-					<li>
-							<Link to="/about-james-mobile" className="about-james">
-								About James Oseland Mobile
-							</Link>
-					</li>
-					<li>
-							<Link to="/newsletter-mobile" className="newsletter">
-								Newsletter
-							</Link>
-				</li>
+
+
 				<li>
 							<Link to="/newsletter" className="newsletter">
 								Newsletter
