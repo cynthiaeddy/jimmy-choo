@@ -1,9 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar'
-// import Mailchimp from 'react-mailchimp-form'
-import MailchimpSubscribe from "react-mailchimp-subscribe"
 
-// const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
 
 
 import '../../stylesheets/Newsletter.css'

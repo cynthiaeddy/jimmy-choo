@@ -7,10 +7,7 @@ import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
 import Home8 from './components/home/Home8'
-import Newsletter1 from './components/newsletter/Newsletter1'
-// import NewsletterMail from './components/newsletter/NewsletterMail'
-import NewslettterMail from './components/newsletter/NewslettterMail'
-import Newsletter from './components/newsletter/Newsletter'
+import NewsletterMailToo from './components/newsletter/NewsletterMailToo'
 
 
 
@@ -75,7 +72,7 @@ class App extends React.Component {
 
       <Route path="/about-james" component={AboutJim} />
 
-      <Route path="/newsletter" component={NewslettterMail} />
+        <Route path="/newsletter" component={NewsletterMailToo} />
       <Route path="/navbar" component={NavBarToggle} />
     </div>
     )

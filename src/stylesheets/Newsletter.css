@@ -1,40 +1,52 @@
-.newsletter-container {
+#newsletter-container {
 	max-width: 900px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	/* margin-top: 90px; */
+	width: 37vw;
+	margin-right: 7vw;
 }
-.newsletter-container p {
-	margin-left: 15%;
+#newsletter-container p {
+	margin-left: 20%;
 	height: 100px;
-	width: 65%;
 	font-size: 22px;
 	line-height: 1.5;
 	text-align: right;
+	color: black;
 }
-.form {
+.forms {
 	display: flex;
 	flex-direction: column;
+	max-width: 900px;
+	align-items: flex-end;
+}
+
+form {
 	width: 100%;
-	justify-content: space-between;
-	align-items: center;
+}
+form button {
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px;
+	border: none;
+	border-radius: 5%;
+}
+form button:hover {
+	background: grey;
 }
 label.text-input {
-	width: 80%;
 	display: flex;
 	justify-content: space-between;
 }
 input {
 	height: 50px;
 	width: 80%;
+	max-width: 900px;
 	margin-bottom: 30px;
-	/* border: 0;
-	outline: 0;
-	background: transparent;
-	border-bottom: 3px solid black; */
+	padding: 10px;
 }
 input:focus {
 	outline: none;
@@ -64,4 +76,38 @@ input:hover {
 .submit:hover {
 	background: grey;
 	border: 1px solid grey;
+}
+
+@media (min-width: 1150px) and (max-width: 1399px) {
+	#newsletter-container {
+		width: 45vw;
+		margin-right: 8.5vw;
+	}
+	#newsletter-container p {
+		margin-left: 20%;
+	}
+}
+
+@media (min-width: 1075px) and (max-width: 1149px) {
+	#newsletter-container {
+		width: 45vw;
+		margin-right: 8vw;
+	}
+	#newsletter-container p {
+		margin-left: 15%;
+		height: 100px;
+	}
+}
+@media (min-width: 700px) and (max-width: 1074px) {
+	#newsletter-container {
+		width: 55vw;
+		margin-right: 10vw;
+	}
+	#newsletter-container p {
+		margin-left: 20%;
+		height: 120px;
+	}
+}
+#newsletter-container form div.message-alert p {
+	color: black;
 }

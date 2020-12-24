@@ -19,7 +19,7 @@ class NewsletterMail extends React.Component {
 
         <div className='newsletter-container'>
 
-        Subscribe
+        <p>For exclusive content about James Oseland and his books, register for the official  newsletter.</p>
         <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
         </div>
       </div>
