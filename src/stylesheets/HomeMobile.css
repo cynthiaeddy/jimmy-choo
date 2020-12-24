@@ -10,6 +10,12 @@
 .mobile {
 	width: 80%;
 	margin-top: 20px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
 }
 
 .main-mobile {
@@ -74,7 +80,7 @@
 	}
 	.mobile-container {
 		overflow-y: auto;
-		height: 97vh;
+		height: 90vh;
 	}
 	.mobile-container #navbarHome {
 		width: 100%;
