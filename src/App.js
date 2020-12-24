@@ -7,14 +7,14 @@ import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
 import Home8 from './components/home/Home8'
-import NewsletterMailToo from './components/newsletter/NewsletterMailToo'
+import Newsletter from './components/newsletter/Newsletter'
 
 
 
 import Home7 from './components/home/Home7'
 import HomeMobile from './components/home/HomeMobile'
 
-import HomeMobileToo from './components/home/HomeMobileToo'
+import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 
 
 
@@ -70,9 +70,11 @@ class App extends React.Component {
 
 
 
-      <Route path="/about-james" component={AboutJim} />
+        <Route path="/about-james" component={AboutJim} />
 
-        <Route path="/newsletter" component={NewsletterMailToo} />
+        <Route path="/about-james-mobile" component={AboutJimMobile} />
+
+        <Route path="/newsletter" component={Newsletter} />
       <Route path="/navbar" component={NavBarToggle} />
     </div>
     )

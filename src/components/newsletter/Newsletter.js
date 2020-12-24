@@ -5,7 +5,7 @@ import Mailchimp from 'react-mailchimp-form'
 
 import '../../stylesheets/Newsletter.css'
 
-class NewsletterMailToo extends React.Component {
+class Newsletter extends React.Component {
 
 
 
@@ -49,7 +49,7 @@ class NewsletterMailToo extends React.Component {
   }
 }
 
-export default NewsletterMailToo;
+export default Newsletter;
 
 
 
