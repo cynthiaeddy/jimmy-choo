@@ -50,21 +50,23 @@ class HomeMobile extends React.Component {
 
   render() {
 
-    let isMobile;
+    let isMobileHome;
     let width = this.state.width;
-    width <= 539 ? (isMobile = true) : (isMobile = false);
+    width <= 539 ? (isMobileHome = true) : (isMobileHome = false);
     return (
-    <div className='mobile-container'>
-        {isMobile ? <NavbarHomeMobile /> : <NavbarHome />
+      <div className='mobile-container'>
+        {isMobileHome ? <NavbarHomeMobile />: <NavbarHome />
         }
+        {/* <NavbarHome /> */}
 
+        < div className='mobile'>
 
-      < div className='mobile'>
-        <div className='ipadhead'>
-          <h3>James Oselands's</h3>
-          <h1>World Food</h1>
-          <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
-        </div>
+    <div className='ipadhead'>
+      <h3>James Oselands's</h3>
+      <h1>World Food</h1>
+      <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
+    </div>
+
         <section className='main-mobile'>
           <div className='ipadtl'>
             <img src={gal} className='gal' alt=''></img>

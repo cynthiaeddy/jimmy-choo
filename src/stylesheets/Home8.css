@@ -158,6 +158,9 @@ h5 {
 @media (min-width: 540px) and (max-width: 899px) {
 	.home,
 	#navbarHome {
-		width: 80%;
+		width: 90%;
+	}
+	h1 {
+		font-size: 50px;
 	}
 }
