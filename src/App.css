@@ -16,11 +16,10 @@ body {
 	overscroll-behavior: none;
 	overflow: hidden;
 }
-/* html,
-body {
+html {
 	position: fixed;
 	overflow: hidden;
-} */
+}
 
 body > .mobile-container {
 	width: 100vw;
