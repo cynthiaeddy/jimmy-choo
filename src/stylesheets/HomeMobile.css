@@ -16,10 +16,6 @@ body {
 	overscroll-behavior-y: none;
 }
 
-html,
-body {
-	overscroll-behavior: none;
-}
 .main-mobile {
 	margin-top: 20px;
 	display: grid;

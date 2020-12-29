@@ -16,7 +16,11 @@ body {
 	overscroll-behavior: none;
 	overflow: hidden;
 }
-
+html {
+	position: fixed;
+	height: 100%;
+	overflow: hidden;
+}
 .container {
 	display: flex;
 	justify-content: center;

@@ -4,6 +4,9 @@
 .mobile-container.mexico {
 	overflow-y: auto;
 }
+body {
+	overscroll-behavior-y: none;
+}
 
 .wf-content {
 	display: grid;
@@ -118,13 +121,13 @@ h2 span {
 
 @media (max-width: 539px) and (max-height: 739px) {
 	.mobile.mexicoAlt {
-		margin-top: 260px;
+		margin-top: 200px;
 	}
 }
 
 @media (max-width: 539px) and (min-height: 740px) {
 	.mobile.mexicoAlt {
-		margin-top: 200px;
+		margin-top: 150px;
 	}
 }
 .mexicoAlt {
