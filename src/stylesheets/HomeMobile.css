@@ -15,6 +15,11 @@
 body {
 	overscroll-behavior-y: none;
 }
+
+html,
+body {
+	overscroll-behavior: none;
+}
 .main-mobile {
 	margin-top: 20px;
 	display: grid;
@@ -77,7 +82,7 @@ body {
 	}
 	.mobile-container {
 		overflow-y: auto;
-		height: 85vh;
+		height: 95vh;
 	}
 	.mobile-container #navbarHome {
 		width: 100%;
