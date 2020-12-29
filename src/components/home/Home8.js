@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import NavbarHome from '../navbarHome/NavbarHome'
+import { Link } from 'react-router-dom';
+
 
 
 import mexicoCover from '../../assets/images/home/mexicoCover.jpg'
@@ -34,29 +36,29 @@ const Home8= () => (
     <div className='home outer-grid homeEight'>
 
       <div className='grid-1 headera'>
-        <h3>James Oselands's</h3>
+        <h3>James Oseland’s</h3>
             <h1>World Food</h1>
       </div>
 
       <section className='main-container'>
 
       <div className='boxes one ltla'>
-      <img src={gal} className='gal inner' alt=''></img>
+      <img src='https://imgur.com/pFJCQVg.png' className='gal inner' alt=''></img>
       </div>
       <div className='boxes two ltra'>
-      <img src={flan1} className='flan inner' alt=''></img>
+      <img src='https://imgur.com/3JbHdNaf.png' className='flan inner' alt=''></img>
       </div>
       <div className='boxes three lmla'>
-      <img src={corn} className='corn inner'  alt=''></img>
+      <img src='https://imgur.com/9YAUbs6.png' className='corn inner'  alt=''></img>
       </div>
       <div className='boxes four lmra'>
-      <img src={womanPink} className='womanPink inner' alt=''></img>
+      <img src='https://imgur.com/rGsUh8n.png' className='womanPink inner' alt=''></img>
       </div>
       <div className='boxes five lbla'>
-      <img src={man} className='man inner' alt=''></img>
+      <img src='https://imgur.com/pokfhSn.png' className='man inner' alt=''></img>
       </div>
       <div className='boxes six lbra'>
-      <img src={flancut3} className='dessert inner' alt=''></img>
+      <img src='https://imgur.com/SDyISxG.png' className='dessert inner' alt=''></img>
       </div>
 
       <div className='carousel-wrapper maina '>
@@ -70,13 +72,13 @@ const Home8= () => (
        showIndicators={false}
        showStatus={false}
       showArrows={false}
-      stopOnHover={false}
+      stopOnHover={true}
        >
 
  <div>
-<img src={mexicoCover} className='mexico' alt=''></img></div>
+<img src='https://imgur.com/T7uNhzf.png' className='mexico' alt=''></img></div>
  <div>
-              <img src={parisCover} className='paris' alt=''></img>
+              <img src='https://imgur.com/qaJ4Krp.png' className='paris' alt=''></img>
               </div>
         </Carousel>
         </div>
@@ -84,19 +86,19 @@ const Home8= () => (
 
 
       <div className='boxes seven rtla'>
-      <img src={waiter} className='gal' alt=''></img>
+      <img src='https://imgur.com/5W2uCN4.png' className='gal' alt=''></img>
       </div>
       <div className='boxes eight rnla'>
-      <img src={orange2} className='gal' alt=''></img>
+      <img src='https://imgur.com/zGPJQ7t.png' className='gal' alt=''></img>
       </div>
       <div className='boxes nine rbla'>
-      <img src={galred} className='gal' alt=''></img>
+      <img src='https://imgur.com/kfZNdjw.png' className='gal' alt=''></img>
 
       </div>
 
         <div className='copya boxes'>
-           <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
-          <button className='signUpBtn homeEight'><h7>SIGN UP NOW!</h7></button>
+           <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that takes you on a journey to the world’s greatest cuisines and the remarkable cultures they come from.</h5>
+          <Link to="/newsletter"  className='signUpBtn homeEight'><h7>SIGN UP NOW!</h7></Link>
 </div>
 </section>
 

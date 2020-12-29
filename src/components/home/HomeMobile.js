@@ -80,16 +80,22 @@ class HomeMobile extends React.Component {
 
           <div className='carousel-mobile'>
 
-            <Carousel
-              showThumbs={false}
-              infiniteLoop
-              autoPlay
-              interval={4000}
-              transitionTime={1000}
-              showIndicators={false}
-              showStatus={false}
-              showArrows={false}
-            >
+
+
+          <Carousel
+       showThumbs={false}
+       infiniteLoop
+       autoPlay
+       interval={4000}
+       transitionTime={1000}
+       showIndicators={false}
+      //  centerMode
+      //  centerSlidePercentage={50}
+      stopOnHover={true}
+                // pauseOnHover
+       showStatus={false}
+       showArrows={false}
+       >
 
               <div>
                 <img src={mexicoCover} className='mexico' alt=''></img></div>

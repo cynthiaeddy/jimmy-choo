@@ -10,7 +10,7 @@ const Navbar = () => {
 
 		<nav id="navbar">
 				<Link to="/navbar"><h6>Menu</h6></Link>
-				<h6>James Oseland's <span class='nav-world'>WORLD FOOD</span></h6>
+				<h6>James Oseland’s <span class='nav-world'>WORLD FOOD</span></h6>
 
 
 

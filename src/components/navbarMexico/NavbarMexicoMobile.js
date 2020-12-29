@@ -14,11 +14,11 @@ const NavbarMexicoMobile = () => {
 {/* <div className='topnav'> */}
       <Link to="/navbar" id='menu'><h6>Menu</h6></Link>
 {/* <div className='secondary-nav'> */}
-        <h6>James Oseland's <br/><span class='nav-world'>WORLD FOOD</span></h6>
+        <h6>James Oseland’s <br/><span class='nav-world'>WORLD FOOD</span></h6>
         {/* </div> */}
 
       <div className='buyNav mexico'>
-        <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850">Score the Book!</a>
+        <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850">Buy the Book!</a>
         </div>
 
 {/* </div> */}
