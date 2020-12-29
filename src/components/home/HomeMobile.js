@@ -68,7 +68,7 @@ class HomeMobile extends React.Component {
             showArrows={false}
             >
               <div>
-                <img src='https://imgur.com/T7uNhzf.png' className='mexico' alt=''></img></div>
+                <img src='https://imgur.com/vC8skgZ.png' className='mexico' alt=''></img></div>
               <div>
                 <img src='https://imgur.com/2BytCct.png' className='paris' alt=''></img>
               </div>
