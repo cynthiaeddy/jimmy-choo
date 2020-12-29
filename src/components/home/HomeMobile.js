@@ -5,29 +5,6 @@ import NavbarHomeMobile from '../navbarHome/NavbarHomeMobile'
 
 
 
-import mexicoCover from '../../assets/images/home/mexicoCover.jpg'
-import parisCover from '../../assets/images/home/parisCover.jpg'
-
-
-
-import corn from '../../assets/images/home/corn.jpg'
-
-import flan1 from '../../assets/images/home/flan1.jpg'
-import gal from '../../assets/images/home/gal.jpg'
-
-import man from '../../assets/images/home/man.jpg'
-
-import womanPink from '../../assets/images/home/womanPink.jpg'
-import waiter from '../../assets/images/home/waiter.jpg'
-import galred from '../../assets/images/home/galred.jpg'
-import man2 from '../../assets/images/man2.jpg'
-import orange2 from '../../assets/images/home/orange2.jpg'
-
-
-
-
-
-
 import '../../stylesheets/HomeMobile.css'
 
 
@@ -57,63 +34,56 @@ class HomeMobile extends React.Component {
       <div className='mobile-container'>
         {isMobileHome ? <NavbarHomeMobile />: <NavbarHome />
         }
-        {/* <NavbarHome /> */}
+
 
         < div className='mobile'>
 
-    <div className='ipadhead'>
-      <h3>James Oselands's</h3>
-      <h1>World Food</h1>
-      <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
-    </div>
+        <div className='ipadhead'>
+          <h3>James Oselands's</h3>
+          <h1>World Food</h1>
+          <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
+        </div>
 
         <section className='main-mobile'>
           <div className='ipadtl'>
-            <img src={gal} className='gal' alt=''></img>
+            <img src='https://imgur.com/pFJCQVg.png' className='gal' alt=''></img>
           </div>
           <div className='ipadml'>
-            <img src={corn} className='flan' alt=''></img>
+            <img src='https://imgur.com/9YAUbs6.png' className='flan' alt=''></img>
           </div>
           <div className='ipadbl'>
-            <img src={man} className='corn' alt=''></img>
+            <img src='https://imgur.com/pokfhSn.png' className='corn' alt=''></img>
           </div>
 
           <div className='carousel-mobile'>
-
-
-
-          <Carousel
-       showThumbs={false}
-       infiniteLoop
-       autoPlay
-       interval={4000}
-       transitionTime={1000}
-       showIndicators={false}
-      //  centerMode
-      //  centerSlidePercentage={50}
-      stopOnHover={true}
-                // pauseOnHover
-       showStatus={false}
-       showArrows={false}
-       >
-
+            <Carousel
+            showThumbs={false}
+            infiniteLoop
+            autoPlay
+            interval={4000}
+            transitionTime={1000}
+            showIndicators={false}
+            stopOnHover={true}
+            showStatus={false}
+            showArrows={false}
+            >
               <div>
-                <img src={mexicoCover} className='mexico' alt=''></img></div>
+                <img src='https://imgur.com/T7uNhzf.png' className='mexico' alt=''></img></div>
               <div>
-                <img src={parisCover} className='paris' alt=''></img>
+                <img src='https://imgur.com/2BytCct.png' className='paris' alt=''></img>
               </div>
             </Carousel>
           </div>
 
 
           <div className='ipadtr'>
-            <img src={waiter} className='gal' alt=''></img>
+            <img src='https://imgur.com/5W2uCN4.png' className='gal' alt=''></img>
           </div>
           <div className='ipadmr'>
-            <img src={orange2} className='gal' alt=''></img>
+            <img src='https://imgur.com/zGPJQ7t.png' className='gal' alt=''></img>
           </div>
           <div className='ipadbr'>
-            <img src={galred} className='gal' alt=''></img>
+            <img src='https://imgur.com/kfZNdjw.png' className='gal' alt=''></img>
           </div>
         </section>
 
@@ -121,7 +91,6 @@ class HomeMobile extends React.Component {
           <h2 ><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
           <button className='signUpBtn mobile'><h7>SIGN UP NOW!</h7></button>
         </div>
-
       </div>
     </div>
   )
