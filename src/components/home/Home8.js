@@ -46,7 +46,7 @@ const Home8= () => (
       <img src='https://imgur.com/pFJCQVg.png' className='gal inner' alt=''></img>
       </div>
       <div className='boxes two ltra'>
-      <img src='https://imgur.com/3JbHdNaf.png' className='flan inner' alt=''></img>
+      <img src='https://imgur.com/3JbHdNa.png' className='flan inner' alt=''></img>
       </div>
       <div className='boxes three lmla'>
       <img src='https://imgur.com/9YAUbs6.png' className='corn inner'  alt=''></img>
@@ -76,9 +76,9 @@ const Home8= () => (
        >
 
  <div>
-<img src='https://imgur.com/T7uNhzf.png' className='mexico' alt=''></img></div>
+<img src='https://imgur.com/vC8skgZ.png' className='mexico' alt=''></img></div>
  <div>
-              <img src='https://imgur.com/qaJ4Krp.png' className='paris' alt=''></img>
+              <img src='https://imgur.com/2BytCct.png' className='paris' alt=''></img>
               </div>
         </Carousel>
         </div>
