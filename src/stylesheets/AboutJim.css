@@ -34,6 +34,16 @@ p {
 	height: 41.5vh;
 	overflow: auto;
 }
+
+p::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+p {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
 .books {
 	display: flex;
 	justify-content: space-between;
@@ -47,9 +57,16 @@ p {
 
 .copys {
 	min-height: 389.67;
+	position: relative;
 }
 .copys span {
 	text-transform: uppercase;
+}
+.down-arrow {
+	position: absolute;
+	transform: rotate(-90deg);
+	right: 0;
+	top: 95%;
 }
 
 .social {

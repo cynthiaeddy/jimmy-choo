@@ -38,7 +38,7 @@ class Newsletter extends React.Component {
 
 
         <div id='newsletter-container'>
-          <p>For exclusive content about James Oseland and his books, register for the official newsletter.</p>
+          <p>For exclusive content, including videos and recipes, register for the official newsletter.</p>
           <Mailchimp
         action={process.env.REACT_APP_MAILCHIMP_URL}
         className='chimp forms'
