@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 import GlobalFonts from './fonts/fonts';
 
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
+import NavbarSocial from './components/navbarSocial/NavbarSocial'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
 import Home8 from './components/home/Home8'
@@ -62,6 +63,7 @@ class App extends React.Component {
     return (
     <div className="app">
         <GlobalFonts />
+        <NavbarSocial/>
 
         {isMobile ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home8} />
         }

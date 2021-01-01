@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar'
+import NavbarSocial from '../navbarSocial/NavbarSocial'
+
 import NavbarJimMobile from '../navbarJim/NavbarJimMobile'
 
 import mexico from '../../assets/images/books/mexico.png'
@@ -41,6 +43,7 @@ class AboutJim extends React.Component {
       <div className='container'>
          {isMobile ? <NavbarJimMobile /> : <Navbar />
         }
+        <NavbarSocial/>
         <div className='jim-container'>
 
           <div className='image jim-left box'>
@@ -103,21 +106,7 @@ class AboutJim extends React.Component {
               </div>
             </div>
 
-            <div className='social'>
-              <div className='email'>
-                <a href='mailto:james@jamesoseland.com'><i class="fas fa-envelope fa-2x"></i></a>
 
-
-              </div>
-              <div className='instagram'>
-                <a href='https://www.instagram.com/jamesoseland'><i class="fab fa-instagram-square fa-2x"></i></a>
-
-              </div>
-              <div className='facebook'>
-                <a href=' https://www.facebook.com/james.oseland'><i class="fab fa-facebook fa-2x"></i></a>
-
-              </div>
-            </div>
 
           </div>
         </div>

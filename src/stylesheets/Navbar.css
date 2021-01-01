@@ -66,6 +66,22 @@
 	margin-top: 20px;
 	margin-bottom: 25px;
 }
+
+#navbarSocial {
+	position: fixed;
+	display: flex;
+	width: 14vw;
+	height: 100vh;
+	top: 0;
+	justify-content: space-between;
+	align-items: center;
+	right: 0;
+}
+.social {
+	display: flex;
+	flex-direction: column;
+}
+
 a#menu {
 	align-self: flex-start;
 }

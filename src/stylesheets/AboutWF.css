@@ -10,7 +10,7 @@ body {
 
 .wf-content {
 	display: grid;
-	grid-template-columns: 0.4fr 2.2fr 0.4fr;
+	grid-template-columns: 0.5fr 2fr 0.5fr;
 	grid-template-rows: 1fr;
 	gap: 0px 20px;
 	align-items: center;

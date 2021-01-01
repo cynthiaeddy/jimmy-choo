@@ -15,6 +15,8 @@
 	gap: 20px 20px;
 	grid-template-areas: "ltla ltra maina maina rtla copya" "lmla lmra maina maina rmla copya"
 		"lbla lbra maina maina rbla copya";
+
+	max-width: 1260px;
 }
 
 .ltla {
@@ -140,10 +142,12 @@ h5 {
 @media (min-width: 1400px) {
 	.home,
 	#navbarHome {
-		width: 70%;
+		/* width: 70%; */
+		width: 66vw;
+		max-width: 1260px;
 	}
 	h5 {
-		font-size: 1.25rem;
+		font-size: 1.2rem;
 	}
 	#navbarHome {
 		padding: 0;
