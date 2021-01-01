@@ -89,7 +89,7 @@ class HomeMobile extends React.Component {
 
         <div className='mobile-footer'>
           <h2 ><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
-          <button className='signUpBtn mobile'><h7>SIGN UP NOW!</h7></button>
+          <button className='signUpBtn mobile'><h7>NEWSLETTER SIGN UP</h7></button>
         </div>
       </div>
     </div>

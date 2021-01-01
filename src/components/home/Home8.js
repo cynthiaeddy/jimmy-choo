@@ -73,7 +73,7 @@ const Home8= () => (
 
         <div className='copya boxes'>
           <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that takes you on a journey to the world’s greatest cuisines and the remarkable cultures they come from.</h5>
-          <Link to="/newsletter"  className='signUpBtn homeEight'><h7>SIGN UP NOW!</h7></Link>
+          <Link to="/newsletter"  className='signUpBtn homeEight'><h7>NEWSLETTER SIGN UP</h7></Link>
         </div>
       </section>
 

@@ -115,11 +115,15 @@ h5 {
 	bottom: 0;
 	font-weight: 500;
 	font-family: franklin-gothic-atf, sans-serif;
-	padding: 4px 0;
+	padding: 4px;
 	border: none;
 	/* height: 20px; */
 	align-self: flex-end;
 	text-align: center;
+}
+.signUpBtn:hover {
+	background: grey;
+	color: white;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
 	.home,

@@ -5,6 +5,9 @@ import Navbar from '../navbar/Navbar'
 
 import NavbarJimMobile from '../navbarJim/NavbarJimMobile'
 
+import videoPlaceholder from '../../assets/images/videoPlaceholder.png'
+
+
 import '../../stylesheets/Newsletter.css'
 
 class Newsletter extends React.Component {
@@ -63,7 +66,14 @@ class Newsletter extends React.Component {
             required: true
           }
         ]}
-        />
+          />
+          <div className='video'>
+          <a href="https://www.youtube.com/watch?v=nz3aV1jgHIE">
+              <img src={videoPlaceholder} className="project-solo" alt="kayak" />{' '}
+              placeholder
+				</a>
+              {/* <i className="fab fa-youtube fa-5x fa-2x"></i> */}
+          </div>
         </div>
         </div>
 
