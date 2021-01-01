@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarMexico from '../navbarMexico/NavbarMexico'
+import NavbarSocial from '../navbarSocial/NavbarSocial'
 
 
 import imageData from '../carouselMexico/Images'
@@ -48,7 +49,8 @@ class AboutMexico extends React.Component {
   render() {
     return (
       <div className='container'>
-        <NavbarMexico/>
+        <NavbarMexico />
+        <NavbarSocial/>
         <div className='wf-content'>
           <div className='l-arrow '>
             <BackArrow

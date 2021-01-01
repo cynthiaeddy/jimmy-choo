@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import NavbarHome from '../navbarHome/NavbarHome'
+import NavbarSocial from '../navbarSocial/NavbarSocial'
 import { Link } from 'react-router-dom';
 
 
@@ -9,7 +10,8 @@ import '../../stylesheets/Home8.css'
 
 const Home8= () => (
   <div className='home-container'>
-    <NavbarHome/>
+    <NavbarHome />
+    <NavbarSocial/>
 
 
     <div className='home outer-grid homeEight'>
@@ -78,7 +80,8 @@ const Home8= () => (
       </section>
 
       <div className='footera'>
-            <h2 ><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
+        <h2 ><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
+        <h2 ><a href="https://cynthiaeddy.netlify.app">Designed and Built by Cynthia Eddy</a></h2>
       </div>
     </div>
   </div>

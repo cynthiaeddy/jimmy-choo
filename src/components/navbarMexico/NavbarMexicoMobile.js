@@ -18,7 +18,7 @@ const NavbarMexicoMobile = () => {
         {/* </div> */}
 
       <div className='buyNav mexico'>
-        <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850">Buy the Book!</a>
+        <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850">Purchase the Book</a>
         </div>
 
 {/* </div> */}

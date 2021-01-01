@@ -63,13 +63,10 @@ class App extends React.Component {
     return (
     <div className="app">
         <GlobalFonts />
-        <NavbarSocial/>
+        {/* <NavbarSocial/> */}
 
         {isMobile ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home8} />
         }
-
-        <Route path="/home7" component={Home7} />
-
 
         {isMobileMexico ? <Route path="/world-food" component={AboutMexicoMobile} /> : <Route path="/world-food" component={AboutMexico} />
         }

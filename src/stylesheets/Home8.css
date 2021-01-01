@@ -117,7 +117,7 @@ h5 {
 	bottom: 0;
 	font-weight: 500;
 	font-family: franklin-gothic-atf, sans-serif;
-	padding: 4px;
+	padding: 4px 20px;
 	border: none;
 	/* height: 20px; */
 	align-self: flex-end;
@@ -126,6 +126,26 @@ h5 {
 .signUpBtn:hover {
 	background: grey;
 	color: white;
+}
+signUpBtn.homeEight h7 {
+	padding: 0 40px;
+}
+.footera {
+	display: flex;
+	justify-content: space-between;
+}
+@media (min-width: 1400px) {
+	.home,
+	#navbarHome {
+		width: 66vw;
+		max-width: 1260px;
+	}
+	h5 {
+		font-size: 1.2rem;
+	}
+	#navbarHome {
+		padding: 0;
+	}
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
 	.home,
@@ -138,19 +158,8 @@ h5 {
 	#navbarHome {
 		padding: 0;
 	}
-}
-@media (min-width: 1400px) {
-	.home,
-	#navbarHome {
-		/* width: 70%; */
-		width: 66vw;
-		max-width: 1260px;
-	}
-	h5 {
-		font-size: 1.2rem;
-	}
-	#navbarHome {
-		padding: 0;
+	.home {
+		max-width: 67vw;
 	}
 }
 
@@ -158,6 +167,11 @@ h5 {
 	.home,
 	#navbarHome {
 		width: 85%;
+	}
+	.home-container #navbarSocial {
+		width: auto;
+		right: 2vw;
+		/* width: 5vw; */
 	}
 	h5 {
 		font-size: 1.1rem;

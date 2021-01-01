@@ -67,6 +67,12 @@ body {
 .mobile-container #navbarHome a h6 {
 	padding: 0;
 }
+@media (min-width: 540) and (max-width: 900) {
+	#navbarSocial {
+		width: auto;
+		/* right: 2vw; */
+	}
+}
 @media (max-width: 539px) {
 	.main-mobile {
 		grid-template-columns: 1fr 1fr 1fr;

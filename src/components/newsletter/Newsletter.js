@@ -1,6 +1,7 @@
 import React from 'react';
 import Mailchimp from 'react-mailchimp-form'
 import Navbar from '../navbar/Navbar'
+import NavbarSocial from '../navbarSocial/NavbarSocial'
 
 
 import NavbarJimMobile from '../navbarJim/NavbarJimMobile'
@@ -37,7 +38,7 @@ class Newsletter extends React.Component {
       <div className='container'>
         {isMobile ? <NavbarJimMobile /> : <Navbar />
         }
-
+      <NavbarSocial/>
 
 
         <div id='newsletter-container'>
