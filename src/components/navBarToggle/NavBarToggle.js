@@ -17,7 +17,7 @@ const NavBarToggle = () => {
 
 				<li>
 							<Link to="/world-food" className="world-food">
-								World Food Mexico City
+								World Food: Mexico City
 							</Link>
 				</li>
 
@@ -26,12 +26,10 @@ const NavBarToggle = () => {
 							<Link to="/about-james" className="about-james">
 								About James Oseland
 							</Link>
-					</li>
-
-
+</li>
 				<li>
 							<Link to="/newsletter" className="newsletter">
-								Newsletter
+								Newsletter and Videos
 							</Link>
 				</li>
 

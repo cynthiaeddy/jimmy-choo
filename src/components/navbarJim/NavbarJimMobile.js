@@ -14,7 +14,7 @@ const NavbarJimMobile = () => {
 {/* <div className='topnav'> */}
       <Link to="/navbar" id='menu'><h6>Menu</h6></Link>
 {/* <div className='secondary-nav'> */}
-        <h6>James Oseland's <br/><span class='nav-world'>WORLD FOOD</span></h6>
+        <h6>James Oseland’s <br/><span class='nav-world'>WORLD FOOD</span></h6>
 
 
 		</nav>

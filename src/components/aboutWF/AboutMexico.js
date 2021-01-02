@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarMexico from '../navbarMexico/NavbarMexico'
+import NavbarSocial from '../navbarSocial/NavbarSocial'
 
 
 import imageData from '../carouselMexico/Images'
@@ -48,24 +49,25 @@ class AboutMexico extends React.Component {
   render() {
     return (
       <div className='container'>
-        <NavbarMexico/>
-    <div className='wf-content'>
-      <div className='l-arrow '>
-      <BackArrow
-        goToPrevSlide={() => this.goToPrevSlide()}
-        />
-        </div>
-    <div className='slider-items main'>
-      <Slide
-         activeIndex={this.state.activeIndex}
-         goToNextSlide={() => this.goToNextSlide()}
-      />
-      </div>
-      <div className='r-arrow'>
-      <ForwardArrow
-        goToNextSlide={() => this.goToNextSlide()}
-      />
-      </div>
+        <NavbarMexico />
+        <NavbarSocial/>
+        <div className='wf-content'>
+          <div className='l-arrow '>
+            <BackArrow
+              goToPrevSlide={() => this.goToPrevSlide()}
+              />
+            </div>
+          <div className='slider-items main'>
+            <Slide
+              activeIndex={this.state.activeIndex}
+              goToNextSlide={() => this.goToNextSlide()}
+            />
+          </div>
+          <div className='r-arrow'>
+            <ForwardArrow
+              goToNextSlide={() => this.goToNextSlide()}
+            />
+          </div>
         </div>
       </div>
     )

@@ -4,10 +4,13 @@
 .mobile-container.mexico {
 	overflow-y: auto;
 }
+body {
+	overscroll-behavior-y: none;
+}
 
 .wf-content {
 	display: grid;
-	grid-template-columns: 0.4fr 2.2fr 0.4fr;
+	grid-template-columns: 0.5fr 2fr 0.5fr;
 	grid-template-rows: 1fr;
 	gap: 0px 20px;
 	align-items: center;
@@ -116,6 +119,17 @@ h2 span {
 	}
 }
 
+@media (max-width: 539px) and (max-height: 739px) {
+	.mobile.mexicoAlt {
+		margin-top: 200px;
+	}
+}
+
+@media (max-width: 539px) and (min-height: 740px) {
+	.mobile.mexicoAlt {
+		margin-top: 150px;
+	}
+}
 .mexicoAlt {
 	display: flex;
 	width: 100%;

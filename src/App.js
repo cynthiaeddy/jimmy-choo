@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 import GlobalFonts from './fonts/fonts';
 
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
+import NavbarSocial from './components/navbarSocial/NavbarSocial'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
 import Home8 from './components/home/Home8'
@@ -46,15 +47,14 @@ class App extends React.Component {
 
     let isMobile;
 		let width = this.state.width;
-    width <= 810 ? (isMobile = true) : (isMobile = false);
+    width <= 900 ? (isMobile = true) : (isMobile = false);
 
 
     let isMobileMexico
     width <= 600 ? (isMobileMexico = true) : (isMobileMexico = false);
 
 
-    let isMobileJim
-    width <= 700 ? (isMobileJim = true) : (isMobileJim = false);
+
 
 
 
@@ -62,12 +62,10 @@ class App extends React.Component {
     return (
     <div className="app">
         <GlobalFonts />
+        {/* <NavbarSocial/> */}
 
         {isMobile ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home8} />
         }
-
-        <Route path="/home7" component={Home7} />
-
 
         {isMobileMexico ? <Route path="/world-food" component={AboutMexicoMobile} /> : <Route path="/world-food" component={AboutMexico} />
         }

@@ -30,7 +30,7 @@ const Home7 = () => (
 
     <div className='home outer-grid homeSeven'>
       <div className='grid-1 header'>
-        <h3>James Oselands's</h3>
+        <h3>James Oselands’s</h3>
             <h1>World Food</h1>
           </div>
 
@@ -88,7 +88,7 @@ const Home7 = () => (
       </div>
 
         <div className='copy boxes'>
-           <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
+           <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world’s greatest cuisines and the remarkable cultures they come from.</h5>
           <button className='signUpBtn homeThree'><h7>SIGN UP NOW!</h7></button>
 </div>
 

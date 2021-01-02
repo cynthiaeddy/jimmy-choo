@@ -1,9 +1,13 @@
 import React from 'react';
 import Mailchimp from 'react-mailchimp-form'
 import Navbar from '../navbar/Navbar'
+import NavbarSocial from '../navbarSocial/NavbarSocial'
 
 
 import NavbarJimMobile from '../navbarJim/NavbarJimMobile'
+
+import videoPlaceholder from '../../assets/images/videoPlaceholder.png'
+
 
 import '../../stylesheets/Newsletter.css'
 
@@ -34,11 +38,11 @@ class Newsletter extends React.Component {
       <div className='container'>
         {isMobile ? <NavbarJimMobile /> : <Navbar />
         }
-
+      <NavbarSocial/>
 
 
         <div id='newsletter-container'>
-          <p>For exclusive content about James Oseland and his books, register for the official newsletter.</p>
+          <p>For exclusive content, including videos and recipes, register for the official newsletter.</p>
           <Mailchimp
         action={process.env.REACT_APP_MAILCHIMP_URL}
         className='chimp forms'
@@ -63,7 +67,14 @@ class Newsletter extends React.Component {
             required: true
           }
         ]}
-        />
+          />
+          <div className='video'>
+          <a href="https://www.youtube.com/watch?v=nz3aV1jgHIE">
+              <img src={videoPlaceholder} className="project-solo" alt="kayak" />{' '}
+              placeholder
+				</a>
+              {/* <i className="fab fa-youtube fa-5x fa-2x"></i> */}
+          </div>
         </div>
         </div>
 
