@@ -135,38 +135,34 @@ signUpBtn.homeEight h7 {
 	justify-content: space-between;
 }
 @media (min-width: 1400px) {
-	.home,
-	#navbarHome {
+	.home {
 		width: 66vw;
 		max-width: 1260px;
 	}
-	h5 {
+	/* h5 {
 		font-size: 1.2rem;
 	}
 	#navbarHome {
 		padding: 0;
-	}
+	} */
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-	.home,
-	#navbarHome {
-		width: 85%;
+	.home {
+		width: 70vw;
 	}
-	h5 {
-		font-size: 1.1rem;
-	}
+
 	#navbarHome {
 		padding: 0;
 	}
-	.home {
-		max-width: 67vw;
+	#navbarSocial {
+		width: 11vw;
 	}
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
 	.home,
 	#navbarHome {
-		width: 85%;
+		width: 80vw;
 	}
 	.home-container #navbarSocial {
 		width: auto;
@@ -174,7 +170,16 @@ signUpBtn.homeEight h7 {
 		/* width: 5vw; */
 	}
 	h5 {
-		font-size: 1.1rem;
+		font-size: 1.15rem;
+		line-height: 1.15;
+	}
+	h1 {
+		font-size: 58px;
+	}
+	h3 {
+		font-size: 25px;
+	}
+	.headera {
 	}
 }
 

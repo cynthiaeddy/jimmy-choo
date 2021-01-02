@@ -5,32 +5,27 @@
 #navbarHomeMobile {
 	position: fixed;
 	display: flex;
-	width: 100vw;
+	width: 70vw;
 	height: 120px;
 	top: 0;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 10vw;
-	margin-top: 50px;
 }
 #navbarMexicoMobile.jimMobile {
 	height: 160px;
 	z-index: 5;
 }
 
-#navbar,
-#navbarMexico {
-	padding: 0 15vw;
-	margin: 0;
-	padding: 0 18vw;
+@media (min-width: 1400px) {
+	#navbarHome,
+	#navbar,
+	#navbarMexico {
+		width: 66vw;
+		max-width: 1260px;
+	}
 }
-#navbarHome {
-	margin-top: 0;
-	padding: 0;
-	width: 70%;
-}
+
 #navbarMexicoMobile {
-	/* padding: 0; */
 	flex-direction: column;
 	margin-top: 0;
 	align-items: flex-end;
@@ -70,7 +65,7 @@
 #navbarSocial {
 	position: fixed;
 	display: flex;
-	width: 14vw;
+	width: 13.5vw;
 	height: 100vh;
 	top: 0;
 	justify-content: space-between;

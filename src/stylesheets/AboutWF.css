@@ -68,20 +68,12 @@ h2 span {
 	margin: 5px;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-	#navbarMexico {
-		width: 80vw;
-		padding: 0;
-	}
 	.wf-content {
-		width: 83vw;
+		width: 80vw;
 	}
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-	#navbarMexico {
-		width: 85vw;
-		padding: 0;
-	}
 	.wf-content {
 		width: 90vw;
 	}
