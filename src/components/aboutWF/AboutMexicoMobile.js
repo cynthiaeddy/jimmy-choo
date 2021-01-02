@@ -2,6 +2,8 @@ import React from 'react'
 
 
 import NavbarMexicoMobile from '../navbarMexico/NavbarMexicoMobile'
+import NavbarSocial from '../navbarSocial/NavbarSocial'
+
 import '../../stylesheets/AboutWF.css'
 
 
@@ -10,7 +12,9 @@ const AboutMexicoMobile = () => {
 
   return (
     < div className='mobile-container mexico'>
-      <NavbarMexicoMobile/>
+      <NavbarMexicoMobile />
+      <NavbarSocial/>
+
       <div className='mobile mexicoAlt'>
         <img src='https://imgur.com/m0fagzo.png' className='spread mexicoopener-mobile' alt='spread'/>
         <img src='https://imgur.com/ZgGRhRt.png' className='spread' alt='spread'/>

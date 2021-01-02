@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import NavbarHome from '../navbarHome/NavbarHome'
 import NavbarHomeMobile from '../navbarHome/NavbarHomeMobile'
+import NavbarSocial from '../navbarSocial/NavbarSocial'
 
 
 
@@ -34,6 +35,8 @@ class HomeMobile extends React.Component {
       <div className='mobile-container'>
         {isMobileHome ? <NavbarHomeMobile />: <NavbarHome />
         }
+            <NavbarSocial/>
+
 
 
         < div className='mobile'>

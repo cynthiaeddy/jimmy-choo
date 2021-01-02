@@ -74,40 +74,51 @@ h2 span {
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
+	#navbarMexico {
+		width: 80vw;
+		padding: 0;
+	}
 	.wf-content {
-		width: 90vw;
+		width: 80vw;
 	}
 	h6 {
 		font-size: 18px;
 	}
-}
-
-@media (min-width: 811px) and (max-width: 899px) {
-	#navbarMexico {
-		width: 90vw;
-		padding: 0;
-	}
-	.wf-content {
-		width: 95vw;
-	}
-	#navbarMexico h6 {
-		font-size: 18px;
-		letter-spacing: 3px;
+	#navbarSocial {
+		width: auto;
+		right: 3vw;
 	}
 }
 
-@media (min-width: 600px) and (max-width: 810px) {
-	#navbarMexico {
-		width: 90vw;
-		padding: 0;
+/* @media (min-width: 700px) and (max-width: 899px) {
+	.home,
+	#navbarHome {
+		width: 90%;
 	}
+	h1 {
+		font-size: 50px;
+	}
+} */
+
+@media (min-width: 600px) and (max-width: 899px) {
+	/* #navbarMexico {
+		width: 80vw;
+		padding: 0;
+	} */
 	.wf-content {
-		width: 95vw;
-		grid-template-columns: 0.45fr 2.1fr 0.45fr;
+		/* grid-template-columns: 0.45fr 2.1fr 0.45fr; */
+		width: 80vw;
+		grid-gap: 10px;
 	}
 	#navbarMexico h6 {
-		font-size: 18px;
+		font-size: 19px;
 		letter-spacing: 3px;
+	}
+	.arrow h2 {
+		font-size: 12px;
+	}
+	.arrow h2 span {
+		margin: 2px;
 	}
 }
 

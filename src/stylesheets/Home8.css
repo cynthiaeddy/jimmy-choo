@@ -59,7 +59,7 @@
 	justify-content: space-between;
 }
 .headera {
-	height: 105px;
+	height: fit-content;
 }
 
 .signUpBtn.homeEight {
@@ -119,7 +119,6 @@ h5 {
 	font-family: franklin-gothic-atf, sans-serif;
 	padding: 4px 20px;
 	border: none;
-	/* height: 20px; */
 	align-self: flex-end;
 	text-align: center;
 }
@@ -139,12 +138,6 @@ signUpBtn.homeEight h7 {
 		width: 66vw;
 		max-width: 1260px;
 	}
-	/* h5 {
-		font-size: 1.2rem;
-	}
-	#navbarHome {
-		padding: 0;
-	} */
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
 	.home {
@@ -166,8 +159,7 @@ signUpBtn.homeEight h7 {
 	}
 	.home-container #navbarSocial {
 		width: auto;
-		right: 2vw;
-		/* width: 5vw; */
+		right: 3vw;
 	}
 	h5 {
 		font-size: 1.15rem;
@@ -179,16 +171,17 @@ signUpBtn.homeEight h7 {
 	h3 {
 		font-size: 25px;
 	}
-	.headera {
-	}
 }
 
 @media (min-width: 540px) and (max-width: 899px) {
 	.home,
 	#navbarHome {
-		width: 90%;
+		width: 70vw;
 	}
 	h1 {
 		font-size: 50px;
+	}
+	#navbarSocial {
+		width: 11vw;
 	}
 }
