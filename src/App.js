@@ -54,8 +54,7 @@ class App extends React.Component {
     width <= 600 ? (isMobileMexico = true) : (isMobileMexico = false);
 
 
-    let isMobileJim
-    width <= 700 ? (isMobileJim = true) : (isMobileJim = false);
+
 
 
 
