@@ -3,6 +3,7 @@
 }
 .mobile-container.mexico {
 	overflow-y: auto;
+	align-items: inherit;
 }
 body {
 	overscroll-behavior-y: none;
@@ -74,40 +75,60 @@ h2 span {
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
+	#navbarMexico {
+		width: 80vw;
+		padding: 0;
+	}
 	.wf-content {
-		width: 90vw;
+		width: 80vw;
 	}
 	h6 {
 		font-size: 18px;
 	}
-}
-
-@media (min-width: 811px) and (max-width: 899px) {
-	#navbarMexico {
-		width: 90vw;
-		padding: 0;
-	}
-	.wf-content {
-		width: 95vw;
-	}
-	#navbarMexico h6 {
-		font-size: 18px;
-		letter-spacing: 3px;
+	#navbarSocial {
+		width: auto;
+		right: 3vw;
 	}
 }
 
-@media (min-width: 600px) and (max-width: 810px) {
-	#navbarMexico {
-		width: 90vw;
-		padding: 0;
-	}
+@media (min-width: 760px) and (max-width: 899px) {
 	.wf-content {
-		width: 95vw;
-		grid-template-columns: 0.45fr 2.1fr 0.45fr;
+		width: 80vw;
+		grid-gap: 10px;
 	}
 	#navbarMexico h6 {
-		font-size: 18px;
+		font-size: 19px;
 		letter-spacing: 3px;
+	}
+	.arrow h2 {
+		font-size: 12px;
+	}
+	.arrow h2 span {
+		margin: 2px;
+	}
+}
+
+@media (min-width: 540px) and (max-width: 759px) {
+	/* .wf-content {
+		width: 70vw;
+		grid-gap: 10px;
+	} */
+	.mobile-container #navbarMexicoMobile {
+		width: 70vw;
+	}
+	.mobile-container #navbarMexicoMobile h6 {
+		font-size: 19px;
+		letter-spacing: 3px;
+	}
+
+	.arrow h2 {
+		font-size: 12px;
+	}
+	.arrow h2 span {
+		margin: 2px;
+	}
+	.mobile.mexicoAlt {
+		margin-top: 200px;
 	}
 }
 
@@ -122,17 +143,31 @@ h2 span {
 		margin-top: 150px;
 	}
 }
-.mexicoAlt {
+/* .mexicoAlt {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-}
+} */
 .mobile.mexicoAlt img {
 	height: auto;
 }
 .mobile.mexicoAlt img.spread {
-	margin: 5px 0;
+	margin: 10px 0;
 }
 .mobile.mexicoAlt {
 	height: 60vh;
+	overflow: auto;
+
+	/* margin-top: 20px; */
+	margin-bottom: 0;
+	height: 70vh;
+}
+.mobile.mexicoAlt::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.mobile.mexicoAlt {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
 }
