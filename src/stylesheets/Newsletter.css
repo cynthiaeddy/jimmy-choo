@@ -132,7 +132,7 @@ input:hover {
 	}
 }
 
-@media (min-width: 200px) and (max-width: 699px) {
+@media (min-width: 540px) and (max-width: 699px) {
 	.container {
 		overflow: auto;
 	}
@@ -145,5 +145,52 @@ input:hover {
 	#newsletter-container p {
 		margin-left: 20%;
 		font-size: 19px;
+	}
+}
+@media (min-width: 200px) and (max-width: 539px) {
+	.container {
+		overflow: auto;
+	}
+	#navbarSocial {
+		width: 100vw;
+		height: 10vh;
+		bottom: 0;
+		top: unset;
+		display: initial;
+		z-index: 5;
+		background: white;
+	}
+	.social {
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 10px;
+	}
+	.buyNav {
+		display: inherit;
+	}
+	input {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	#newsletter-container {
+		width: 100vw;
+		overflow-y: auto;
+		/* justify-content: flex-start; */
+		margin-top: 160px;
+	}
+	#newsletter-container p {
+		margin-left: 10%;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	#navbarMexicoMobile.jimMobile h6 {
+		font-size: 18px;
+	}
+
+	.video {
+		width: 100%;
+	}
+	.mobile.mexicoAlt:last-child {
+		margin-bottom: 30px;
 	}
 }
