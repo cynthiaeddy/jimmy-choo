@@ -18,7 +18,10 @@
 	margin-bottom: 80px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	margin-top: 90px;
+	/* height: 50%; */
+
+	/* justify-content: center; */
 }
 
 p {
@@ -118,5 +121,23 @@ img.jim-img {
 	}
 	.jim-container {
 		width: 80vw;
+	}
+}
+
+@media (min-width: 540px) and (max-width: 899px) {
+	.jim-right {
+		margin-bottom: 80px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 90px;
+		width: 60%;
+		margin-left: 20px;
+		margin-right: 25px;
+	}
+	.jim-container {
+		width: 80vw;
+	}
+	.jim-left {
+		width: 38%;
 	}
 }

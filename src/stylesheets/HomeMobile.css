@@ -53,11 +53,11 @@ body {
 	align-items: baseline;
 	position: relative;
 }
-.signUpBtn.mobile {
+/* .signUpBtn.mobile {
 	width: 30%;
 	font-size: 14px;
 	right: 0;
-}
+} */
 .mobile-footer h2 {
 	/* margin-top: 10px; */
 	font-size: 12px;
@@ -74,7 +74,7 @@ body {
 	font-size: 45px;
 }
 .ipadhead h5 {
-	font-size: 16px;
+	font-size: 18px;
 }
 .mobile-container h6 {
 	font-size: 18px;
@@ -84,6 +84,9 @@ body {
 	margin-top: 10px;
 	width: 25%;
 	padding: 0;
+	font-size: 14px;
+	line-height: 1;
+	padding: 5px 20px;
 }
 .signUpBtn.mobile h7 {
 	font-size: 12px;
