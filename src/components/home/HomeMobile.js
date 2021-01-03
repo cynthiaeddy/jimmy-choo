@@ -90,8 +90,11 @@ class HomeMobile extends React.Component {
           </div>
         </section>
 
-        <div className='mobile-footer'>
-          <h2 ><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
+          <div className='mobile-footer'>
+            <div className='credits'>
+            <h2 ><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
+              <h2 ><a href="https://cynthiaeddy.netlify.app">Built and Designed by Cynthia Eddy</a></h2>
+              </div>
           <button className='signUpBtn mobile'><h7>NEWSLETTER SIGN UP</h7></button>
         </div>
       </div>

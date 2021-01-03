@@ -9,7 +9,7 @@
 }
 .mobile {
 	width: 70vw;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 	display: grid;
 	grid-template-columns: .9fr 1.1fr 1.1fr .9fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	grid-gap: 20px;
+	grid-gap: 10px;
 	grid-template-areas: "ipadtl carousel-mobile carousel-mobile ipadtr" "ipadml carousel-mobile carousel-mobile ipadmr"
 		"ipadbl carousel-mobile carousel-mobile ipadbr";
 }
@@ -46,10 +46,7 @@ body {
 .carousel-mobile {
 	grid-area: carousel-mobile;
 }
-/* .ipadhead h5 {
-	width: 90%;
-	margin-left: 10%;
-} */
+
 .mobile-footer {
 	display: flex;
 	justify-content: space-between;
@@ -62,15 +59,61 @@ body {
 	right: 0;
 }
 .mobile-footer h2 {
-	margin-top: 10px;
+	/* margin-top: 10px; */
+	font-size: 12px;
+	margin-top: 1px;
+	letter-spacing: 2.5px;
 }
 .mobile-container #navbarHome a h6 {
 	padding: 0;
 }
-@media (min-width: 540) and (max-width: 900) {
+.ipadhead h3 {
+	font-size: 20px;
+}
+.ipadhead h1 {
+	font-size: 45px;
+}
+.ipadhead h5 {
+	font-size: 16px;
+}
+.mobile-container h6 {
+	font-size: 18px;
+}
+.signUpBtn.mobile {
+	align-self: flex-start;
+	margin-top: 10px;
+	width: 25%;
+	padding: 0;
+}
+.signUpBtn.mobile h7 {
+	font-size: 12px;
+	line-height: .75;
+}
+
+.credits {
+	width: 75%;
+	margin-top: 8px;
+}
+@media (min-width: 699) and (max-width: 900) {
 	.mobile-container #navbarSocial {
 		width: auto;
 		/* right: 2vw; */
+	}
+}
+@media (min-width: 540) and (max-width: 700) {
+	.mobile-footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: baseline;
+		position: relative;
+	}
+	.mobile-footer.signUpBtn.mobile {
+		width: 30%;
+		font-size: 14px;
+		right: 0;
+		height: 50px;
+		margin-top: 10px;
 	}
 }
 @media (max-width: 539px) {

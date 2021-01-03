@@ -6,8 +6,9 @@
 	height: 100vh;
 	width: 37vw;
 	margin-right: 7vw;
-	margin-top: 190px;
+	margin-top: 10px;
 	overflow: auto;
+	justify-content: center;
 }
 #newsletter-container p {
 	margin-left: 20%;
@@ -125,7 +126,7 @@ input:hover {
 		margin-right: 10vw;
 	}
 	#newsletter-container p {
-		margin-left: 20%;
+		margin-right: 0px;
 	}
 }
 
