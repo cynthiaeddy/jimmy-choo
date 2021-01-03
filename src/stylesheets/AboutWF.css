@@ -113,8 +113,16 @@ h2 span {
 		width: 70vw;
 		grid-gap: 10px;
 	} */
+
+	.buyNav.mexico {
+		margin-top: 0;
+		justify-content: left;
+		align-self: flex-end;
+		display: unset;
+	}
 	.mobile-container #navbarMexicoMobile {
 		width: 70vw;
+		padding: 0;
 	}
 	.mobile-container #navbarMexicoMobile h6 {
 		font-size: 19px;

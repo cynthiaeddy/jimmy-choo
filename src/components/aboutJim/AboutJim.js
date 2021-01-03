@@ -46,8 +46,8 @@ class AboutJim extends React.Component {
         <NavbarSocial/>
         <div className='jim-container'>
 
-          <div className='image jim-left box'>
-            <img src='https://imgur.com/Mx87EXE.png' className='jim-img' alt='jim photo'></img>
+          <div className='image jim-left box '>
+            <img src='https://imgur.com/Mx87EXE.png' className='jim-img jim-photo' alt='jim photo'></img>
           </div>
 
           <div className=' box jim-copy jim-right'>
@@ -66,7 +66,7 @@ class AboutJim extends React.Component {
 
               <div className='book'>
                 <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1"><img src={mexico} alt='mexico city book cover'></img>
-                  <div class="middle">
+                  <div class="middle book-tl">
                     <div class="text">buy</div>
                   </div></a>
               </div>

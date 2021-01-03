@@ -138,9 +138,10 @@ input:hover {
 	}
 
 	#newsletter-container {
-		width: 100vw;
 		overflow-y: auto;
 		justify-content: flex-start;
+		margin-right: 15vw;
+		width: 90vw;
 	}
 	#newsletter-container p {
 		margin-left: 20%;
@@ -182,6 +183,7 @@ input:hover {
 		margin-left: 10%;
 		font-size: 18px;
 		margin-bottom: 20px;
+		line-height: 1.2;
 	}
 	#navbarMexicoMobile.jimMobile h6 {
 		font-size: 18px;
@@ -191,6 +193,6 @@ input:hover {
 		width: 100%;
 	}
 	.mobile.mexicoAlt:last-child {
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 	}
 }
