@@ -196,3 +196,8 @@ img.jim-img {
 		width: 40%;
 	}
 }
+@media (max-width: 539px) and (min-height: 740px) {
+	.jim-container-mobile p {
+		margin-bottom: 120px;
+	}
+}

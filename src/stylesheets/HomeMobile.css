@@ -217,10 +217,10 @@ body {
 
 @media (max-width: 539px) and (min-height: 740px) {
 	.ipadhead {
-		margin-top: 12vh;
+		margin-top: 8vh;
 	}
-	.jim-container-mobile {
-		margin-bottom: 160px;
+	.mobile-footer {
+		margin-bottom: 40px;
 	}
 }
 @media (max-width: 350px) {
