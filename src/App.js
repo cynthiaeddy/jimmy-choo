@@ -7,6 +7,8 @@ import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import NavbarSocial from './components/navbarSocial/NavbarSocial'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
+import AboutJimMobile from './components/aboutJim/AboutJimMobile'
+
 import Home8 from './components/home/Home8'
 import Newsletter from './components/newsletter/Newsletter'
 
@@ -53,6 +55,9 @@ class App extends React.Component {
     let isMobileMexico
     width <= 760 ? (isMobileMexico = true) : (isMobileMexico = false);
 
+    let isMobileJim
+    width <= 539 ? (isMobileJim = true) : (isMobileJim = false);
+
 
 
     return (
@@ -65,10 +70,8 @@ class App extends React.Component {
         {isMobileMexico ? <Route path="/world-food" component={AboutMexicoMobile} /> : <Route path="/world-food" component={AboutMexico} />
         }
 
-
-
-        <Route path="/about-james" component={AboutJim} />
-
+        {isMobileJim ? <Route path="/about-james" component={AboutJimMobile} /> : <Route path="/about-james" component={AboutJim} />
+                }
 
         <Route path="/newsletter" component={Newsletter} />
 
