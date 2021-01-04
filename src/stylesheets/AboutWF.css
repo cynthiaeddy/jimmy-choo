@@ -147,6 +147,9 @@ h2 span {
 }
 
 @media (max-width: 539px) and (min-height: 740px) {
+	.mobile.mexicoAlt {
+		margin-top: 200px;
+	}
 }
 
 .mobile.mexicoAlt img {
@@ -156,12 +159,12 @@ h2 span {
 	margin: 10px 0;
 }
 .mobile.mexicoAlt {
-	margin-top: 200px;
 	height: 60vh;
 	overflow: auto;
+	margin-top: 200px;
 
 	/* margin-top: 20px; */
-	margin-bottom: 200px;
+	margin-bottom: 150px;
 	height: 70vh;
 }
 .mobile.mexicoAlt::-webkit-scrollbar {

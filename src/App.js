@@ -12,7 +12,7 @@ import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 import Home8 from './components/home/Home8'
 import Newsletter from './components/newsletter/Newsletter'
 
-import AboutJimMobileTest from './components/aboutJim/AboutJimMobileTest'
+
 
 
 import Home7 from './components/home/Home7'
@@ -74,7 +74,7 @@ class App extends React.Component {
         }
 
 
-        <Route path="/jim-test" component={AboutJimMobileTest} />
+
 
         <Route path="/newsletter" component={Newsletter} />
 
