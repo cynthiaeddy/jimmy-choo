@@ -148,14 +148,10 @@ h2 span {
 
 @media (max-width: 539px) and (min-height: 740px) {
 	.mobile.mexicoAlt {
-		margin-top: 150px;
+		margin-top: 200px;
 	}
 }
-/* .mexicoAlt {
-	display: flex;
-	width: 100%;
-	flex-direction: column;
-} */
+
 .mobile.mexicoAlt img {
 	height: auto;
 }

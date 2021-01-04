@@ -158,7 +158,6 @@ body {
 		margin-top: 150px;
 		width: 85%;
 		height: 100%;
-		/* margin-top: 160px; */
 	}
 	.mobileToo {
 		margin-top: 330px;
@@ -169,7 +168,6 @@ body {
 		flex-direction: row;
 	}
 	.mobile-footer h2 {
-		/* margin-top: 10px; */
 		width: 100%;
 		margin: 0;
 		margin: 5px 0;
@@ -219,10 +217,12 @@ body {
 
 @media (max-width: 539px) and (min-height: 740px) {
 	.ipadhead {
-		margin-top: 14vh;
+		margin-top: 12vh;
+	}
+	.jim-container-mobile {
+		margin-bottom: 160px;
 	}
 }
-
 @media (max-width: 350px) {
 	#navbarHomeMobile h1 {
 		font-size: 40px;
