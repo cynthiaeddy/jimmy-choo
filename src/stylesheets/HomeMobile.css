@@ -216,12 +216,12 @@ body {
 }
 
 @media (max-width: 539px) and (min-height: 740px) {
-	.ipadhead {
+	/* .ipadhead {
 		margin-top: 8vh;
-	}
-	.mobile-footer {
+	} */
+	/* .mobile-footer {
 		margin-bottom: 40px;
-	}
+	} */
 }
 @media (max-width: 350px) {
 	#navbarHomeMobile h1 {

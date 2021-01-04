@@ -195,9 +195,32 @@ img.jim-img {
 		margin-bottom: 5px;
 		width: 40%;
 	}
+
+	.jim-container-mobile {
+		height: 80vh;
+		max-height: 80vh;
+		/* width: 20vw; */
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start; /*this will keep details at the top*/
+		/*justify-content:flex-end;*/ /*this will close details to the bottom*/
+	}
+	/* .jim-container-mobile>details{
+		width:100%;
+} */
+
+	.jim-container-mobile > .books {
+		overflow: visible;
+		max-height: 100%;
+	}
+	/* .jim-container-mobile > .copyBottom {
+		overflow: auto;
+	} */
 }
-@media (max-width: 539px) and (min-height: 740px) {
+
+/* @media (max-width: 539px) and (min-height: 740px) {
 	.jim-container-mobile p {
 		margin-bottom: 120px;
 	}
-}
+} */
