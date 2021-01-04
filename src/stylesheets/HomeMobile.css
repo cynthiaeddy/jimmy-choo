@@ -168,6 +168,7 @@ body {
 		flex-direction: row;
 	}
 	.mobile-footer h2 {
+		/* margin-top: 10px; */
 		width: 100%;
 		margin: 0;
 		margin: 5px 0;
@@ -216,13 +217,11 @@ body {
 }
 
 @media (max-width: 539px) and (min-height: 740px) {
-	/* .ipadhead {
-		margin-top: 8vh;
-	} */
-	/* .mobile-footer {
-		margin-bottom: 40px;
-	} */
+	.ipadhead {
+		margin-top: 14vh;
+	}
 }
+
 @media (max-width: 350px) {
 	#navbarHomeMobile h1 {
 		font-size: 40px;
