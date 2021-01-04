@@ -14,10 +14,10 @@ import comfort from '../../assets/images/books/comfort.png'
 
 
 
-import '../../stylesheets/AboutJim.css'
+import '../../stylesheets/JimTest.css'
 
 
-class AboutJimMobile extends React.Component {
+class AboutJimMobileTest extends React.Component {
 
 
   render() {
@@ -27,8 +27,8 @@ class AboutJimMobile extends React.Component {
       <div className='container'>
         <NavbarJimMobile />
         <NavbarSocial/>
-        <div className='jim-container-mobile'>
-          <div className='inner-container'>
+        <div className='test-mobile'>
+          <div className='test-container'>
 
 
             {/* <div className='copys'> */}
@@ -98,4 +98,4 @@ class AboutJimMobile extends React.Component {
   }
 }
 
-export default AboutJimMobile;
+export default AboutJimMobileTest;

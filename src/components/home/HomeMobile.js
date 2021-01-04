@@ -38,7 +38,6 @@ class HomeMobile extends React.Component {
             <NavbarSocial/>
 
 
-
         < div className='mobile'>
 
         <div className='ipadhead'>
@@ -98,7 +97,7 @@ class HomeMobile extends React.Component {
           <button className='signUpBtn mobile'><h7>NEWSLETTER SIGN UP</h7></button>
         </div>
       </div>
-    </div>
+        </div>
   )
   }
 }

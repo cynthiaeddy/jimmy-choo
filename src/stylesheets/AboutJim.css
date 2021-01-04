@@ -176,7 +176,7 @@ img.jim-img {
 	.jim-container-mobile {
 		width: 83vw;
 		margin-top: 140px;
-		overflow: overlay;
+		overflow: auto;
 		margin-bottom: 85px;
 	}
 	.jim-container-mobile p {
@@ -189,11 +189,30 @@ img.jim-img {
 		line-height: 1.5;
 		overflow: unset;
 	}
+	/* .inner-container {
+		overflow: hidden;
+	} */
 	.book {
 		object-fit: cover;
 		object-fit: cover;
 		margin-bottom: 5px;
 		width: 40%;
+	}
+
+	/* .inner-container {
+		width: 83vw;
+		height: 90vh;
+		overflow: hidden;
+	}
+
+	.jim-container-mobile {
+		padding-top: 10px;
+	} */
+
+	.wrapper {
+		-webkit-column-width: 300px;
+		column-width: 300px;
+		height: 100%;
 	}
 }
 
