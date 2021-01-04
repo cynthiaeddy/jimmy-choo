@@ -225,7 +225,9 @@ body {
 	}
 	.mobile-footer {
 		height: 100px;
-		margin-bottom: 100px;
+	}
+	.mobile {
+		margin-bottom: 200px;
 	}
 }
 
