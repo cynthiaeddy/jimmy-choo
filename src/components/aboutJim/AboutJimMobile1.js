@@ -17,7 +17,7 @@ import comfort from '../../assets/images/books/comfort.png'
 import '../../stylesheets/AboutJim.css'
 
 
-class AboutJimMobile extends React.Component {
+class AboutJimMobile1 extends React.Component {
 
 
   render() {
@@ -36,11 +36,10 @@ class AboutJimMobile extends React.Component {
                 <div className='arrow-box'>&lt;&lt;</div></div> */}
 
 
-          <div className='box books'>
-            <div className='mobile-jim-left'>
+            <div className='box books'>
+            <div className='book jim'>
             <img src='https://imgur.com/Mx87EXE.png' className='jim-img ' alt='jim photo'></img>
-            </div>
-            <div className='mobile-jim-right'>
+              </div>
               <div className='book blt'>
                 <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1"><img src={mexico} alt='mexico city book cover'></img>
                   <div class="middle ">
@@ -83,8 +82,7 @@ class AboutJimMobile extends React.Component {
                 <div className='book empty'></div>
 
               </div>
-            </div>
-            </div>
+          </div>
           <p>
               <span>James Oseland</span> travels extensively in search of the world’s best restaurants, street food stalls, markets, and home cooks. He is the author and editor of <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1"><i>World Food: Mexico City</i></a>, part of World Food, a new book series from Ten Speed Press; the next book in the series will be about Paris. He was the editor-in-chief for nine years of <i>Saveur</i>, America’s most acclaimed food magazine, where his work garnered many accolades, including seven James Beard Awards and three awards from the American Society of Magazine Editors. His cookbook <a href="https://www.amazon.com/gp/product/0393054772/ref=dbs_a_def_rwt_bibl_vppi_i4"><i>Cradle of Flavor</i></a> was named one of the best books of 2006 by the <i>New York Times </i>and <i>Good Morning America</i>. Additionally, James’s writing has appeared in <i>Gourmet, Vogue, Food and Wine</i>, and the <i>Wall Street Journal</i>, where he writes the “Cook’s Playbook” column. He has appeared on <i>Celebrity Apprentice</i>, the <i>Today Show, Iron Chef America</i>, and was a permanent judge on all five seasons of Bravo’s <i>Top Chef Masters</i>. James is a popular cooking teacher and has taught at the Institute for Culinary Education, the New School, and New York City’s Natural Gourmet. He has lectured at culinary institutes and food societies around the world; in 2011, he delivered the keynote speech for the International Food Bloggers Conference. In 2013, he starred as himself in <a href='https://www.youtube.com/watch?v=-oXQLopZyY0'>a series of Wendy’s commercials.</a> He has lived in Indonesia, Malaysia, Thailand, and India, and now calls Mexico City home.
               </p>
@@ -97,4 +95,4 @@ class AboutJimMobile extends React.Component {
   }
 }
 
-export default AboutJimMobile;
+export default AboutJimMobile1;

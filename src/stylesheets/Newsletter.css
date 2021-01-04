@@ -178,6 +178,7 @@ input:hover {
 		overflow-y: auto;
 		/* justify-content: flex-start; */
 		margin-top: 160px;
+		margin-bottom: 40px;
 	}
 	#newsletter-container p {
 		margin-left: 10%;

@@ -161,38 +161,62 @@ img.jim-img {
 }
 @media (max-width: 539px) {
 	.books {
-		display: flex;
+		display: grid;
+		grid-template-columns: 1.3fr .9fr .9fr .9fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		gap: 5px 5px;
+		grid-template-areas: "jim blt bmt brt" "jim blb bmb brb" "jim empty . .";
 	}
-	.mobile-jim-left {
-		width: 30%;
+	.jim {
+		grid-area: jim;
 	}
-	.mobile-jim-right {
-		width: 60%;
-		display: flex;
-		flex-wrap: wrap;
-		height: fit-content;
+	.blt {
+		grid-area: blt;
+	}
+	.blb {
+		grid-area: blb;
+	}
+	.empty {
+		grid-area: empty;
+	}
+	.bmt {
+		grid-area: bmt;
+	}
+	.bmb {
+		grid-area: bmb;
+	}
+	.brt {
+		grid-area: brt;
+	}
+	.brb {
+		grid-area: brb;
 	}
 
+	.jim-right {
+		width: 100%;
+	}
 	.jim-container-mobile {
 		width: 83vw;
 		margin-top: 140px;
 		overflow: overlay;
-		margin-bottom: 85px;
+		margin-bottom: 60px;
 	}
 	.jim-container-mobile p {
+		/* overflow: overlay; */
 		margin-bottom: 60px;
 	}
 	p {
-		/* margin-bottom: 400px; */
+		/* height: auto; */
+		margin-bottom: 400px;
 		margin: 0;
-		/* margin-bottom: 400px; */
+		margin-bottom: 400px;
 		line-height: 1.5;
 		overflow: unset;
 	}
 	.book {
+		width: 100%;
+		height: 100%;
 		object-fit: cover;
-		object-fit: cover;
-		margin-bottom: 5px;
-		width: 40%;
+		margin-left: 5px;
 	}
 }
