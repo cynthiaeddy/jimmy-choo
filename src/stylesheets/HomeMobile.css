@@ -74,7 +74,7 @@ body {
 .mobile-container h6 {
 	font-size: 18px;
 }
-.signUpBtn.mobile {
+.signUpBtn.mobiled {
 	align-self: flex-start;
 	margin-top: 10px;
 	width: 24%;
@@ -105,7 +105,7 @@ body {
 		align-items: baseline;
 		position: relative;
 	}
-	.mobile-footer.signUpBtn.mobile {
+	.mobile-footer.signUpBtn.mobiled {
 		width: 30%;
 		font-size: 14px;
 		right: 0;
@@ -155,7 +155,7 @@ body {
 		margin-left: 0px;
 	}
 	.mobile {
-		margin-top: 150px;
+		margin-top: 250px;
 		width: 85%;
 		/* height: 100%; */
 	}
@@ -175,10 +175,10 @@ body {
 		text-align: center;
 	}
 
-	.signUpBtn.mobile h7 {
+	.signUpBtn.mobiled h7 {
 		text-align: center;
 	}
-	.signUpBtn.mobile:focus {
+	.signUpBtn.mobiled:focus {
 		outline: none !important;
 	}
 	.ipadhead {
@@ -205,7 +205,7 @@ body {
 	.main-mobile {
 		margin-top: 15px;
 	}
-	.signUpBtn.mobile {
+	.signUpBtn.mobiled {
 		width: 100%;
 		padding: 0;
 		padding: 7.5px;
@@ -225,6 +225,7 @@ body {
 	}
 	.mobile-footer {
 		height: 100px;
+		margin-bottom: 100px;
 	}
 }
 
