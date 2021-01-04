@@ -7,7 +7,7 @@
 	height: 100vh;
 	align-items: center;
 }
-.mobile {
+.mobile-phone {
 	width: 70vw;
 }
 
@@ -154,7 +154,7 @@ body {
 		width: 100%;
 		margin-left: 0px;
 	}
-	.mobile {
+	.mobile-phone {
 		margin-top: 250px;
 		width: 85%;
 		/* height: 100%; */
@@ -220,13 +220,14 @@ body {
 }
 
 @media (max-width: 539px) and (min-height: 740px) {
-	.ipadhead {
+	/* .ipadhead {
 		margin-top: 14vh;
-	}
+	} */
 	.mobile-footer {
 		height: 100px;
 	}
-	.mobile {
+	.mobile-phone {
+		margin-top: 300px;
 		margin-bottom: 200px;
 	}
 }

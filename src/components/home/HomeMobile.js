@@ -38,7 +38,7 @@ class HomeMobile extends React.Component {
             <NavbarSocial/>
 
 
-        < div className='mobile'>
+        < div className='mobile-phone'>
 
         <div className='ipadhead'>
           <h3>James Oseland’s</h3>
