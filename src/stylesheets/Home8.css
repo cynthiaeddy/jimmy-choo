@@ -71,35 +71,28 @@ img {
 	width: 100%;
 	object-fit: cover;
 }
-h1 {
+/* h1 {
 	font-family: MundoSansPro-Medium;
-	text-transform: uppercase;
-	/* letter-spacing: -2px; */
-	color: black;
+	text-transform: uppercase; */
+/* letter-spacing: -2px; */
+/* color: black;
 	font-size: 64px;
 	right: 14.5vw;
 	margin: 0;
-	text-align: right;
-}
-h2 {
-	font-size: 14px;
-	font-family: 'EB Garamond', serif;
-	font-weight: 500;
-	font-style: italic;
-	letter-spacing: 3px;
-	margin-top: 10px;
-}
-h3 {
-	font-size: 28px;
-	font-family: 'EB Garamond', serif;
+	text-align: right; */
+/* } */
+
+/* h3 { */
+/* font-size: 28px; */
+/* font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-style: italic;
 	letter-spacing: 6px;
 	text-align: right;
 	margin: 0;
 	margin-bottom: -20px;
-}
-h5 {
+} */
+/* h5 {
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-size: 1.2rem;
@@ -108,7 +101,7 @@ h5 {
 	letter-spacing: 0;
 	margin: 0;
 	text-align: right;
-}
+} */
 .signUpBtn {
 	width: 47%;
 	background: black;
@@ -161,16 +154,16 @@ signUpBtn.homeEight h7 {
 		width: auto;
 		right: 3vw;
 	}
-	h5 {
+	/* h5 {
 		font-size: 1.15rem;
 		line-height: 1.15;
-	}
-	h1 {
+	} */
+	/* h1 {
 		font-size: 58px;
-	}
-	h3 {
+	} */
+	/* h3 {
 		font-size: 25px;
-	}
+	} */
 }
 
 @media (min-width: 540px) and (max-width: 899px) {
@@ -178,9 +171,9 @@ signUpBtn.homeEight h7 {
 	#navbarHome {
 		width: 70vw;
 	}
-	h1 {
+	/* h1 {
 		font-size: 50px;
-	}
+	} */
 	#navbarSocial {
 		width: 11vw;
 	}

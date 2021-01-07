@@ -47,7 +47,7 @@ class AboutJim extends React.Component {
         <div className='jim-container'>
 
           <div className='image jim-left box '>
-            <img src='https://imgur.com/Mx87EXE.png' className='jim-img jim-photo' alt='jim photo'></img>
+            <img src='https://imgur.com/Mx87EXE.png' className='jim-img jim-photo' alt='jim '></img>
           </div>
 
           <div className=' box jim-copy jim-right'>

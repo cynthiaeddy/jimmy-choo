@@ -9,6 +9,7 @@
 }
 .mobile {
 	width: 70vw;
+	/* width: 85vw; */
 }
 
 body {
@@ -53,33 +54,16 @@ body {
 	position: relative;
 }
 
-.mobile-footer h2 {
-	/* margin-top: 10px; */
-	font-size: 12px;
-	margin-top: 1px;
-	letter-spacing: 2.5px;
-}
 .mobile-container #navbarHome a h6 {
 	padding: 0;
 }
-.ipadhead h3 {
-	font-size: 20px;
-}
-.ipadhead h1 {
-	font-size: 45px;
-}
-.ipadhead h5 {
-	font-size: 18px;
-}
-.mobile-container h6 {
-	font-size: 18px;
-}
+
 .signUpBtn.mobiled {
 	align-self: flex-start;
 	margin-top: 10px;
 	width: 24%;
 	padding: 0;
-	font-size: 14px;
+	font-size: 1.4rem;
 	line-height: 1;
 	padding: 5px 10px;
 }
@@ -98,21 +82,21 @@ body {
 	}
 }
 @media (min-width: 540) and (max-width: 700) {
-	.mobile-footer {
+	/* .mobile-footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: baseline;
 		position: relative;
-	}
-	.mobile-footer.signUpBtn.mobiled {
+	} */
+	/* .mobile-footer.signUpBtn.mobiled {
 		width: 30%;
 		font-size: 14px;
 		right: 0;
 		height: 50px;
 		margin-top: 10px;
 		padding: 0 10px;
-	}
+	 /* } */
 }
 
 @media (max-width: 539px) {
@@ -126,7 +110,7 @@ body {
 	}
 	.mobile-container {
 		overflow-y: auto;
-		height: 95vh;
+		align-items: unset;
 	}
 	.mobile-container #navbarHome {
 		width: 100%;
@@ -135,40 +119,16 @@ body {
 		background: white;
 		padding: 0 7.5%;
 	}
-	.mobile-container #navbarHomeMobile {
-		width: 100%;
-	}
-	#navbarHomeMobile h3 {
-		font-size: 18px;
-	}
-	.ipadhead h5 {
-		line-height: 1.2;
-	}
-	.mobile-container h1 {
-		font-size: 50px;
-		line-height: .85;
-		margin-bottom: 10px;
-		text-align: right;
-	}
-	.mobile-container h5 {
-		width: 100%;
-		margin-left: 0px;
-	}
 	.mobile {
-		margin-top: 250px;
-		width: 85%;
-		margin-bottom: 190px;
+		width: 85vw;
+		margin-top: 150px;
 	}
 
-	.mobile-footer {
-		flex-direction: row;
-	}
 	.mobile-footer h2 {
-		/* margin-top: 10px; */
-		width: 100%;
-		margin: 0;
 		margin: 5px 0;
 		text-align: center;
+		font-size: 1.2rem;
+		letter-spacing: 2.5px;
 	}
 
 	.signUpBtn.mobiled h7 {
@@ -177,62 +137,28 @@ body {
 	.signUpBtn.mobiled:focus {
 		outline: none !important;
 	}
-	.ipadhead {
-		margin-top: 17vh;
-	}
-	.mobile-container h3 {
-		margin-bottom: -5px;
-		justify-self: flex-end;
-		align-self: flex-end;
-	}
+
 	.mobile-footer {
-		height: 50px;
-		margin-bottom: 20px;
-		flex-direction: column;
+		height: 135px;
 		display: inherit;
 	}
 
-	.ipadhead h3 {
-		display: none;
-	}
-	.ipadhead h1 {
-		display: none;
-	}
-	.main-mobile {
-		margin-top: 15px;
-	}
 	.signUpBtn.mobiled {
 		width: 100%;
 		padding: 0;
 		padding: 7.5px;
 		line-height: .5;
 	}
-	/* .signUpBtn.mobile h7 {
-		width: 100%;
-	} */
+
 	.credits {
 		width: 100%;
 	}
 }
 
 @media (max-width: 539px) and (min-height: 740px) {
-	/* .ipadhead {
-		margin-top: 14vh;
-	} */
 	.mobile-footer {
-		height: 100px;
-	}
-	.mobile {
-		margin-top: 700px;
-		margin-bottom: 175px;
+		height: 170px;
 	}
 }
-
 @media (max-width: 350px) {
-	#navbarHomeMobile h1 {
-		font-size: 40px;
-	}
-	.ipadhead {
-		margin-top: 20vh;
-	}
 }

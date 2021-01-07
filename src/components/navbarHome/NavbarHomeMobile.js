@@ -11,11 +11,9 @@ const NavbarHomeMobile = () => {
 
     <nav id="navbarHomeMobile" >
 
-      <Link to="/navbar"><h6>Menu</h6></Link>
-        {/* <div className='head'> */}
+      <Link to="/navbar"><h6 className='menu'>Menu</h6></Link>
         <h3>James Oseland’s</h3>
             <h1>World Food</h1>
-      {/* </div> */}
 
 		</nav>
   );

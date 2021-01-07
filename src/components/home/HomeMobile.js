@@ -40,11 +40,9 @@ class HomeMobile extends React.Component {
 
         < div className='mobile'>
 
-        <div className='ipadhead'>
-          <h3>James Oseland’s</h3>
-          <h1>World Food</h1>
+
+
           <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
-        </div>
 
         <section className='main-mobile'>
           <div className='ipadtl'>

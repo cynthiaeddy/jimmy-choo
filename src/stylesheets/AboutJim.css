@@ -133,9 +133,9 @@ img.jim-img {
 	#navbarMexicoMobile {
 		padding: 0 15vw;
 	}
-	#navbarMexicoMobile h6 {
+	/* #navbarMexicoMobile h6 {
 		font-size: 18px;
-	}
+	} */
 }
 @media (min-width: 540px) and (max-width: 899px) {
 	.jim-right {
