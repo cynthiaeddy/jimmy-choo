@@ -5,11 +5,10 @@
 	overflow: hidden;
 	width: 100vw;
 	height: 100vh;
-	align-items: center;
+	margin-top: 200px;
 }
 .mobile {
 	width: 70vw;
-	/* width: 85vw; */
 }
 
 body {
@@ -54,10 +53,6 @@ body {
 	position: relative;
 }
 
-.mobile-container #navbarHome a h6 {
-	padding: 0;
-}
-
 .signUpBtn.mobiled {
 	align-self: flex-start;
 	margin-top: 10px;
@@ -76,27 +71,51 @@ body {
 	width: 75%;
 	margin-top: 8px;
 }
-@media (min-width: 699) and (max-width: 900) {
-	.mobile-container #navbarSocial {
-		width: auto;
+
+@media (min-width: 541px) and (max-width: 900px) {
+	h2 {
+		text-align: left;
+		margin: 0;
+		margin-bottom: 5px;
+	}
+	.signUpBtn.mobiled {
+		width: inherit;
 	}
 }
-@media (min-width: 540) and (max-width: 700) {
-	/* .mobile-footer {
+@media (width: 540px) {
+	.mobile-footer h2 {
+		text-align: left;
+		font-size: 1.2rem;
+		letter-spacing: 2px;
+		margin: 0;
+	}
+	.mobile-footer {
+		height: 135px;
 		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: baseline;
-		position: relative;
-	} */
-	/* .mobile-footer.signUpBtn.mobiled {
-		width: 30%;
-		font-size: 14px;
-		right: 0;
-		height: 50px;
-		margin-top: 10px;
-		padding: 0 10px;
-	 /* } */
+		align-items: flex-start;
+	}
+	.signUpBtn.mobiled {
+		width: 100%;
+		padding: 4px;
+		line-height: .75;
+	}
+	.credits {
+		width: 100%;
+		margin-top: 7px;
+	}
+	.signUpBtn.mobiled h7 {
+		font-size: 10px;
+	}
+}
+@media (min-width: 540px) and (max-width: 600px) {
+	.mobile-container {
+		margin-top: 170px;
+	}
+}
+@media (min-width: 601px) and (max-width: 900px) {
+	.mobile-container {
+		margin-top: 250px;
+	}
 }
 
 @media (max-width: 539px) {
@@ -111,17 +130,12 @@ body {
 	.mobile-container {
 		overflow-y: auto;
 		align-items: unset;
+		margin-top: 0;
 	}
-	.mobile-container #navbarHome {
-		width: 100%;
-		height: 85px;
-		z-index: 1;
-		background: white;
-		padding: 0 7.5%;
-	}
+
 	.mobile {
 		width: 85vw;
-		margin-top: 150px;
+		margin-top: 160px;
 	}
 
 	.mobile-footer h2 {
@@ -154,11 +168,19 @@ body {
 		width: 100%;
 	}
 }
+@media (min-width: 401px) and (max-width: 539px) {
+	.mobile {
+		margin-top: 160px;
+	}
+}
 
 @media (max-width: 539px) and (min-height: 740px) {
 	.mobile-footer {
 		height: 170px;
 	}
 }
-@media (max-width: 350px) {
+@media (max-width: 400px) {
+	.mobile {
+		margin-top: 150px;
+	}
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
-import NavbarHome from '../navbarHome/NavbarHome'
+import NavbarHome from '../navbars/navbarHome/NavbarHome'
 import NavbarSocial from '../navbarSocial/NavbarSocial'
 import { Link } from 'react-router-dom';
 

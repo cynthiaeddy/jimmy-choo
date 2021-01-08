@@ -1,40 +1,20 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
-import NavbarHome from '../navbarHome/NavbarHome'
-import NavbarHomeMobile from '../navbarHome/NavbarHomeMobile'
+import NavbarHomeMobile from '../navbars/navbarHome/NavbarHomeMobile'
 import NavbarSocial from '../navbarSocial/NavbarSocial'
+import { Link } from 'react-router-dom';
+
 
 
 
 import '../../stylesheets/HomeMobile.css'
 
 
-class HomeMobile extends React.Component {
-  state = {
-    width: window.innerWidth
-  };
-
-  componentDidMount() {
-    window.addEventListener('resize', this.handleWindowSizeChange);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.handleWindowSizeChange);
-  }
-
-  handleWindowSizeChange = () => {
-    this.setState({ width: window.innerWidth });
-  };
-
-  render() {
-
-    let isMobileHome;
-    let width = this.state.width;
-    width <= 539 ? (isMobileHome = true) : (isMobileHome = false);
+const HomeMobile = () =>{
     return (
       <div className='mobile-container'>
-        {isMobileHome ? <NavbarHomeMobile />: <NavbarHome />
-        }
+
+        <NavbarHomeMobile />
             <NavbarSocial/>
 
 
@@ -92,11 +72,11 @@ class HomeMobile extends React.Component {
             <h2 ><a href="https://jamesroper.photoshelter.com/index">Photography by James Roper</a></h2>
               <h2 ><a href="https://cynthiaeddy.netlify.app">Built and Designed by Cynthia Eddy</a></h2>
               </div>
-          <button className='signUpBtn mobiled'><h7>NEWSLETTER SIGN UP</h7></button>
+          <Link to="/newsletter"><button className='signUpBtn mobiled'><h7>NEWSLETTER SIGN UP</h7></button></Link>
         </div>
       </div>
         </div>
   )
-  }
+
 }
   export default HomeMobile

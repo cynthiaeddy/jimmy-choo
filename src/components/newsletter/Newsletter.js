@@ -4,7 +4,7 @@ import Navbar from '../navbar/Navbar'
 import NavbarSocial from '../navbarSocial/NavbarSocial'
 
 
-import NavbarJimMobile from '../navbarJim/NavbarJimMobile'
+import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
 
 import videoPlaceholder from '../../assets/images/videoPlaceholder.png'
 

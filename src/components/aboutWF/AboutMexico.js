@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarMexico from '../navbarMexico/NavbarMexico'
+import NavbarMexico from '../navbars/navbarMexico/NavbarMexico'
 import NavbarSocial from '../navbarSocial/NavbarSocial'
 
 

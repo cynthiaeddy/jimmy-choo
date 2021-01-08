@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import NavbarMexicoMobile from '../navbarMexico/NavbarMexicoMobile'
+import NavbarMexicoMobile from '../navbars/navbarMexico/NavbarMexicoMobile'
 import NavbarSocial from '../navbarSocial/NavbarSocial'
 
 import '../../stylesheets/AboutWF.css'

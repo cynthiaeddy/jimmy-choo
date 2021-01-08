@@ -1,36 +1,3 @@
-/* .App {
-	text-align: center;
-} */
-/* body {
-	font-family: MundoSansPro-Medium;
-} */
-/* * {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-} */
-
-/* body {
-	margin: 0;
-	padding: 0;
-	overscroll-behavior: none;
-	overflow: hidden;
-} */
-
-/* .container {
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	margin: 0;
-	overflow: hidden;
-	margin-bottom: auto;
-	margin-top: 100px;
-	width: 100vw;
-	height: 100vh;
-}
-p {
-	margin-top: 100px;
-} */
 * {
 	box-sizing: border-box;
 }
@@ -52,10 +19,10 @@ body {
 .container {
 	display: flex;
 	justify-content: center;
-	text-align: center;
+	/* text-align: center; */
 	margin: 0;
 	overflow: hidden;
-	margin-bottom: auto;
+	/* margin-bottom: auto; */
 	margin-top: 100px;
 	width: 100vw;
 	height: 100vh;
@@ -67,10 +34,11 @@ img {
 }
 
 h1 {
-	font-size: 4rem;
-	font-family: 'MundoSansPro-Medium', sans-serif;
+	font-size: 5.5rem;
+	font-family: 'MundoSansPro-Regular', sans-serif;
+	font-weight: normal;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	margin: 0;
 	text-align: right;
 }
@@ -81,8 +49,6 @@ h2 {
 	letter-spacing: 3px;
 	text-align: right;
 	margin-top: 10px;
-	/* margin-bottom: -15px;
-	margin-top: 30px; */
 }
 h3 {
 	font-size: 2rem;
@@ -91,8 +57,15 @@ h3 {
 	letter-spacing: 5px;
 	text-align: right;
 	margin: 0;
-	margin-bottom: -15px;
+	margin-bottom: -20px;
 	margin-top: 30px;
+}
+h4 {
+	font-size: 2.2rem;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 5px;
+	line-height: 3;
 }
 h5 {
 	font-weight: 500;
@@ -109,6 +82,20 @@ h6 {
 	font-style: italic;
 	letter-spacing: 5px;
 	margin: 0;
+	line-height: 1;
+}
+p {
+	font-weight: 500;
+	font-size: 1.8rem;
+	line-height: 1.6;
+	text-align: left;
+}
+span {
+	font-family: MundoSansPro-Medium;
+	font-style: normal;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
 }
 a {
 	text-decoration: none;

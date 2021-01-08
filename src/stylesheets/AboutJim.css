@@ -19,18 +19,10 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 90px;
-	/* height: 50%; */
-
-	/* justify-content: center; */
 }
 
 p {
 	margin: 0 5px;
-	font-family: 'EB Garamond', serif;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 1.6;
-	text-align: left;
 	height: 43vh;
 	overflow: auto;
 	margin-right: 15px;
@@ -130,12 +122,6 @@ img.jim-img {
 	img.jim-img {
 		width: 95%;
 	}
-	#navbarMexicoMobile {
-		padding: 0 15vw;
-	}
-	/* #navbarMexicoMobile h6 {
-		font-size: 18px;
-	} */
 }
 @media (min-width: 540px) and (max-width: 899px) {
 	.jim-right {
@@ -175,49 +161,27 @@ img.jim-img {
 
 	.jim-container-mobile {
 		width: 83vw;
-		margin-top: 150px;
+		margin-top: 110px;
 		overflow: auto;
-		margin-bottom: 200px;
+		margin-bottom: 75px;
 	}
-	.jim-container-mobile p {
-		margin-bottom: 60px;
-	}
+
 	p {
-		/* margin-bottom: 400px; */
 		margin: 0;
-		/* margin-bottom: 400px; */
 		line-height: 1.5;
 		overflow: unset;
 	}
-	/* .inner-container {
-		overflow: hidden;
-	} */
+
 	.book {
 		object-fit: cover;
 		object-fit: cover;
 		margin-bottom: 5px;
 		width: 40%;
 	}
-
-	/* .inner-container {
-		width: 83vw;
-		height: 90vh;
-		overflow: hidden;
-	}
-
-	.jim-container-mobile {
-		padding-top: 10px;
-	} */
-
-	.wrapper {
-		-webkit-column-width: 300px;
-		column-width: 300px;
-		height: 100%;
-	}
 }
 
-/* @media (max-width: 539px) and (min-height: 740px) {
-	.jim-container-mobile p {
-		margin-bottom: 120px;
+@media (max-width: 539px) and (min-height: 740px) {
+	.jim-container-mobile {
+		margin: 120px 0;
 	}
-} */
+}

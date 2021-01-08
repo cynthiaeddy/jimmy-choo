@@ -96,10 +96,7 @@ h2 span {
 		width: 80vw;
 		grid-gap: 10px;
 	}
-	/* #navbarMexico h6 {
-		font-size: 19px;
-		letter-spacing: 3px;
-	} */
+
 	.arrow h2 {
 		font-size: 12px;
 	}
@@ -109,11 +106,6 @@ h2 span {
 }
 
 @media (min-width: 540px) and (max-width: 759px) {
-	/* .wf-content {
-		width: 70vw;
-		grid-gap: 10px;
-	} */
-
 	.buyNav.mexico {
 		margin-top: 0;
 		justify-content: left;
@@ -135,15 +127,15 @@ h2 span {
 	.arrow h2 span {
 		margin: 2px;
 	}
-	.mobile.mexicoAlt {
+	/* .mobile.mexicoAlt {
 		margin-top: 200px;
-	}
+	} */
 }
 
 @media (max-width: 539px) and (max-height: 739px) {
 	.mobile.mexicoAlt {
-		margin-top: 200px;
-		margin-bottom: 200px;
+		/* margin-top: 200px;
+		margin-bottom: 200px; */
 	}
 }
 
@@ -157,12 +149,8 @@ h2 span {
 	margin: 10px 0;
 }
 .mobile.mexicoAlt {
-	margin-top: 200px;
-	/* height: 60vh; */
+	margin-bottom: 10vh;
 	overflow: auto;
-	margin-top: 200px;
-	margin-bottom: 175px;
-	/* height: 70vh; */
 }
 .mobile.mexicoAlt::-webkit-scrollbar {
 	display: none;
@@ -172,4 +160,12 @@ h2 span {
 .mobile.mexicoAlt {
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
+}
+
+@media (max-width: 400px) {
+	.mobile.mexicoAlt {
+		margin-top: 160px;
+		height: 100vh;
+		margin-bottom: 10vh;
+	}
 }

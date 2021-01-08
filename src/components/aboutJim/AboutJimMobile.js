@@ -2,7 +2,8 @@ import React from 'react';
 import Navbar from '../navbar/Navbar'
 import NavbarSocial from '../navbarSocial/NavbarSocial'
 
-import NavbarJimMobile from '../navbarJim/NavbarJimMobile'
+import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
+import NavbarHomeMobile from '../navbars/navbarHome/NavbarHomeMobile'
 
 import mexico from '../../assets/images/books/mexico.png'
 import paris from '../../assets/images/books/paris.png'
@@ -10,9 +11,6 @@ import fork from '../../assets/images/books/fork.png'
 import jim from '../../assets/images/books/jim.png'
 import cradle from '../../assets/images/books/cradle.png'
 import comfort from '../../assets/images/books/comfort.png'
-
-
-
 
 import '../../stylesheets/AboutJim.css'
 
@@ -29,12 +27,6 @@ class AboutJimMobile extends React.Component {
         <NavbarSocial/>
         <div className='jim-container-mobile'>
           <div className='inner-container'>
-
-
-            {/* <div className='copys'> */}
-
-              {/* <div className='down-arrow'>
-                <div className='arrow-box'>&lt;&lt;</div></div> */}
 
 
           <div className='box books'>

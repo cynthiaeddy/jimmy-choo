@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar'
-import NavbarSocial from '../navbarSocial/NavbarSocial'
+import Navbar from '../../navbar/Navbar'
+import NavbarSocial from '../../navbarSocial/NavbarSocial'
 
-import NavbarJimMobile from '../navbarJim/NavbarJimMobile'
+import NavbarJimMobile from '../../navbars/navbarJim/NavbarJimMobile'
 
 import mexico from '../../assets/images/books/mexico.png'
 import paris from '../../assets/images/books/paris.png'
