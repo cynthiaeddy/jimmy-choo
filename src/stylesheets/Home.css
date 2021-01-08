@@ -13,8 +13,7 @@
 	grid-template-columns: .95fr .95fr 1.1fr 1.1fr .95fr .95fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	gap: 20px 20px;
-	grid-template-areas: "ltla ltra maina maina rtla copya" "lmla lmra maina maina rmla copya"
-		"lbla lbra maina maina rbla copya";
+	grid-template-areas: "ltla ltra main main rtla copy" "lmla lmra main main rmla copy" "lbla lbra main main rbla copy";
 
 	max-width: 1260px;
 }
@@ -46,19 +45,19 @@
 .rbla {
 	grid-area: rbla;
 }
-.copya {
-	grid-area: copya;
+.copy {
+	grid-area: copy;
 }
-.maina {
-	grid-area: maina;
+.main {
+	grid-area: main;
 }
 
-.copya {
+.copy {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
-.headera {
+.header {
 	height: fit-content;
 }
 
@@ -67,11 +66,11 @@
 	align-items: center;
 }
 
-.headera h1 {
+.header h1 {
 	font-size: 6rem;
 }
 
-.headera h3 {
+.header h3 {
 	font-size: 2.4rem;
 	margin-bottom: -20px;
 }
@@ -96,7 +95,7 @@
 signUpBtn.homeEight h7 {
 	padding: 0 40px;
 }
-.footera {
+.footer {
 	display: flex;
 	justify-content: space-between;
 }

@@ -24,15 +24,13 @@ body {
 }
 .l-arrow {
 	grid-area: l-arrow;
-	text-align: right;
 }
 .main {
 	grid-area: main;
 }
 .r-arrow {
 	grid-area: r-arrow;
-	text-align: left;
-	margin: 0;
+	justify-self: start;
 }
 
 img.spread {
@@ -68,11 +66,6 @@ img.spread.mexico-opener {
 h2 span {
 	margin: 5px;
 }
-@media (min-width: 1200px) and (max-width: 1399px) {
-	.wf-content {
-		width: 80vw;
-	}
-}
 
 @media (min-width: 900px) and (max-width: 1199px) {
 	#navbarMexico {
@@ -83,7 +76,7 @@ h2 span {
 		width: 80vw;
 	}
 	h6 {
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
 	#navbarSocial {
 		width: auto;
@@ -98,7 +91,7 @@ h2 span {
 	}
 
 	.arrow h2 {
-		font-size: 12px;
+		font-size: 1.2rem;
 	}
 	.arrow h2 span {
 		margin: 2px;
@@ -106,36 +99,24 @@ h2 span {
 }
 
 @media (min-width: 540px) and (max-width: 759px) {
+	#navbarMexicoMobile {
+		width: 85vw;
+		height: 180px;
+	}
 	.buyNav.mexico {
+		justify-content: flex-end;
+	}
+	.mobile-container.mexico {
 		margin-top: 0;
-		justify-content: left;
-		align-self: flex-end;
-		display: unset;
 	}
-	.mobile-container #navbarMexicoMobile {
-		width: 70vw;
-		padding: 0;
+	.mexico-right {
+		right: 14vw;
+		top: 65px;
 	}
-	.mobile-container #navbarMexicoMobile h6 {
-		font-size: 19px;
-		letter-spacing: 3px;
-	}
-
-	.arrow h2 {
-		font-size: 12px;
-	}
-	.arrow h2 span {
-		margin: 2px;
-	}
-	/* .mobile.mexicoAlt {
-		margin-top: 200px;
-	} */
-}
-
-@media (max-width: 539px) and (max-height: 739px) {
 	.mobile.mexicoAlt {
-		/* margin-top: 200px;
-		margin-bottom: 200px; */
+		height: auto;
+		margin-top: 170px;
+		margin-bottom: 5vh;
 	}
 }
 
@@ -149,7 +130,7 @@ h2 span {
 	margin: 10px 0;
 }
 .mobile.mexicoAlt {
-	margin-bottom: 10vh;
+	margin-bottom: 5vh;
 	overflow: auto;
 }
 .mobile.mexicoAlt::-webkit-scrollbar {

@@ -8,7 +8,7 @@ import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 
-import Home8 from './components/home/Home8'
+import Home from './components/home/Home'
 import Newsletter from './components/newsletter/Newsletter'
 
 
@@ -61,7 +61,7 @@ class App extends React.Component {
     return (
     <div className="app">
 
-        {isMobile ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home8} />
+        {isMobile ? <Route exact path="/" component={HomeMobile} /> : <Route exact path="/" component={Home} />
         }
 
         {isMobileMexico ? <Route path="/world-food" component={AboutMexicoMobile} /> : <Route path="/world-food" component={AboutMexico} />

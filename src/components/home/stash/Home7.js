@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
-import NavbarHome from '../navbars/navbarHome/NavbarHome'
+import NavbarHome from '../../navbars/navbarHome/NavbarHome'
 
 
 import mexicoCover from '../../assets/images/home/mexicoCover.jpg'
@@ -16,11 +16,6 @@ import galred from '../../assets/images/home/galred.jpg'
 import orange2 from '../../assets/images/home/orange2.jpg'
 
 
-
-
-
-
-// import '../../stylesheets/Home7.css'
 
 
 const Home7 = () => (

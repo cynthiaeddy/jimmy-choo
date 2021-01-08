@@ -5,9 +5,8 @@
 	display: flex;
 	width: 70vw;
 	height: 120px;
-	top: 0;
+	top: 50px;
 	justify-content: space-between;
-	/* align-items: center; */
 }
 
 @media (min-width: 1400px) {
@@ -79,36 +78,18 @@ h6.menu {
 .buyNav {
 	display: flex;
 	justify-content: space-around;
-	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-style: italic;
 	letter-spacing: 2px;
 	font-size: 15px;
 	margin-bottom: 10px;
-	margin-top: 40px;
-}
-.buyNav.mexico {
-	margin-top: 0;
-	justify-content: left;
-	align-self: flex-end;
+	margin-top: 3px;
 }
 
-#navbarMexico {
-	display: flex;
-	position: fixed;
-	background: white;
-	height: 160px;
-	top: 0;
-	flex-direction: column;
-	width: 100%;
-	padding: 0 7.5%;
-}
 h6.menu {
 	margin-top: 20px;
 }
 .mexico-right {
-	align-self: flex-end;
-
 	position: fixed;
 	right: 7.5vw;
 	top: 40px;
@@ -120,7 +101,6 @@ h6.menu {
 	margin-top: 20px;
 }
 .buyNav.mexico {
-	text-align: right;
 	margin-top: 20px;
 }
 
@@ -194,6 +174,9 @@ li {
 	h1 {
 		font-size: 4.5rem;
 	}
+	#navbarJimMobile {
+		padding: 0 15vw;
+	}
 }
 @media (min-width: 601px) and (max-width: 900px) {
 	#navbarHomeMobile {
@@ -207,6 +190,9 @@ li {
 	}
 	h1 {
 		font-size: 4.5rem;
+	}
+	#navbarMexico {
+		width: 83vw;
 	}
 }
 
@@ -222,5 +208,17 @@ li {
 	}
 	#navbarHomeMobile {
 		height: 150px;
+	}
+}
+@media (max-width: 300px) {
+	#navbarHomeMobile {
+		height: 160px;
+	}
+	h1 {
+		line-height: .85;
+	}
+	h3 {
+		margin-top: 20px;
+		margin-bottom: -5px;
 	}
 }

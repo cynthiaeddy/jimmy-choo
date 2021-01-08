@@ -23,7 +23,7 @@
 
 p {
 	margin: 0 5px;
-	height: 43vh;
+	height: 44.5vh;
 	overflow: auto;
 	margin-right: 15px;
 }
@@ -181,6 +181,9 @@ img.jim-img {
 }
 
 @media (max-width: 539px) and (min-height: 740px) {
+	#navbarJimMobile {
+		width: 80vw;
+	}
 	.jim-container-mobile {
 		margin: 120px 0;
 	}
