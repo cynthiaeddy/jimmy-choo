@@ -5,6 +5,7 @@ import NavbarSocial from '../navbarSocial/NavbarSocial'
 import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
 import NavbarHomeMobile from '../navbars/navbarHome/NavbarHomeMobile'
 
+
 import mexico from '../../assets/images/books/mexico.png'
 import paris from '../../assets/images/books/paris.png'
 import fork from '../../assets/images/books/fork.png'
