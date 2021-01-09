@@ -9,6 +9,8 @@ import BackArrow from '../carouselMexico/BackArrow'
 import Slide from '../carouselMexico/Slide'
 import '../../stylesheets/AboutWF.css'
 
+
+
 class AboutMexico extends React.Component {
   constructor(props) {
     super(props);
@@ -56,13 +58,14 @@ class AboutMexico extends React.Component {
             <BackArrow
               goToPrevSlide={() => this.goToPrevSlide()}
               />
-            </div>
+          </div>
           <div className='slider-items main'>
             <Slide
               activeIndex={this.state.activeIndex}
               goToNextSlide={() => this.goToNextSlide()}
             />
-          </div>
+            </div>
+
           <div className='r-arrow'>
             <ForwardArrow
               goToNextSlide={() => this.goToNextSlide()}

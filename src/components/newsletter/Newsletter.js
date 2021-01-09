@@ -70,10 +70,10 @@ class Newsletter extends React.Component {
           />
           <div className='video'>
           <a href="https://www.youtube.com/watch?v=nz3aV1jgHIE">
-              <img src={videoPlaceholder} className="project-solo" alt="kayak" />{' '}
-              placeholder
+              <img src='https://imgur.com/A7GrLfU.png' alt="video card" />
+
 				</a>
-              {/* <i className="fab fa-youtube fa-5x fa-2x"></i> */}
+              <i className="fab fa-youtube fa-2x vid-button"></i>
           </div>
         </div>
         </div>

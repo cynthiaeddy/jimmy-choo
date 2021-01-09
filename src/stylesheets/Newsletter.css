@@ -93,12 +93,14 @@ input:hover {
 .vid-button {
 	position: absolute;
 	z-index: 5;
-	top: 30%;
-	left: 50%;
+	top: 60%;
+	left: 40%;
+	color: white;
+	font-size: 1rem;
 }
 .fa-youtube,
 .fa-5x {
-	font-size: 5em;
+	font-size: 3em;
 }
 @media (min-height: 800px) and (max-height: 1280px) {
 	#newsletter-container {
