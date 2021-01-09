@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar'
-import NavbarSocial from '../navbarSocial/NavbarSocial'
+import Navbar from '../navbars/navbar/Navbar'
+import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 
 import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
 
@@ -46,11 +46,11 @@ class AboutJim extends React.Component {
         <NavbarSocial/>
         <div className='jim-container'>
 
-          <div className='image jim-left box '>
+          <div className='image jim-left '>
             <img src='https://imgur.com/Mx87EXE.png' className='jim-img jim-photo' alt='jim '></img>
           </div>
 
-          <div className=' box jim-copy jim-right'>
+          <div className='jim-copy jim-right'>
 
 
             <div className='copys'>
@@ -62,7 +62,7 @@ class AboutJim extends React.Component {
             </div>
 
 
-            <div className='box books'>
+            <div className='books'>
 
               <div className='book'>
                 <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1"><img src={mexico} alt='mexico city book cover'></img>

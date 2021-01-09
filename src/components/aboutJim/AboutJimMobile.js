@@ -1,9 +1,6 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar'
-import NavbarSocial from '../navbarSocial/NavbarSocial'
-
+import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
-import NavbarHomeMobile from '../navbars/navbarHome/NavbarHomeMobile'
 
 
 import mexico from '../../assets/images/books/mexico.png'
@@ -30,7 +27,7 @@ class AboutJimMobile extends React.Component {
           <div className='inner-container'>
 
 
-          <div className='box books'>
+          <div className='books'>
             <div className='mobile-jim-left'>
             <img src='https://imgur.com/Mx87EXE.png' className='jim-img ' alt='jim photo'></img>
             </div>

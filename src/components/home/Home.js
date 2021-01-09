@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
-import NavbarHome from '../navbars/navbarHome/NavbarHome'
-import NavbarSocial from '../navbarSocial/NavbarSocial'
 import { Link } from 'react-router-dom';
 
+import NavbarHome from '../navbars/navbarHome/NavbarHome'
+import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 
 import '../../stylesheets/Home.css'
 
@@ -13,16 +13,13 @@ const Home= () => (
     <NavbarHome />
     <NavbarSocial/>
 
-
     <div className='home '>
-
       <div className=' header'>
         <h3>James Oseland’s</h3>
         <h1>World Food</h1>
       </div>
 
       <section className='main-container'>
-
         <div className='ltla'>
           <img src='https://imgur.com/pFJCQVg.png'  alt='gal with food'></img>
           </div>

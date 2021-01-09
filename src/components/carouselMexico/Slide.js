@@ -16,13 +16,10 @@ render() {
           <div className={
             index === this.props.activeIndex ? 'active' : 'sliding'}
             key={index}>
-            <div className={index === 0 ? 'mainSlide arrows back gone'  : 'slider-item arrows back show'}></div>
             {s.img}
-            <div className={index === this.state.landing.length-1 ? 'arrows front gone' : 'arrows front show'}></div>
-
           </div>
         ) }
-        </section>
+      </section>
     )
   }
 }

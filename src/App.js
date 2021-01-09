@@ -1,27 +1,15 @@
 import React from 'react';
 import './App.css';
-import { Route, Switch } from 'react-router-dom'
+import { Route } from 'react-router-dom'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import NavBarToggle from './components/navBarToggle/NavBarToggle'
-import NavbarSocial from './components/navbarSocial/NavbarSocial'
+import NavBarToggle from './components/navbars/navBarToggle/NavBarToggle'
 import AboutMexico from './components/aboutWF/AboutMexico'
 import AboutJim from './components/aboutJim/AboutJim'
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
-
 import Home from './components/home/Home'
 import Newsletter from './components/newsletter/Newsletter'
-
-
-
-
 import HomeMobile from './components/home/HomeMobile'
-
-
-
-
-
-
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AboutMexicoMobile from './components/aboutWF/AboutMexicoMobile';
 
 
@@ -49,14 +37,11 @@ class App extends React.Component {
 		let width = this.state.width;
     width <= 900 ? (isMobile = true) : (isMobile = false);
 
-
     let isMobileMexico
     width <= 760 ? (isMobileMexico = true) : (isMobileMexico = false);
 
     let isMobileJim
     width <= 539 ? (isMobileJim = true) : (isMobileJim = false);
-
-
 
     return (
     <div className="app">
@@ -70,16 +55,10 @@ class App extends React.Component {
         {isMobileJim ? <Route path="/about-james" component={AboutJimMobile} /> : <Route path="/about-james" component={AboutJim} />
         }
 
-
-
-
         <Route path="/newsletter" component={Newsletter} />
-
-      <Route path="/navbar" component={NavBarToggle} />
+        <Route path="/navbar" component={NavBarToggle} />
     </div>
     )
-
   }
-
 }
 export default App;

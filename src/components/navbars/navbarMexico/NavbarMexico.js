@@ -12,13 +12,8 @@ const NavbarMexico = () => {
       <Link to="/navbar"><h6>Menu</h6></Link>
       <div className='buyNav'>
         <a href="https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850">Purchase the Book</a>
-        </div>
-
+      </div>
 			<h6>James Oseland’s <span class='nav-world'>WORLD FOOD</span></h6>
-
-
-
-
 		</nav>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarMexico from '../navbars/navbarMexico/NavbarMexico'
-import NavbarSocial from '../navbarSocial/NavbarSocial'
+import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 
 
 import imageData from '../carouselMexico/Images'

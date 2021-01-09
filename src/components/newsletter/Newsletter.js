@@ -1,14 +1,9 @@
 import React from 'react';
 import Mailchimp from 'react-mailchimp-form'
-import Navbar from '../navbar/Navbar'
-import NavbarSocial from '../navbarSocial/NavbarSocial'
 
-
+import Navbar from '../navbars/navbar/Navbar'
+import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
-
-import videoPlaceholder from '../../assets/images/videoPlaceholder.png'
-
-
 import '../../stylesheets/Newsletter.css'
 
 class Newsletter extends React.Component {
@@ -28,8 +23,6 @@ class Newsletter extends React.Component {
 		this.setState({ width: window.innerWidth });
 	};
 
-
-
   render() {
     let isMobile;
     let width = this.state.width;
@@ -38,45 +31,42 @@ class Newsletter extends React.Component {
       <div className='container macbook'>
         {isMobile ? <NavbarJimMobile /> : <Navbar />
         }
-      <NavbarSocial/>
-
+        <NavbarSocial/>
 
         <div id='newsletter-container'>
           <p>For exclusive content, including videos and recipes, register for the official newsletter.</p>
           <Mailchimp
-        action={process.env.REACT_APP_MAILCHIMP_URL}
-        className='chimp forms'
-
-        fields={[
-          {
-            name: 'EMAIL',
-            placeholder: 'email',
-            type: 'email',
-            required: true
-          },
-          {
-            name: 'FNAME',
-            placeholder: 'first name',
-            type: 'text',
-            required: true
-          },
-          {
-            name: 'LNAME',
-            placeholder: 'last name',
-            type: 'text',
-            required: true
-          }
-        ]}
+            action={process.env.REACT_APP_MAILCHIMP_URL}
+            className='chimp forms'
+            fields={[
+            {
+              name: 'EMAIL',
+              placeholder: 'email',
+              type: 'email',
+              required: true
+            },
+            {
+              name: 'FNAME',
+              placeholder: 'first name',
+              type: 'text',
+              required: true
+            },
+            {
+              name: 'LNAME',
+              placeholder: 'last name',
+              type: 'text',
+              required: true
+            }
+            ]}
           />
           <div className='video'>
-          <a href="https://www.youtube.com/watch?v=nz3aV1jgHIE">
+            <a href="https://www.youtube.com/watch?v=nz3aV1jgHIE">
               <img src='https://imgur.com/A7GrLfU.png' alt="video card" />
-
-				</a>
-              <i className="fab fa-youtube fa-2x vid-button"></i>
+            </a>
+            <i className="fab fa-youtube fa-2x vid-button"></i>
           </div>
         </div>
-        </div>
+      </div>
 
     );
   }
