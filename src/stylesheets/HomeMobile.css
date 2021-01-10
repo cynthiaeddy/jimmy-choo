@@ -5,11 +5,11 @@
 	overflow: hidden;
 	width: 100vw;
 	height: 100vh;
-	margin-top: 200px;
+	/* margin-top: 200px; */
 }
 .mobile {
 	width: 70vw;
-	padding-bottom: 10vh;
+	/* padding-bottom: 10vh; */
 }
 
 body {
@@ -136,7 +136,7 @@ body {
 
 	.mobile {
 		width: 85vw;
-		margin-top: 160px;
+		padding-bottom: 10vh;
 	}
 
 	.mobile-footer h2 {
@@ -171,7 +171,8 @@ body {
 }
 @media (min-width: 401px) and (max-width: 539px) {
 	.mobile {
-		margin-top: 160px;
+		/* margin-top: 160px; */
+		margin-top: 90px;
 	}
 }
 
