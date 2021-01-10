@@ -147,7 +147,7 @@ input:hover {
 	}
 
 	#newsletter-container {
-		overflow-y: auto;
+		overflow: auto;
 		justify-content: flex-start;
 		margin-right: 15vw;
 		width: 90vw;
@@ -162,9 +162,6 @@ input:hover {
 	}
 }
 @media (min-width: 200px) and (max-width: 539px) {
-	.container {
-		overflow: auto;
-	}
 	#navbarSocial {
 		width: 100vw;
 		height: 10vh;
@@ -188,10 +185,10 @@ input:hover {
 	}
 	#newsletter-container {
 		width: 100vw;
-		overflow: auto;
-		/* justify-content: flex-start; */
 		margin-top: 130px;
 		margin-bottom: 60px;
+		overflow-x: hidden;
+		overflow-y: scroll;
 	}
 	#newsletter-container p {
 		margin-left: 10%;
@@ -201,5 +198,8 @@ input:hover {
 
 	.video {
 		width: 100%;
+	}
+	.video img {
+		width: 90%;
 	}
 }

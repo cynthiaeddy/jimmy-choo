@@ -28,7 +28,7 @@ class Newsletter extends React.Component {
     let width = this.state.width;
     width < 700 ? (isMobile = true) : (isMobile = false);
     return (
-      <div className='container macbook'>
+      <div className='container'>
         {isMobile ? <NavbarJimMobile /> : <Navbar />
         }
         <NavbarSocial/>
