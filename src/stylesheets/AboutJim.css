@@ -181,8 +181,8 @@ img.jim-img {
 	}
 }
 
-@media (max-width: 539px) and (min-height: 740px) {
+/* @media (max-width: 539px) and (min-height: 740px) {
 	.jim-container-mobile {
 		margin: 120px 0;
 	}
-}
+} */
