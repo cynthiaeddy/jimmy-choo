@@ -111,6 +111,7 @@ body {
 @media (min-width: 540px) and (max-width: 600px) {
 	.mobile-container {
 		margin-top: 160px;
+		position: fixed;
 	}
 }
 @media (min-width: 601px) and (max-width: 900px) {

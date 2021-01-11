@@ -194,6 +194,9 @@ li {
 	#navbarMexico {
 		width: 83vw;
 	}
+	.mobile-container {
+		position: fixed;
+	}
 }
 
 @media (max-width: 400px) {
