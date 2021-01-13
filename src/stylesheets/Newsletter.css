@@ -8,6 +8,7 @@
 	margin-top: 10px;
 	overflow: auto;
 	margin-top: 185px;
+	height: fit-content;
 }
 #newsletter-container p {
 	margin-left: 20%;
