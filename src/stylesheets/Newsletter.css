@@ -8,11 +8,10 @@
 	margin-top: 10px;
 	overflow: auto;
 	margin-top: 185px;
-	max-height: fit content;
 }
 #newsletter-container p {
 	margin-left: 20%;
-	height: fit-content;
+	/* height: fit-content; */
 	font-size: 18px;
 	line-height: 1.5;
 	text-align: right;
