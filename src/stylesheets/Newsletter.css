@@ -8,6 +8,7 @@
 	margin-top: 10px;
 	overflow: auto;
 	margin-top: 185px;
+	max-height: fit content;
 }
 #newsletter-container p {
 	margin-left: 20%;
@@ -24,7 +25,6 @@
 	max-width: 900px;
 	align-items: flex-end;
 	margin-bottom: 30px;
-	height: fit-content;
 }
 
 form {
