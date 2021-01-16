@@ -18,13 +18,15 @@ class AboutJimMobile extends React.Component {
     return (
       <DeviceOrientation lockOrientation={'portrait'}>
 
+<Orientation orientation='landscape' alwaysRender={false}>
 
         {/* Will stay in DOM, but is only visible in portrait */}
-        <Orientation orientation='landscape'>
           <div>
             <p>Please rotate your device</p>
           </div>
-        </Orientation>
+          </Orientation>
+        <Orientation orientation='portrait'>
+
 
 
       <div className='container'>
@@ -90,7 +92,8 @@ class AboutJimMobile extends React.Component {
           </div>
           </div>
 
-        </div>
+          </div>
+          </Orientation>
         </DeviceOrientation>
 
     );
