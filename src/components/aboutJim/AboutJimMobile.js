@@ -1,4 +1,7 @@
 import React from 'react';
+
+import DeviceOrientation, { Orientation } from 'react-screen-orientation'
+
 import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
 
@@ -13,6 +16,17 @@ class AboutJimMobile extends React.Component {
 
 
     return (
+      <DeviceOrientation lockOrientation={'portrait'}>
+
+
+        {/* Will stay in DOM, but is only visible in portrait */}
+        <Orientation orientation='portrait'>
+          <div>
+            <p>Please rotate your device</p>
+          </div>
+        </Orientation>
+
+
       <div className='container'>
         <NavbarJimMobile />
         <NavbarSocial/>
@@ -76,7 +90,9 @@ class AboutJimMobile extends React.Component {
           </div>
           </div>
 
-          </div>
+        </div>
+        </DeviceOrientation>
+
     );
   }
 }
