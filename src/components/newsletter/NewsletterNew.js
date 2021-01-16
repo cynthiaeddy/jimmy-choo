@@ -60,12 +60,12 @@ class NewsletterNew extends React.Component {
             }
             ]}
           />
-          <div className='video'>
+          {/* <div className='video'>
             <a href="https://www.youtube.com/watch?v=nz3aV1jgHIE">
               <img src='https://imgur.com/T15YGXa.png' alt="video card" />
             </a>
             <i className="fab fa-youtube fa-2x vid-button"></i>
-          </div>
+          </div> */}
         </div>
       </div>
 
