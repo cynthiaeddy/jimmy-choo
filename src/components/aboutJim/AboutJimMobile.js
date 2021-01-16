@@ -20,7 +20,7 @@ class AboutJimMobile extends React.Component {
 
 
         {/* Will stay in DOM, but is only visible in portrait */}
-        <Orientation orientation='portrait'>
+        <Orientation orientation='landscape'>
           <div>
             <p>Please rotate your device</p>
           </div>
