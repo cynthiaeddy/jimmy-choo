@@ -29,6 +29,11 @@
 	height: fit-content;
 }
 
+.intro {
+	position: relative;
+	z-index: 5;
+}
+
 form {
 	width: 100%;
 }

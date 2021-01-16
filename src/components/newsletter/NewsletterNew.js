@@ -34,8 +34,7 @@ class NewsletterNew extends React.Component {
         <NavbarSocial/>
 
         <div id='newsletter-container'>
-          <div className='intro'>
-          <p>For exclusive content, including videos and recipes, register for the official newsletter.</p></div>
+          <p>For exclusive content, including videos and recipes, register for the official newsletter.</p>
           <Mailchimp
             action={process.env.REACT_APP_MAILCHIMP_URL}
             className='chimped forms'
