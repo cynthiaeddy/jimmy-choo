@@ -10,7 +10,7 @@ import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 import Home from './components/home/Home'
 import Newsletter from './components/newsletter/Newsletter'
 import NewsletterNew from './components/newsletter/NewsletterNew'
-
+import NewsletterToo from './components/newsletter/NewsletterToo'
 import HomeMobile from './components/home/HomeMobile'
 import AboutMexicoMobile from './components/aboutWF/AboutMexicoMobile';
 
@@ -56,6 +56,7 @@ class App extends React.Component {
 
         {isMobileJim ? <Route path="/about-james" component={AboutJimMobile} /> : <Route path="/about-james" component={AboutJim} />
         }
+         <Route path="/newsletter-too" component={NewsletterToo} />
         <Route path="/newsletter-new" component={NewsletterNew} />
 
         <Route path="/newsletter" component={Newsletter} />
