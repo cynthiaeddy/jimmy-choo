@@ -25,6 +25,9 @@
 	align-items: flex-end;
 	margin-bottom: 30px;
 }
+.chimped {
+	height: fit-content;
+}
 
 form {
 	width: 100%;
