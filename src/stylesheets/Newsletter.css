@@ -116,6 +116,7 @@ input:hover {
 	/* margin-top: 30px; */
 	position: relative;
 	cursor: pointer;
+	margin-bottom: 30px;
 }
 .vid-button {
 	position: absolute;
