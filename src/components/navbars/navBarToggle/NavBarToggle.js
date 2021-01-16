@@ -7,7 +7,7 @@ import '../../../stylesheets/Navbar.css'
 const NavBarToggle = () => {
 	return (
 		<div id="toggle-container">
-          <div className='toggle-inner'>
+
       <h4>
 				<ul className='toggleNavBar'>
 					<li>
@@ -33,7 +33,6 @@ const NavBarToggle = () => {
 					</li>
 				</ul>
 			</h4>
-		</div>
 			</div>
 
   );
