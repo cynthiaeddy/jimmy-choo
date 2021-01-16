@@ -34,10 +34,11 @@ class Newsletter extends React.Component {
         <NavbarSocial/>
 
         <div id='newsletter-container'>
+          <div className='intro'>
           <p>For exclusive content, including videos and recipes, register for the official newsletter.</p>
           <Mailchimp
             action={process.env.REACT_APP_MAILCHIMP_URL}
-            className='chimp forms'
+            className='chimped forms'
             fields={[
             {
               name: 'EMAIL',
@@ -59,6 +60,7 @@ class Newsletter extends React.Component {
             }
             ]}
           />
+          </div>
           <div className='video'>
             <a href="https://www.youtube.com/watch?v=nz3aV1jgHIE">
               <img src='https://imgur.com/T15YGXa.png' alt="video card" />

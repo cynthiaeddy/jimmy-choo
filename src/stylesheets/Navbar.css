@@ -115,7 +115,7 @@ h6.menu {
 	height: 100vh;
 	background: grey;
 	border: 1px solid black;
-	position: absolute;
+	position: fixed;
 	z-index: 5;
 	top: 0;
 	left: 0;

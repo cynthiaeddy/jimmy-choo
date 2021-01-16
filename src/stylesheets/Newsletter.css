@@ -113,7 +113,7 @@ input:hover {
 	align-content: right;
 	align-items: flex-end;
 	margin-left: 20%;
-	margin-top: 30px;
+	/* margin-top: 30px; */
 	position: relative;
 	cursor: pointer;
 }

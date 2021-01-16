@@ -1,9 +1,9 @@
 import React from 'react';
 import Mailchimp from 'react-mailchimp-form'
 
-import Navbar from '../navbars/navbar/Navbar'
-import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
-import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
+import Navbar from '../../navbars/navbar/Navbar'
+import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
+import NavbarJimMobile from '../../navbars/navbarJim/NavbarJimMobile'
 import '../../stylesheets/Newsletter.css'
 
 class NewsletterToo extends React.Component {

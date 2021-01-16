@@ -10,6 +10,8 @@
 }
 .mobile {
 	width: 70vw;
+	overflow-y: scroll;
+
 	/* padding-bottom: 10vh; */
 }
 

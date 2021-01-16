@@ -24,16 +24,7 @@ const NavBarToggle = () => {
 							About James Oseland
 						</Link>
 				</li>
-				<li>
-						<Link to="/newsletter-too" className="newsletter-new">
-							Newsletter Too
-						</Link>
-					</li>
-				<li>
-						<Link to="/newsletter-new" className="newsletter-new">
-							Newsletter New
-						</Link>
-					</li>
+
 					<li>
 						<Link to="/newsletter" className="newsletter">
 							Newsletter and Videos
