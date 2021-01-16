@@ -5,6 +5,7 @@
 	overflow: hidden;
 	width: 100vw;
 	height: 100vh;
+	position: fixed;
 	/* margin-top: 200px; */
 }
 .mobile {

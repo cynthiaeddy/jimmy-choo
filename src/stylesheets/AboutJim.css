@@ -136,7 +136,7 @@ img.jim-img {
 	}
 	.jim-container {
 		width: 80vw;
-		position: fixed;
+		/* position: fixed; */
 	}
 	.jim-left {
 		width: 38%;
