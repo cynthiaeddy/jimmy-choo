@@ -9,6 +9,25 @@
 	overflow: auto;
 	margin-top: 185px;
 }
+.container-too {
+	position: fixed;
+}
+
+#newsletter-new-container {
+	max-width: 900px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 37vw;
+	margin-right: 7vw;
+	margin-top: 10px;
+	overflow: auto;
+	margin-top: 185px;
+	overflow-y: scroll;
+	max-height: 800px;
+	height: 80vh;
+}
+
 #newsletter-container p {
 	margin-left: 20%;
 	/* height: fit-content; */

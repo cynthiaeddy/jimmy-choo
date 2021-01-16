@@ -28,12 +28,13 @@ class NewsletterNew extends React.Component {
     let width = this.state.width;
     width < 700 ? (isMobile = true) : (isMobile = false);
     return (
-      <div className='container'>
+      <div className='container-too'>
         {isMobile ? <NavbarJimMobile /> : <Navbar />
         }
         <NavbarSocial/>
 
-        <div id='newsletter-container'>
+        <div id='newsletter-new-container'>
+          <div className='intro'>
           <p>For exclusive content, including videos and recipes, register for the official newsletter.</p>
           <Mailchimp
             action={process.env.REACT_APP_MAILCHIMP_URL}
@@ -59,12 +60,13 @@ class NewsletterNew extends React.Component {
             }
             ]}
           />
-          {/* <div className='video'>
+          </div>
+          <div className='video'>
             <a href="https://www.youtube.com/watch?v=nz3aV1jgHIE">
               <img src='https://imgur.com/T15YGXa.png' alt="video card" />
             </a>
             <i className="fab fa-youtube fa-2x vid-button"></i>
-          </div> */}
+          </div>
         </div>
       </div>
 
