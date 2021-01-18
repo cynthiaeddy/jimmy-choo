@@ -254,3 +254,10 @@ input:hover {
 		margin-top: 100px;
 	}
 }
+
+@media (max-height: 799px) and (max-width: 1024px) {
+	#newsletter-container {
+		margin-top: 150px;
+		height: 75vh;
+	}
+}
