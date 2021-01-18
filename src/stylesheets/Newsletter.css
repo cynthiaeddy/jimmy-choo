@@ -232,3 +232,25 @@ input:hover {
 		width: 90%;
 	}
 }
+/* /////horizontal mobile ////// */
+@media (max-height: 540px) and (max-width: 899px) {
+	.mobile {
+		height: 40vh;
+	}
+	h6.jim {
+		margin-top: -20px;
+	}
+	.jim-right {
+		margin-top: 0;
+	}
+	.jim-container {
+		height: 70vh;
+		position: fixed;
+	}
+	.jim-left {
+		width: 25%;
+	}
+	#newsletter-container {
+		margin-top: 100px;
+	}
+}

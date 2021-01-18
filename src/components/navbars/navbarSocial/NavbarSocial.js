@@ -7,13 +7,13 @@ const NavbarSocial = () => {
     <nav id='navbarSocial'>
       <div className='social'>
         <div className='email'>
-          <a href='mailto:james@jamesoseland.com'><i class="fas fa-envelope fa-2x"></i></a>
+          <a href='mailto:james@jamesoseland.com'><i className="fas fa-envelope fa-2x"></i></a>
         </div>
         <div className='instagram'>
-          <a href='https://www.instagram.com/jamesoseland'><i class="fab fa-instagram-square fa-2x"></i></a>
+          <a href='https://www.instagram.com/jamesoseland'><i className="fab fa-instagram-square fa-2x"></i></a>
         </div>
         <div className='facebook'>
-          <a href=' https://www.facebook.com/james.oseland'><i class="fab fa-facebook fa-2x"></i></a>
+          <a href=' https://www.facebook.com/james.oseland'><i className="fab fa-facebook fa-2x"></i></a>
         </div>
       </div>
     </nav>

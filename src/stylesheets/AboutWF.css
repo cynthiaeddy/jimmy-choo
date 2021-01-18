@@ -117,6 +117,7 @@ h2 span {
 		height: auto;
 		margin-top: 170px;
 		margin-bottom: 5vh;
+		height: 70vh;
 	}
 }
 
@@ -148,5 +149,13 @@ h2 span {
 		margin-top: 160px;
 		height: 100vh;
 		margin-bottom: 10vh;
+	}
+}
+@media (max-height: 540px) and (max-width: 899px) {
+	.mobile.mexicoAlt {
+		margin-top: 140px;
+	}
+	.wf-content {
+		width: 70vw;
 	}
 }

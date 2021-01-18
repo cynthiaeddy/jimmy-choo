@@ -195,3 +195,18 @@ body {
 		margin-top: 160px;
 	}
 }
+/* /////horizontal mobile ////// */
+@media (max-height: 540px) and (max-width: 899px) {
+	.mobile-container {
+		margin-top: 140px;
+	}
+	.mobile {
+		height: 60vh;
+	}
+}
+
+@media (max-height: 340px) and (max-width: 899px) {
+	.mobile {
+		height: 50vh;
+	}
+}

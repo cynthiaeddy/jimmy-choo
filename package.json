@@ -1,5 +1,6 @@
 {
   "name": "world_food",
+  "homepage": "http://jamesoseland.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
