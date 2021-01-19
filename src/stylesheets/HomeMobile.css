@@ -133,7 +133,6 @@ body {
 			"carousel-mobile  carousel-mobile  carousel-mobile" "ipadtr ipadmr ipadbr";
 	}
 	.mobile-container {
-		overflow-y: auto;
 		align-items: unset;
 		margin-top: 0;
 	}
@@ -193,5 +192,21 @@ body {
 @media (max-width: 300px) {
 	.mobile {
 		margin-top: 160px;
+	}
+}
+
+/* /////horizontal mobile ////// */
+@media (max-height: 540px) and (max-width: 899px) {
+	.mobile-container {
+		margin-top: 140px;
+	}
+	.mobile {
+		height: 60vh;
+	}
+}
+
+@media (max-height: 340px) and (max-width: 899px) {
+	.mobile {
+		height: 50vh;
 	}
 }
