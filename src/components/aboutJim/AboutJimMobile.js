@@ -23,7 +23,6 @@ class AboutJimMobile extends React.Component {
         <NavbarJimMobile />
         <NavbarSocial/>
         <div className='jim-container-mobile'>
-          <div className='inner-container'>
 
 
           <div className='books'>
@@ -82,7 +81,7 @@ class AboutJimMobile extends React.Component {
           </div>
           </div>
 
-          </div>
+
 
 
 
