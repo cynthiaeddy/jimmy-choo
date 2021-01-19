@@ -133,7 +133,6 @@ body {
 			"carousel-mobile  carousel-mobile  carousel-mobile" "ipadtr ipadmr ipadbr";
 	}
 	.mobile-container {
-		overflow-y: auto;
 		align-items: unset;
 		margin-top: 0;
 	}

@@ -4,12 +4,7 @@ import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 
 import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
 
-import mexico from '../../assets/images/books/mexico.png'
-import paris from '../../assets/images/books/paris.png'
-import fork from '../../assets/images/books/fork.png'
-import jim from '../../assets/images/books/jim.png'
-import cradle from '../../assets/images/books/cradle.png'
-import comfort from '../../assets/images/books/comfort.png'
+
 
 
 
