@@ -31,7 +31,6 @@ class Newsletter extends React.Component {
       <div className='container'>
         {isMobile ? <NavbarJimMobile /> : <Navbar />
         }
-        <NavbarSocial/>
 
         <div id='newsletter-container'>
           <div className='intro'>
@@ -68,6 +67,8 @@ class Newsletter extends React.Component {
             <i className="fab fa-youtube fa-2x vid-button"></i>
           </div>
         </div>
+        <NavbarSocial/>
+
       </div>
 
     );

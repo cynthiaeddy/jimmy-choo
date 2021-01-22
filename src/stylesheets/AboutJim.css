@@ -164,7 +164,8 @@ img.jim-img {
 		width: 83vw;
 		margin-top: 120px;
 		overflow-y: scroll;
-		padding-bottom: 275px;
+		/* padding-bottom: 275px; */
+		padding-bottom: 225px;
 	}
 
 	p {

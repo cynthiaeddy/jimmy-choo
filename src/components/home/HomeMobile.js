@@ -11,7 +11,6 @@ const HomeMobile = () =>{
       <div className='mobile-container'>
 
         <NavbarHomeMobile />
-        <NavbarSocial/>
 
         < div className='mobile'>
           <h5>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h5>
@@ -66,6 +65,8 @@ const HomeMobile = () =>{
               <Link to="/newsletter"><button className='signUpBtn mobiled'><h7>NEWSLETTER SIGN UP</h7></button></Link>
             </div>
         </div>
+        <NavbarSocial/>
+
       </div>
   )
 
