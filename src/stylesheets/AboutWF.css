@@ -2,7 +2,7 @@
 	margin-top: 0;
 }
 .mobile-container.mexico {
-	overflow-y: auto;
+	overflow: hidden;
 	align-items: inherit;
 }
 body {
@@ -118,6 +118,8 @@ h2 span {
 		margin-top: 170px;
 		margin-bottom: 5vh;
 		height: 70vh;
+
+		overflow-y: scroll;
 	}
 }
 
@@ -131,8 +133,8 @@ h2 span {
 	margin: 10px 0;
 }
 .mobile.mexicoAlt {
-	margin-bottom: 5vh;
-	overflow: auto;
+	padding-bottom: 150px;
+	overflow-y: scroll;
 }
 .mobile.mexicoAlt::-webkit-scrollbar {
 	display: none;
@@ -148,7 +150,7 @@ h2 span {
 	.mobile.mexicoAlt {
 		margin-top: 160px;
 		height: 100vh;
-		margin-bottom: 10vh;
+		padding-bottom: 150px;
 	}
 }
 @media (max-height: 540px) and (max-width: 899px) {

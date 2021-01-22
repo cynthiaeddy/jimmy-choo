@@ -13,7 +13,6 @@ const AboutMexicoMobile = () => {
   return (
     < div className='mobile-container mexico'>
       <NavbarMexicoMobile />
-      <NavbarSocial/>
       <LazyLoad>
         <div className='mobile mexicoAlt'>
           <img src='https://imgur.com/m0fagzo.png' className='spread mexicoopener-mobile' alt='spread'/>
@@ -27,6 +26,8 @@ const AboutMexicoMobile = () => {
           <img src='https://imgur.com/gmv8QqP.png' className='spread' alt='spread'/>
         </div>
       </LazyLoad>
+      <NavbarSocial/>
+
     </div>
   )
 
