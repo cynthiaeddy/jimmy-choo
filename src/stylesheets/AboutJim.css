@@ -163,7 +163,7 @@ img.jim-img {
 	.jim-container-mobile {
 		width: 83vw;
 		margin-top: 110px;
-		overflow: auto;
+		overflow-y: scroll;
 		margin-bottom: 75px;
 	}
 
