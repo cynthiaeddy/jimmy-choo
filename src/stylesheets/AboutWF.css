@@ -133,7 +133,7 @@ h2 span {
 .mobile.mexicoAlt {
 	/* margin-bottom: 5vh;
 	overflow: auto; */
-	padding-bottom: 120px;
+	padding-bottom: 140px;
 	overflow-y: scroll;
 }
 .mobile.mexicoAlt::-webkit-scrollbar {
