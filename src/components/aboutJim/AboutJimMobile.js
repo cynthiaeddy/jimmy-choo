@@ -1,30 +1,17 @@
 import React from 'react';
 
-
 import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 import NavbarJimMobile from '../navbars/navbarJim/NavbarJimMobile'
 
-
 import '../../stylesheets/AboutJim.css'
 
-
-class AboutJimMobile extends React.Component {
-
-
-  render() {
-
+const AboutJimMobile = () => {
 
     return (
-
-
-
-
       <div className='container'>
         <NavbarJimMobile />
 
         <div className='jim-container-mobile'>
-
-
           <div className='books'>
             <div className='mobile-jim-left'>
             <img src='https://imgur.com/Mx87EXE.png' className='jim-img ' alt='jim photo'></img>
@@ -82,6 +69,6 @@ class AboutJimMobile extends React.Component {
           </div>
     );
   }
-}
+
 
 export default AboutJimMobile;

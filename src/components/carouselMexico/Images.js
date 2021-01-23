@@ -2,10 +2,6 @@ import React from 'react'
 import '../../stylesheets/AboutWF.css'
 
 
-
-
-
-
 export default [
   {img: <img src='https://imgur.com/x9LiUrY.png' className='spread mexico-opener' alt='spread'></img>},
   {img: <img src='https://imgur.com/ZgGRhRt.png' className='spread' alt='spread'></img>},
