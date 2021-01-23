@@ -8,9 +8,6 @@
 	margin-top: 10px;
 	overflow-y: 185px;
 }
-.container-too {
-	position: fixed;
-}
 
 #newsletter-new-container {
 	max-width: 900px;
@@ -28,7 +25,6 @@
 
 #newsletter-container p {
 	margin-left: 20%;
-	/* height: fit-content; */
 	font-size: 18px;
 	line-height: 1.5;
 	text-align: right;
@@ -111,7 +107,6 @@ input:hover {
 	align-content: right;
 	align-items: flex-end;
 	margin-left: 20%;
-	/* margin-top: 30px; */
 	position: relative;
 	cursor: pointer;
 	margin-bottom: 30px;
@@ -170,10 +165,6 @@ input:hover {
 }
 
 @media (min-width: 540px) and (max-width: 699px) {
-	/* .container {
-		overflow: auto;
-	} */
-
 	#newsletter-container {
 		overflow-y: scroll;
 		justify-content: flex-start;
@@ -189,6 +180,7 @@ input:hover {
 		overflow: unset;
 	}
 }
+
 @media (min-width: 200px) and (max-width: 539px) {
 	#navbarSocial {
 		width: 100vw;
@@ -247,9 +239,6 @@ input:hover {
 	.jim-left {
 		width: 25%;
 	}
-	/* .container #newsletter-container {
-		margin-top: 100px;
-	} */
 }
 
 @media (max-height: 799px) and (min-width: 1025px) {

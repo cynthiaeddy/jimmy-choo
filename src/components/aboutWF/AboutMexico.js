@@ -2,13 +2,11 @@ import React from 'react'
 import NavbarMexico from '../navbars/navbarMexico/NavbarMexico'
 import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
 
-
 import imageData from '../carouselMexico/Images'
 import ForwardArrow from '../carouselMexico/ForwardArrow'
 import BackArrow from '../carouselMexico/BackArrow'
 import Slide from '../carouselMexico/Slide'
 import '../../stylesheets/AboutWF.css'
-
 
 
 class AboutMexico extends React.Component {
@@ -46,7 +44,6 @@ class AboutMexico extends React.Component {
     activeIndex: index
       });
   }
-
 
   render() {
     return (

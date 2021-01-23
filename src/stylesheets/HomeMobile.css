@@ -6,14 +6,11 @@
 	width: 100vw;
 	height: 100vh;
 	position: fixed;
-	/* margin-top: 200px; */
 }
 .mobile {
 	width: 70vw;
 	overflow-y: scroll;
 	padding-bottom: 130px;
-
-	/* padding-bottom: 10vh; */
 }
 
 body {
@@ -140,8 +137,6 @@ body {
 
 	.mobile {
 		width: 85vw;
-		/* margin-top: 160px;
-			padding-bottom: 10vh; */
 	}
 
 	.mobile-footer h2 {

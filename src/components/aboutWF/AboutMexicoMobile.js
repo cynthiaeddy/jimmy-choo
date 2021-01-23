@@ -30,6 +30,5 @@ const AboutMexicoMobile = () => {
 
     </div>
   )
-
 }
 export default AboutMexicoMobile
