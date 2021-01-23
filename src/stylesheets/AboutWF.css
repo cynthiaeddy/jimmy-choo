@@ -131,9 +131,7 @@ h2 span {
 	margin: 10px 0;
 }
 .mobile.mexicoAlt {
-	/* margin-bottom: 5vh;
-	overflow: auto; */
-	padding-bottom: 140px;
+	padding-bottom: 170px;
 	overflow-y: scroll;
 }
 .mobile.mexicoAlt::-webkit-scrollbar {
@@ -150,7 +148,7 @@ h2 span {
 	.mobile.mexicoAlt {
 		margin-top: 160px;
 		height: 100vh;
-		margin-bottom: 10vh;
+		padding-bottom: 100px;
 	}
 }
 @media (max-height: 540px) and (max-width: 899px) {
