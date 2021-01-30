@@ -3,7 +3,7 @@
 James' website to showcase his new book series, World Food.
 
 ![](jamesdesktoplow.gif)
-![](jamesmobile.gif)
+
 
 
 ## Instructions
