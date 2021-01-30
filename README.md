@@ -2,7 +2,7 @@
 # James Oseland's World Food
 James' website to showcase his new book series, World Food.
 
-![](https://giphy.com/gifs/7hrlk17bNdTFYD1oux)
+![](https://giphy.com/gifs/7hrlk17bNdTFYD1oux.gif)
 
 
 ## Instructions
