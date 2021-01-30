@@ -2,6 +2,8 @@
 # James Oseland's World Food
 James' website to showcase his new book series, World Food.
 
+![](https://giphy.com/gifs/7hrlk17bNdTFYD1oux)
+
 
 ## Instructions
 To run this app:
